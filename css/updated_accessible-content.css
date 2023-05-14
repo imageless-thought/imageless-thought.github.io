@@ -123,7 +123,7 @@ p a::selection, .flex-item-service a::selection  {
   background-color: var(--contrast-red);
 }
 
-p a:hover::selection, , .flex-item-service a:hover::selection {
+p a:hover::selection, .flex-item-service a:hover::selection {
   color: white; 
   background-color: var(--contrast-blue);
 }
