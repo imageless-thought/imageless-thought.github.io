@@ -9,7 +9,7 @@
       <div class="header-flex">
         <div class="header-pic-container">
           <a class="nostyle" href="https://imageless-thought.github.io" alt="Imageless Thought Website">
-            <img class="imgpointer header-pic" style="filter: invert(100%);" src="_images/setting-line-icon.svg"
+            <img class="imgpointer header-pic" style="filter: invert(100%);" src="images/setting-line-icon.svg"
               alt="logo" id="header-pic">
           </a>
         </div>
@@ -22,25 +22,25 @@
         </a>
         <div id="menu-button-scrolled" class="menu-button-scrolled mobile-hide">
           <a class="menu-button-anchor">
-            <img class="imgpointer menu-button-image" src="_images/bars.svg"
+            <img class="imgpointer menu-button-image" src="images/bars.svg"
               alt="Main Menu Button">
           </a>
         </div>
         <div class="quick-links-scrolled mobile-hide">
           <a class="quick-links-anchor">
-            <img class="quick-links-image" src="_images/bookmark.webp"
+            <img class="quick-links-image" src="images/bookmark.webp"
               alt="Links Button">
           </a>
           <div class="quick-links-content">
             <a class="quick-link" href="https://imageless-thought.github.io" alt="IT">Imageless Thought</a>
-            <a class="nostyle center" href="https://imageless-thought.github.io" alt="IT"><img src="_images/_images/bulb-innovate-green-whitebg.svg"></a>
+            <a class="nostyle center" href="https://imageless-thought.github.io" alt="IT"><img src="images/bulb-innovate-green-whitebg.svg"></a>
             <!-- <hr style="width: 100%; margin: .15rem 0;"> -->
           </div>
         </div>
         <div class="search-button-scrolled mobile-hide">
         <!--  
         <a href="search-button-anchor" class="search-link">
-        <img class="search-button-image" src="_images/_archive_svg/magnifying-glass.webp" alt="Search Button">
+        <img class="search-button-image" src="images/_archive_svg/magnifying-glass.webp" alt="Search Button">
         </a>
         -->
         </div>
@@ -60,7 +60,7 @@
           <div class="dropdown-columns">
             <!-- First column image and image context -->
             <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <img class="dropdown-img" src="_images/creative-idea-solution-icon-red.svg" alt="Yellow Icon /">
+            <img class="dropdown-img" src="images/creative-idea-solution-icon-red.svg" alt="Yellow Icon /">
             <p class="dropdown-image-context">
             Place holder text.
             </p>
@@ -75,7 +75,7 @@
 
             <!-- Third column contains links -->
             <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <img class="dropdown-img" src="_images/creative-idea-solution-icon-red.svg" alt="Red Icon /">
+            <img class="dropdown-img" src="images/creative-idea-solution-icon-red.svg" alt="Red Icon /">
             <p class="dropdown-image-context">
             Place holder text.
             </p>
@@ -90,7 +90,7 @@
 
            <!-- First column image -->
             <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <img class="dropdown-img" src="_images/creative-idea-solution-icon-red.svg" alt="Red Icon /">
+            <img class="dropdown-img" src="images/creative-idea-solution-icon-red.svg" alt="Red Icon /">
             <p class="dropdown-image-context">
             Place holder text.
             </p>
@@ -98,7 +98,7 @@
  
          <!-- Second column contains image and image context -->
             <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <img class="dropdown-img" src="_images/creative-idea-solution-icon-red.svg" alt="Red Icon /">
+            <img class="dropdown-img" src="images/creative-idea-solution-icon-red.svg" alt="Red Icon /">
             <p class="dropdown-image-context">
             Place holder text.
             </p>
@@ -138,18 +138,18 @@
     const nav = document.getElementById('nav')
     const pic = document.getElementById('header-pic')
     if (window.scrollY <= head.clientHeight) {
-      if (window.innerWidth > 900) { pic.src = "_images/setting-line-icon.svg" }
+      if (window.innerWidth > 900) { pic.src = "images/setting-line-icon.svg" }
       nav.className = '';
     } else {
       if (window.innerWidth > 900) { nav.className = 'scrolled' }
-      pic.src = "_images/setting-line-icon.svg"
+      pic.src = "images/setting-line-icon.svg"
     }
   };
 </script>
 <script>
   function changeHeaderImage() {
     const pic = document.getElementById('header-pic')
-    const mobileSrc = "_images/setting-line-icon.svg"
+    const mobileSrc = "images/setting-line-icon.svg"
 
     if (window.innerWidth <= 900) {
       pic.src = mobileSrc
