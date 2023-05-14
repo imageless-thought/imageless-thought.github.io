@@ -181,7 +181,7 @@
         display: none;
     }
 
-    // hide only the first dropdown column in .dropdown-content in responsive mode
+    /* hide only the first dropdown column in .dropdown-content in responsive mode
     .dropdown-image-context {
         display: none;
     }
@@ -189,10 +189,10 @@
     .header-pic {
         width: 4.25rem;
     }
-
-    .header-pic-container {   /* MB added to push log up to be aligned with with menu bar */
-        padding-bottom: .8rem;
-        padding-right: 0.25rem;
+ */
+      .header-pic-container {   /* MB added to push log up to be aligned with with menu bar */
+    padding-bottom: .8rem;
+    padding-right:  .25rem;
     } 
 
     .header-flex {
