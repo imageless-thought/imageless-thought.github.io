@@ -1,0 +1,162 @@
+/* 2023-01-24; 06-static_accessibility_001.css 
+college of visual arts and design
+mbaggett
+
+accessibility: begin */
+
+      .left {
+         text-align: left;
+      }
+
+      .alert-whitebar {
+         background-color: white;
+         width: 100%;
+         height: auto;
+      }
+
+      .alert-box-outer {
+         color: white;
+         margin: auto;
+         text-align: center;
+         border-radius: 5px;
+      }
+
+      .alert-box-inner {
+         background-color: #181818;
+         width: 60%;
+         height: auto;
+         margin: auto;
+         text-align: left;
+         padding: 3px 3px 3px 3px;
+      }
+
+      .alert-accessibility {
+         display: flex;
+         gap: 0 10px;
+         text-align: left;
+         height: auto;
+         margin: auto;
+         color: white;
+         justify-content: center;
+      }
+
+      .alert-img {
+         width: 50px;
+         height: auto;
+         padding-top: 16px;
+      }
+
+      .alert-img-container {
+         text-align: right;
+      }
+
+      #alert-round {
+         border-radius: 5px;
+         height: auto;
+         text-align: center;
+         padding: 3px 3px 3px 3px;
+      }
+
+      a.alt-black:link {
+         color: white;
+         background-color: black;
+         text-decoration: underline;
+         -webkit-text-decoration-color: transparent;
+         text-decoration-color: transparent;
+         font-weight: 600;
+         border-radius: 5px;
+         height: auto;
+         text-align: center;
+         padding: 1px 3px 1px 3px;
+      }
+
+      a.alt-black:visited {
+         color: white;
+         background-color: black;
+         text-decoration: underline;
+         -webkit-text-decoration-color: transparent;
+         text-decoration-color: transparent;
+         font-weight: 600;
+         border-radius: 5px;
+         height: auto;
+         text-align: center;
+         padding: 1px 3px 1px 3px;
+      }
+
+      a.alt-black:hover {
+         color: white;
+         background-color: #006a31;
+         text-decoration: underline;
+         -webkit-text-decoration-color: transparent;
+         text-decoration-color: transparent;
+         font-weight: 600;
+         border-radius: 5px;
+         height: auto;
+         text-align: center;
+         padding: 1px 3px 1px 3px;
+      }
+
+      a.alt-black:active {
+         color: red;
+         background-color: orange;
+         text-decoration: underline;
+         -webkit-text-decoration-color: transparent;
+         text-decoration-color: transparent;
+         font-weight: 600;
+         border-radius: 5px;
+         height: auto;
+         text-align: center;
+         padding: 1px 3px 1px 3px;
+      }
+
+      .alert-blackbar {
+         background-color: #181818;
+         width: 100%;
+         height: auto;
+         padding: 10px 0;
+      }
+
+      .accessible-img {
+         width: 30px;
+         height: auto;
+         padding: 4px 0 0 0;
+         filter: invert(100%);
+         opacity: 1.0;
+      }
+
+      .accessible-text {
+         text-align: center;
+         padding: 8px 0 0 0;
+         color: white;
+         margin: 0;
+         font-size: 14px;
+      }
+
+      @media screen and (max-width: 900px) {
+         .alert {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+         }
+
+         .alert-box-inner {
+            width: 100%;
+            display: flex;
+         }
+
+         .alert-hero-box-inner {
+            width: 95%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+         }
+
+      .accessible-img {
+          padding: 0 0 0 10px;
+
+      }
+
+/* accessibility: end */
+

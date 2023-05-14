@@ -1,0 +1,201 @@
+<div id="top"></div>
+<div class="frame-top-outer">
+<div class="frame-top-inner">
+<a id='skip-nav' class='screenreader-text' href='#main-content'>Skip Navigation or Skip to Content</a>
+<!-- BEGIN: HEADER -->
+<div class="preserve-dom">
+  <div id="nav">
+    <header class="header" id="header">
+      <div class="header-flex">
+        <div class="header-pic-container">
+          <a class="nostyle" href="https://imageless-thought.github.io" alt="Imageless Thought Website">
+            <img class="imgpointer header-pic" style="filter: invert(100%);" src="_images/setting-line-icon.svg"
+              alt="logo" id="header-pic">
+          </a>
+        </div>
+        <div id="#site-title" class="heading-title">
+          <h1 class="college-title">Imageless Thought</h1>
+          <span class="dept-title">Michael Baggett</span>
+        </div>
+        <a href="javascript:void(0);" aria-label="mobile menu button" class="mobile-menu-button unset" id="mobileBtn">
+         <i class="fa-solid fa-bars"></i>
+        </a>
+        <div id="menu-button-scrolled" class="menu-button-scrolled mobile-hide">
+          <a class="menu-button-anchor">
+            <img class="imgpointer menu-button-image" src="_images/bars.svg"
+              alt="Main Menu Button">
+          </a>
+        </div>
+        <div class="quick-links-scrolled mobile-hide">
+          <a class="quick-links-anchor">
+            <img class="quick-links-image" src="_images/bookmark.webp"
+              alt="Links Button">
+          </a>
+          <div class="quick-links-content">
+            <a class="quick-link" href="https://imageless-thought.github.io" alt="IT">Imageless Thought</a>
+            <a class="nostyle center" href="https://imageless-thought.github.io" alt="IT"><img src="_images/_images/bulb-innovate-green-whitebg.svg"></a>
+            <!-- <hr style="width: 100%; margin: .15rem 0;"> -->
+          </div>
+        </div>
+        <div class="search-button-scrolled mobile-hide">
+        <!--  
+        <a href="search-button-anchor" class="search-link">
+        <img class="search-button-image" src="_images/_archive_svg/magnifying-glass.webp" alt="Search Button">
+        </a>
+        -->
+        </div>
+      </div>
+    </header>
+<!-- END: HEADER -->
+<!-- BEGIN: NAVBAR -->
+    <div class="topnav" id="myTopnav">
+      <div class="nav-container">
+
+        <!-- Home Button -->
+        <a class="navbar unset nav-button" id="navbar-round" href="https://itservices.cvad.unt.edu" alt="Home">HOME</a>
+
+        <!-- About -->
+        <button class="unset dropdown-btn" id="navbar-round">ABOUT</button>
+        <div class="dropdown-content">
+          <div class="dropdown-columns">
+            <!-- First column image and image context -->
+            <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
+            <img class="dropdown-img" src="_images/creative-idea-solution-icon-red.svg" alt="Yellow Icon /">
+            <p class="dropdown-image-context">
+            Place holder text.
+            </p>
+            </div>
+
+            <!-- Second column contains text -->
+            <div class="dropdown-column">
+            <p class="dropdown-column-desc">
+            Placeholder text.
+            </p>
+            </div>
+
+            <!-- Third column contains links -->
+            <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
+            <img class="dropdown-img" src="_images/creative-idea-solution-icon-red.svg" alt="Red Icon /">
+            <p class="dropdown-image-context">
+            Place holder text.
+            </p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Information -->
+       <button class="unset dropdown-btn" id="navbar-round">INFORMATION</button>
+        <div class="dropdown-content">
+          <div class="dropdown-columns">
+
+           <!-- First column image -->
+            <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
+            <img class="dropdown-img" src="_images/creative-idea-solution-icon-red.svg" alt="Red Icon /">
+            <p class="dropdown-image-context">
+            Place holder text.
+            </p>
+            </div>
+ 
+         <!-- Second column contains image and image context -->
+            <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
+            <img class="dropdown-img" src="_images/creative-idea-solution-icon-red.svg" alt="Red Icon /">
+            <p class="dropdown-image-context">
+            Place holder text.
+            </p>
+            </div>
+ 
+         <!-- Third column contains links -->
+            <div class="dropdown-column">
+              <h5 class="unset dropdown-section-title">Links</h5>
+              <hr>
+              <a class="dropdown-link" href="index.html" alt="IT">Imageless Thought</a>
+            </div>
+         </div>
+      </div>
+      <!-- Previous Stylesheet, simple pull down
+      <div class="dropdown-list">
+      <button class="unset dropdown-list-button mobile-margin-bottom-fix" id="employee">LINKS</button>
+        <div class="dropdown-list-content">
+          <div class="hider"></div>
+          <a href="https://my.unt.edu" alt="MyUNT">MyUNT</a>
+          <a href="https://canvas.unt.edu" alt="Canvas">Canvas</a>
+          <a href="https://eagleconnect.unt.edu" alt="EagleConnect">EagleConnect</a>
+          <a href="https://www.unt.edu/find-people-departments" alt="UNT Directory">UNT Directory</a>
+          <a href="https://maps.unt.edu" alt="UNT Campus Map">UNT Campus Map</a>
+          <a href="https://hr.untsystem.edu" alt="Jobs at UNT">Jobs at UNT</a>
+          </div>
+        </div>
+      End Previous -->
+      </div>
+    </div> <!-- END: Navbar-->
+  </div> <!-- END: Unified header + navbar -->
+</div> <!-- END: Unified header + navbar container -->
+
+<!-- Scripts -->
+<script>
+  window.onscroll = () => {
+    const head = document.getElementById('header')
+    const nav = document.getElementById('nav')
+    const pic = document.getElementById('header-pic')
+    if (window.scrollY <= head.clientHeight) {
+      if (window.innerWidth > 900) { pic.src = "_images/setting-line-icon.svg" }
+      nav.className = '';
+    } else {
+      if (window.innerWidth > 900) { nav.className = 'scrolled' }
+      pic.src = "_images/setting-line-icon.svg"
+    }
+  };
+</script>
+<script>
+  function changeHeaderImage() {
+    const pic = document.getElementById('header-pic')
+    const mobileSrc = "_images/setting-line-icon.svg"
+
+    if (window.innerWidth <= 900) {
+      pic.src = mobileSrc
+    }
+  }
+  changeHeaderImage();
+  window.addEventListener("resize", changeHeaderImage)
+</script>
+<script>
+  const scrolled_menu = document.getElementById('menu-button-scrolled')
+
+  scrolled_menu.addEventListener('click', () => {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " scrolled-show"
+    } else {
+      x.className = "topnav";
+    }
+  })
+</script>
+<script>
+  const links_menu = document.querySelector('.quick-links-image')
+  links_menu.addEventListener('click', () => {
+    let content = document.querySelector('.quick-links-content')
+    if (content.className === "quick-links-content") {
+      content.className += " show-content"
+    } else {
+      content.className = "quick-links-content";
+    }
+  })
+</script>
+<script>
+  let mobileBtn = document.getElementById("mobileBtn")
+
+  mobileBtn.addEventListener('click', () => {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  })
+</script>
+<!-- END: NAVBAR -->
+<!-- BEGIN: PAGE -->
+</div> <!- close frame-top-inner -->
+</div> <!- close frame-top-outer -->
+<div class="frame-page-outer">
+<div class="frame-page-inner">
