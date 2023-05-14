@@ -24,19 +24,6 @@
         top: 60px; /* 5rem */
 }
 }
-
-@media screen and (min-width: 1460px) {
-    .nav-container {
-        width: 100%;
-        padding-left: 0; /* 4.35rem; */
-    }
-    .scrolled-show .nav-container {
-        /* width: 100%;
-        padding-left: 4.3rem; 
-        justify-content: flex-start; */
-    }
-}
-
     @media screen and (min-width: 1800px) {
     .quick-links-content {
         right: 15.5rem;  /* 14vw 7vw 15.19rem */
@@ -194,14 +181,9 @@
     }
  */
     .header-pic-container {   /* MB added to push log up to be aligned with with menu bar */
-    margin-left: 2rem; margin-right: .5rem;
     padding-bottom: .8rem;
     padding-right:  .25rem;
     } 
-
-    .header-flex {
-        gap: 0.5rem .35rem; /* MB: added spacing between logo and title */
-    }
 
     .mobile-menu-button {
         font-size: 3rem;

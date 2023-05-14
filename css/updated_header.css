@@ -51,8 +51,8 @@ header {
 
 .header-pic-container {
   display: flex;
-  margin-left: 11.4rem; margin-right: .5rem;
   align-items: center;
+  margin-left: .45rem; margin-right: 1rem;
 }
 
 .unset {
@@ -67,9 +67,9 @@ header {
 
 .header-flex {
   display: flex;
-  width: 100%;
+  width: 80%;
   margin: auto;
-  gap: 1rem .5rem;
+  gap: 1rem 0;
   overflow: hidden;
 }
 
@@ -148,13 +148,15 @@ a.nostyle:active {
 
 .nav-container {
   display: flex;
-  margin: 0 0 0 10.95rem; 
+  width: 80%;
+  margin: auto;
   gap: 1rem 1.2rem;
 }
 
 .scrolled-show .nav-container {
   display: flex;
-  margin: 0 0 0 10.95rem; 
+  width: 80%;
+  margin: auto;
   gap: 1rem 1.2rem;
 }
 
