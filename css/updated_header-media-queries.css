@@ -58,6 +58,10 @@
 */
 
 @media screen and (max-width: 900px) {
+    .header-flex {
+    width: 100%;
+    padding-left: 1.5rem; padding-right: 1.5rem;
+    }
     .topnav {
         display: none;
     }
