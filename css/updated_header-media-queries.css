@@ -27,13 +27,13 @@
 
 @media screen and (min-width: 1460px) {
     .nav-container {
-        width: 80%;
-        padding-left: 4.35rem;
+        width: 100%;
+        padding-left: 0; /* 4.35rem; */
     }
     .scrolled-show .nav-container {
-        width: 80%;
-        padding-left: 4.3rem;
-        justify-content: flex-start;
+        /* width: 100%;
+        padding-left: 4.3rem; 
+        justify-content: flex-start; */
     }
 }
 
@@ -44,7 +44,7 @@
 }
 }
 
-
+/*
 @media screen and (max-width: 1460px) {
     .header-flex {
         width: 95%;
@@ -59,15 +59,16 @@
     }
 
     .nav-container {
-        padding-left: 8rem;
-        margin: 0;
+        /* padding-left: 8rem; 
+                margin: 0; 
     }
-    .scrolled-show .nav-container {
+    .scrolled-show .nav-container { /*
         width: 95%;
         padding-left: 5.5rem;
-        justify-content: flex-start;
+        justify-content: flex-start; 
     }
 }
+*/
 
 @media screen and (max-width: 900px) {
     .topnav {
@@ -88,6 +89,7 @@
         background-color: #181818;
         overflow: unset;
     }
+
     .responsive .nav-container {
         display: flex;
         flex-direction: column;
@@ -125,6 +127,7 @@
     .topnav.responsive .nav-button {
         display: block;
     }
+
     .responsive .nav-container::before {
         content: '';
         position: relative;
@@ -190,7 +193,8 @@
         width: 4.25rem;
     }
  */
-      .header-pic-container {   /* MB added to push log up to be aligned with with menu bar */
+    .header-pic-container {   /* MB added to push log up to be aligned with with menu bar */
+    margin-left: 2rem; margin-right: .5rem;
     padding-bottom: .8rem;
     padding-right:  .25rem;
     } 

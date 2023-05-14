@@ -51,6 +51,7 @@ header {
 
 .header-pic-container {
   display: flex;
+  margin-left: 11.4rem; margin-right: .5rem;
   align-items: center;
 }
 
@@ -66,9 +67,9 @@ header {
 
 .header-flex {
   display: flex;
-  width: 80%;
+  width: 100%;
   margin: auto;
-  gap: 1rem 1.2rem;
+  gap: 1rem .5rem;
   overflow: hidden;
 }
 
@@ -84,7 +85,7 @@ header {
   height: auto;
   width: 3rem;
   z-index: 3;
-  margin-top: .25rem;
+  margin-top: .25rem; margin-left: .5rem;
   position: relative;
 }
 
@@ -147,14 +148,14 @@ a.nostyle:active {
 
 .nav-container {
   display: flex;
-  margin: 0 auto; 
+  margin: 0 0 0 10.95rem; 
   gap: 1rem 1.2rem;
 }
 
 .scrolled-show .nav-container {
-  width: 90%;
-  margin: auto;
-  justify-content: center;
+  display: flex;
+  margin: 0 0 0 10.95rem; 
+  gap: 1rem 1.2rem;
 }
 
 .dropdown-content {
