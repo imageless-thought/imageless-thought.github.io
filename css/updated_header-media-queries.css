@@ -10,6 +10,19 @@
     .scrolled .dropdown-column {
       display: flex;
     }
+
+.quick-links-content {
+    right: 12rem;  /* 14vw 7vw 15.19rem */
+    top: 60px; /* 5rem */
+
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .quick-links-content {
+        right: 14rem;  /* 14vw 7vw 15.19rem */
+        top: 60px; /* 5rem */
+}
 }
 
 @media screen and (min-width: 1460px) {
@@ -23,7 +36,15 @@
         justify-content: flex-start;
     }
 }
-  
+
+    @media screen and (min-width: 1800px) {
+    .quick-links-content {
+        right: 15.5rem;  /* 14vw 7vw 15.19rem */
+        top: 60px; /* 5rem */
+}
+}
+
+
 @media screen and (max-width: 1460px) {
     .header-flex {
         width: 95%;

@@ -407,7 +407,7 @@ a.nostyle:active {
   align-self: center;
   padding-bottom: 2px;
   cursor: pointer;
-  margin-bottom: 0.675rem
+  margin-bottom: 0.675rem;
 }
 
 .search-button-scrolled {
@@ -422,11 +422,14 @@ a.nostyle:active {
 .quick-links-image {
   width: .8rem; /* 1 */
   height: 1.2rem; /* 1.5 */
+  margin-top: 1rem; margin-left: 3rem;
   cursor: pointer!important;
+  display: none;
 }
 
 .scrolled .quick-links-image {
  margin-top: .20rem;
+ display: none;
 }
 
 .quick-links-image:hover {
@@ -441,12 +444,13 @@ a.nostyle:active {
   position: absolute; /* absolute */
   width: fit-content;
   min-width: 10rem;
-  background-color: rgba(0,133,62, 1);
+  background-color: rgba(24, 24,24, 1);
   flex-direction: column;
-  right: 15.5em;  /* 14vw 7vw 15.19rem */
-  top: 80px; /* 5rem */
+  right: 14rem;  /* 14vw 7vw 15.19rem */
+  top: 65px; /* 5rem */
+  margin-top: 1rem;
   padding: .5rem 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   border: 1px solid var(--dgreen);
   outline: 1px solid #C6E3B2;
   border-radius: 0.25rem;
