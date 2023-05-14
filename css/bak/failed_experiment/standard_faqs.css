@@ -1,0 +1,85 @@
+/* Static Page Builder: FAQs 
+2023-02-07
+*/
+
+/* FAQ: Collapsible */
+.collapsible {
+    overflow-wrap: break-word;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    width: 80%;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: grid;
+    margin-left: 5px;
+    grid-template-columns: 30px 1fr;
+}
+
+.collapsible svg { padding-top: 0.25rem; }
+
+.active,
+.collapsible:hover {
+    background-color: white;
+    color: #006A31;
+    font-weight: 500;
+}
+
+.active svg {
+    rotate: 90deg;
+    transition: rotate 0.2s ease-out;
+}
+
+
+.content {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: transparent;
+    padding: 20px 0 0 0px;
+}
+
+.content-box {
+    background-color: #FAFAFA;
+    padding: 10px;
+    border: 1px solid #424949;
+    border-radius: 5px;
+}
+
+.faq-question {
+    font-size: 26px;
+    color: transparent;
+    padding-top: 2px;
+}
+
+.fixed-font {
+    font-family: 'Open Sans', sans-serif !important;
+    text-align: left !important;
+}
+
+.material-symbols-outlined::before {
+    font-family: 'Material Symbols Outlined';
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+@media screen and (max-width: 900px) {
+    button.collapsible {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    button.collapsible {
+        font-size: 16px;
+        display: flex;
+    }
+}
