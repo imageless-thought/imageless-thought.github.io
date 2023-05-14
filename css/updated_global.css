@@ -129,7 +129,7 @@ a.flip:hover {transform: scale(1.25); transition: transform 0.5s;}
 .alt-title-pad {padding: 15px 0 0 0;}
 
 /* Styles */
-.preview-container {padding: 20px 130px 0px 130px; margin: 0 auto; width: 100%; align-text: center;}
+.preview-container {padding: 20px 130px 0px 130px; margin: 0 auto; width: 100%; text-align: center;}
 .preview {color: #1B5E20; background-color: white; font-size: 16px; font-weight: 800; margin: 0; padding: 10px; width: 100%; text-shadow:-1px 1px 0 #C5E1A5, 1px 1px 0 #C5E1A5, 1px -1px 0 #C5E1A5, -1px -1px 0 #C5E1A5; border: 1px outset black; border-radius: 5px;}
 .welcome-container {padding: 20px 130px 0px 132px; margin: 0;}
 .page-container {padding: 15px 130px 25px 150px; margin: 0;}
