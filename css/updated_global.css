@@ -86,12 +86,13 @@ a.pagenav-button:link {color: white; background-color: #00853E; text-decoration:
 a.pagenav-button:visited {color: white; background-color: #00853E; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 500; border-radius:5px; height:auto; text-align: center; padding: 2px 4px 2px 4px; border: 1px solid transparent; width: 135px;}
 a.pagenav-button:hover {color: white; background-color: #72B844; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 500; border-radius:5px; height:auto; text-align: center; padding: 2px 4px 2px 4px; border: 1px solid transparent; width: 135px;}
 a.pagenav-button:active {color: red; background-color: orange; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 500; border-radius:5px; height:auto; text-align: center; padding: 2px 4px 2px 4px; border: 1px solid transparent; width: 135px;}
-*/
+
 
 a.ticket-button:link {color: white; background-color:#00853E; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; border-radius:5px; height:auto; text-align: center; padding: 5px 15px 5px 15px; border: 1px solid transparent;}
 a.ticket-button:visited {color: white; background-color: #00853E; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; border-radius:5px; height:auto; text-align: center; padding: 5px 15px 5px 15px; border: 1px solid transparent;}
 a.ticket-button:hover {color: black; background-color: #72B844; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; border-radius:5px; height:auto; text-align: center; padding: 5px 15px 5px 15px; border: 1px solid transparent;}
 a.ticket-button:active {color: red; background-color: orange; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; border-radius:5px; height:auto; text-align: center; padding: 5px 15px 5px 15px; border: 1px solid transparent;}
+*/
 
 a.ticket-button2:link {color: white; background-color:#2E86C1; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; border-radius:5px; height:auto; text-align: center; padding: 5px 15px 5px 15px; border: 1px solid transparent;}
 a.ticket-button2:visited {color: white; background-color: #2E86C1; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; border-radius:5px; height:auto; text-align: center; padding: 5px 15px 5px 15px; border: 1px solid transparent;}
@@ -129,13 +130,13 @@ a.flip:hover {transform: scale(1.25); transition: transform 0.5s;}
 .alt-title-pad {padding: 15px 0 0 0;}
 
 /* Styles */
-.preview-container {padding: 20px 130px 0px 130px; margin: 0 auto; width: 100%; text-align: center;}
+.preview-container {padding: 20px 130px 0px 130px; margin: 0 auto; width: 100%; align-text: center;}
 .preview {color: #1B5E20; background-color: white; font-size: 16px; font-weight: 800; margin: 0; padding: 10px; width: 100%; text-shadow:-1px 1px 0 #C5E1A5, 1px 1px 0 #C5E1A5, 1px -1px 0 #C5E1A5, -1px -1px 0 #C5E1A5; border: 1px outset black; border-radius: 5px;}
 .welcome-container {padding: 20px 130px 0px 132px; margin: 0;}
 .page-container {padding: 15px 130px 25px 150px; margin: 0;}
 .section-container {margin: 0; padding: 15px 0 0px 0;}
 
-.section-2col {display: grid; grid-template-columns: 35px auto; gap: 0px 30px; padding: 5px 0 5px 0; height: auto;}
+.section-2col {display: grid; grid-template-columns: 35px auto; gap: 0px 30px; padding: .4rem; height: auto;}
 .section-address-2col {display: grid; grid-template-columns: 22% auto; gap: 0 0px; padding: 10px 0 10px 0; height: auto;}
 .section-address-text {margin: 0; padding: 0 0 0 15px;}
 .section-address-label {margin: 0; padding: 10px 0 0 15px;} 
@@ -175,7 +176,7 @@ a.flip:hover {transform: scale(1.25); transition: transform 0.5s;}
 .section-info-container /* {padding: 0px 25px 5px 25px; background-color: transparent; width: 74%; border-radius: 5px; border: 1px solid #AEB6BF;} */
       { box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
        border-radius: 6px;
-       margin: .25em;
+       margin: .25em 1em .25em .25em;
        height: auto;
        width: 74%;
        display: block;
@@ -191,7 +192,7 @@ a.flip:hover {transform: scale(1.25); transition: transform 0.5s;}
 }
 
 .section-info-title {margin: 0; padding: 10px 0 0 10px; color: #006A31; font-weight: 700;}
-.section-info-4col {display: grid; gap: 0px 10px; grid-template-columns: auto auto auto auto; padding: 0px 0 15px 0; height: auto;}
+.section-info-4col {display: grid; gap: 0px 10px; grid-template-columns: auto auto auto auto; padding: 0px 1.25rem 1rem 0; height: auto;}
 .section-info-location-2col {display: grid; gap: 0px 10px; grid-template-columns: 24% 76%; padding: 0px 0 0px 0; height: auto;}
 .section-info-hours-2col {display: grid; gap: 0px 10px; grid-template-columns: 42% 58%; padding: 0px 40px 0px 0; height: auto;}
 .section-info {padding: 0 0 0 10px;}
@@ -200,10 +201,11 @@ a.flip:hover {transform: scale(1.25); transition: transform 0.5s;}
 .section-info-line {text-align: center; width: 77%; padding: 0px 0px 0px 0px; border-top: 1px solid darkgray;}
 .section-info-label {color: black; font-weight: 700; margin: 0; padding: 20px 0px 20px 0px;}
 .section-info-link {font-weight: 400; margin: 0; padding: 0px 0px 6px 0px; line-height: 1.5; display: flex; align-items: center;}
-.section-ticket-container {padding: 10px 0 10px 0;}
+
+
+/* .section-ticket-4col {display: flex; flex-direction: column; gap: 20px;}
 .section-ticket-link {font-weight: 400; margin: 0 auto; padding: 0px 0px 0px 0px; line-height: 2.0; display: flex; align-items: center;}
-.section-ticket-4col {display: flex; flex-direction: column; gap: 20px;}
-/*
+.section-ticket-container {padding: 10px 0 10px 0;}
 .page-navigation-container {padding: 10px 0 10px 0;}
 .page-navigation {display: grid; gap: 10px 10px; grid-template-columns: 135px 135px 135px 135px 135px 135px 135px 135px 135px auto; padding: 0px 0 0px 0; margin: 0 auto; height: auto;}
 .page-navigation-link {font-weight: 400; margin: 0 auto; padding: 0px 0px 0px 0px; line-height: 2.0; display: flex; align-items: center;}

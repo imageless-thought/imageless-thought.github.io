@@ -31,6 +31,14 @@ a.pagenav-button {color: white; background-color: var(--contrast-green); text-de
 a.pagenav-button:hover {color: white; background-color: #72B844;}
 a.pagenav-button:active {color: red; background-color: orange;}
 
+.section-ticket-container {padding: 10px 0 10px 0;}
+.section-ticket-link {font-weight: 400; margin: 0 auto; padding: 0px 0px 0px 0px; line-height: 2.0; display: flex;}
+.section-ticket-4col {display: flex; flex-direction: row; gap: 20px;}
+a.ticket-button:link {color: white; background-color:#00853E; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; border-radius:5px; height:auto; text-align: left; padding: 5px 15px 5px 15px; border: 1px solid transparent;}
+a.ticket-button:visited {color: white; background-color: #00853E; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; border-radius:5px; height:auto; text-align: left; padding: 5px 15px 5px 15px; border: 1px solid transparent;}
+a.ticket-button:hover {color: black; background-color: #72B844; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; border-radius:5px; height:auto; text-align: left; padding: 5px 15px 5px 15px; border: 1px solid transparent;}
+a.ticket-button:active {color: red; background-color: orange; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; border-radius:5px; height:auto; text-align: left; padding: 5px 15px 5px 15px; border: 1px solid transparent;}
+
 
 /*
 @media screen and (max-width: 900px) {
