@@ -139,7 +139,7 @@ p a:hover::selection, , .flex-item-service a:hover::selection {
 /* Main */
 
 .main {
-    width: 80%; 
+    width: 78%; 
     margin: 1rem auto 1.5rem auto;
 }
 
