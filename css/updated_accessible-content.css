@@ -140,13 +140,13 @@ p a:hover::selection, , .flex-item-service a:hover::selection {
 
 .main {
     width: 80%; 
-    margin: 10px auto 40px auto;
+    margin: 1rem auto 1.5rem auto;
 }
 
 /* Section */
 
 .section {
-    margin: 1rem 0 1.5rem 0;
+    margin: 1rem 0;
 }
 
 /* Fonts */
