@@ -48,11 +48,6 @@ a.section-button-contact:visited {color: #00853E; background-color: white; text-
 a.section-button-contact:hover {color: white; background-color: #00853E; text-decoration: underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; margin: 0; padding: 2px 5px; border-radius: 5px; border: 1px solid transparent; font-size: 14px;}
 a.section-button-contact:active {color: red; background-color: orange; text-decoration: underline; -webkit-text-decoration-color:transparent; text-decoration-color: transparent; font-weight: 600; margin: 0; padding: 2px 5px; border-radius: 5px; border: 1px solid transparent; font-size: 14px;}
 
-a.section-button-thin:link {color: black; background-color: #F1F8E9; text-decoration: underline; -webkit-text-decoration-color: transparent; text-decoration-color: transparent; font-weight: 500; border: 1px solid transparent; border-radius:5px; height:auto; text-align: center; padding: 0px 6px 0px 6px;}
-a.section-button-thin:visited {color: black; background-color: #F1F8E9; text-decoration: underline; -webkit-text-decoration-color: transparent; text-decoration-color: transparent; font-weight: 500; border: 1px solid transparent; border-radius:5px; height:auto; text-align: center; padding: 0px 6px 0px 6px;}
-a.section-button-thin:hover {color: white; background-color: #9CCC65; text-decoration: underline; -webkit-text-decoration-color: transparent; text-decoration-color: transparent; font-weight: 500; border: 1px solid transparent; border-radius:5px; height:auto; text-align: center; padding: 0px 6px 0px 6px;}
-a.section-button-thin:active {color: red; background-color: orange; text-decoration: underline; -webkit-text-decoration-color: transparent; text-decoration-color: transparent; font-weight: 500; border: 1px solid transparent; border-radius:5px; height:auto; text-align: center; padding: 0px 6px 0px 6px;}
-
 /* alt button style: dark blue with white text */ 
 a.section-button2:link {color: white; background-color: #2E86C1; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 500; border-radius:5px; height:auto; text-align: center; padding: 1px 5px 1px 5px; border: 1px solid transparent;}
 a.section-button2:visited {color: white; background-color: #2E86C1; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 500; border-radius:5px; height:auto; text-align: center; padding: 1px 5px 1px 5px; border: 1px solid transparent;}
@@ -213,7 +208,7 @@ a.flip:hover {transform: scale(1.25); transition: transform 0.5s;}
 .section-notice-container {padding: 0px 0px 15px 0px;}
 .section-notice-line {text-align: center; width: 80%; padding: 0px 0px 25px 0px; border-top: 1px solid darkgray}
 .table-3col-np {display: grid; gap: 0px 25px; grid-template-columns: 33% 33% 33%; padding: 0 0 0 0; margin: 0; height: auto;}
-.table-3col-links {display: grid; gap: 0px 30px; grid-template-columns: 27% 27% 27%; padding: 0 0 0px 0; margin: 0; height: auto;}
+.table-3col-links {display: grid; gap: 0 1.5rem; grid-template-columns: 29% 29% 29%; padding: 0 0 0px 0; margin: 0; height: auto;}
 .table-head {padding: 0px 0px 15px 0px; margin: 0;}
 .table-links {padding: 5px 0px; margin: 0;}
 .table-column1, .table-column2, .table-column3 {display: flex; flex-direction: column; gap: 5px}

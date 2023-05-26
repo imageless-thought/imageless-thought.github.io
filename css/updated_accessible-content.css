@@ -30,6 +30,7 @@ html {
   --blink: transparent; /* #00853E*/
   --bhover: #C5E1A5; 
   --bactivate: orange;
+  --hlink: #C8E6C9;
 
 /* font colors */
   --fontdark: #181818; /* black */
@@ -42,13 +43,15 @@ html {
 
 body {max-width: 100vw; margin: 0; padding: 0; background-color: white; color: #181818; line-height: 1.5;}
 
-h1 {margin: 1rem 0 .5rem 0; width: fit-content; cursor: text;}
+h1 {margin: 1.5rem 0 .8rem 0; width: fit-content; cursor: text;}
 h2, h3, h3, h4, h5, h6 {margin: .5rem 0 .5rem 0; width: fit-content; cursor: text;}
 p {margin: .35rem 0; width: fit-content; text-align: justify; text-justify: inter-word; word-wrap: break-word; cursor: text;}
-hr {margin: 1rem 0; height: 3px; background-color: #1E8449; border: 1px solid #181818; border-radius: 5px;}
+p:last-child {margin: .35rem 0 1rem 0; width: fit-content; text-align: justify; text-justify: inter-word; word-wrap: break-word; cursor: text;}
+hr {margin: 1rem 1rem 1.5rem 1rem; height: .2rem; background-color: var(--contrast-green); border: .15rem solid var(--bhover); border-radius: .5rem; width: 100%;} 
 .light-line {
-   margin: 1em 1em 3em 1em; height: 1px; background-color: #181818; border: 0px solid #181818; border-radius: .5rem; width: 81%;
+   margin: 1rem 1rem 1.5rem 1rem; height: .2rem; background-color: var(--contrast-green); border: .15rem solid var(--bhover); border-radius: .5rem; width: 81%;
   }
+.datefont {font-size: .75rem!important; margin: .5rem 0 0 0!important; font-weight: 500;}
 
 a {cursor: pointer!important;}
 ol {margin: 0 0 2rem 0}
@@ -56,6 +59,7 @@ li {line-height: 1.7;}
 .li-nobull {list-style: none; margin-bottom:.15rem;}
 ol li {margin-bottom:.15rem; padding-left:1em;}
 ul li {margin-bottom:.15rem}
+
 
 figcaption {padding: 5px 0 15px 10px}
 
@@ -105,7 +109,7 @@ p a::after, li a::after,  h2 a::after, h3 a::after, .flex-item-service a::after 
 
 p a:link, p a:visited, li a:link, li a:visited, h2 a:link, h2 a:visited, h3 a:link, h3 a:visited, .flex-item-service a:link, .flex-item-service a:visited  {
   color: var(--contrast-black);
-  background:  var(--contrast-greenb);
+  background:  var(--hlink);
 }
 
 p a:hover, li a:hover, h2 a:hover, h3 a:hover, .flex-item-service a:hover  {
@@ -123,7 +127,7 @@ p a::selection, .flex-item-service a::selection  {
   background-color: var(--contrast-red);
 }
 
-p a:hover::selection, , .flex-item-service a:hover::selection {
+p a:hover::selection, .flex-item-service a:hover::selection {
   color: white; 
   background-color: var(--contrast-blue);
 }
@@ -136,17 +140,24 @@ p a:hover::selection, , .flex-item-service a:hover::selection {
  h5::selection {color: white; background-color: var(--contrast-blue);}
  h6::selection {color: white; background-color: var(--contrast-blue);}
 
+ h1 b::selection {color: white; background-color: var(--contrast-blue);}
+ h2 b::selection {color: white; background-color: var(--contrast-blue);}
+ h3 b::selection {color: white; background-color: var(--contrast-blue);}
+ h4 b::selection {color: white; background-color: var(--contrast-blue);}
+ h5 b::selection {color: white; background-color: var(--contrast-blue);}
+ h6 b::selection {color: white; background-color: var(--contrast-blue);}
+
 /* Main */
 
 .main {
-    width: 78%; 
-    margin: 1rem auto 1.5rem auto;
+    width: 88%; 
+    margin: 1rem auto 3rem auto;
 }
 
 /* Section */
 
 .section {
-    margin: 1rem 0;
+    margin: 1rem 0 1.5rem 0;
 }
 
 /* Fonts */
@@ -166,13 +177,15 @@ p a:hover::selection, , .flex-item-service a:hover::selection {
 .centerhalf {text-align: center; width: 50%; margin: 0 auto;}
 .center90 {text-align: center; width: 90%; margin: 0 auto;}
 .center80 {text-align: center; width: 80%; margin: 0 auto;}
-.center-service {text-align: center; width: 80%; margin: 40px auto 0 auto;}
+.fit-service {text-align: center; width: 87%; margin: 0 0 0 0; padding: .1rem 0;}
+.center:last-child {cursor: text;}
 
 .size400 {width: 400px; height: auto;}
-.service {border: 1px solid var(--contrast-green); border-radius: 10px; padding: 10px; margin: 20px 0 0 0 !important;}
+.service {border: 2px solid var(--d2green); border-radius: 10px; padding: 10px; margin: 1rem 0 1rem 0 !important; background-color: #F1F8E9; font-size:.9rem;}
 .service-font {color: var(--contrast-green); font-weight: 600px;}
-.service-2col {display: grid; grid-template-columns: 9rem auto; gap: .5rem 0; padding: 0; margin: 0 0 0 1rem; height: auto;}
-
+.service-2col {display: grid; grid-template-columns: 9rem auto; gap: .25rem 0; padding: 0; margin: 0 0 0 0; height: auto;}
+.service-hours {margin: 0; padding: 0; font-weight: 700; font-size: 1.1rem;}
+.service-hours-time {margin: 0; padding: 0; font-weight: 600; font-size: 1.1rem; color: var(--dgreen);}
 .rmarg {margin: .5rem!important; padding: 0!important;}
 .rindent {margin: 0 0 .3rem .5rem!important; padding: 0!important;}
 .rindent2 {margin: 0 0 .3rem 1rem!important; padding: 0!important;}
@@ -181,6 +194,9 @@ p a:hover::selection, , .flex-item-service a:hover::selection {
 .redbg {background-color: #D32F2F;}
 .blackbg {background-color: #181818;}
 .whitebg {background-color: white;}
+
+.sub {text-indent: 1rem;}
+.subt {text-decoration: underline; font-weight: 700;}
 
 .manager {padding-bottom: 10px;}
 .pad-item {padding: 20px;}
@@ -264,9 +280,9 @@ p a:hover::selection, , .flex-item-service a:hover::selection {
 }
 
 .greencard hr {
-    margin: 1em; height: 2px; background-color: rgba(68, 97, 31,1); border: 0px solid #181818; border-radius: 5px; width: 98%; 
+    margin: 1em auto; height: 2px; background-color: rgba(68, 97, 31,1); border: 0px solid #181818; border-radius: 5px; width: 100%; 
 }
-
+ 
 .linkbox {
    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px 0px inset;
     width: fit-content;
@@ -274,6 +290,10 @@ p a:hover::selection, , .flex-item-service a:hover::selection {
     border-radius: 1rem;
     padding: 1rem;
     margin: 2rem 1rem 3rem 1rem;
+}
+
+.service-box {
+  box-shadow: 0 0 5px 5px rgba(68, 97, 31,1)
 }
 
 .green-shadow {
@@ -326,8 +346,7 @@ p a:hover::selection, , .flex-item-service a:hover::selection {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin: 2rem 0 2rem 0;
-  gap: 2rem;
+  gap: 1rem;
   width: fit-content;
 }
 
@@ -349,7 +368,7 @@ p a:hover::selection, , .flex-item-service a:hover::selection {
 .flex-item-service {
   width: fit-content;
   height: auto;
-  margin: 0 2rem;
+  margin: 0 2.5rem;
   align-items: top;
   text-align: left; 
   text-justify: inter-word; 
@@ -376,13 +395,7 @@ p a:hover::selection, , .flex-item-service a:hover::selection {
 }
 
 .flex-item-service hr {
- margin: 1rem auto 1rem auto; 
- text-align: center;
- width: 100%;
- height: .2rem;
- background-color: #1E8449; 
- border: 1px solid #181818; 
- border-radius: .3rem;
+  margin: 1em auto; height: 2px; background-color: rgba(68, 97, 31,1); border: 0px solid #181818; border-radius: 5px; width: 100%; 
 }
 
 .service-pad {

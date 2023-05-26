@@ -37,12 +37,15 @@ img:hover {
  height: auto;
 }
 
-.flex-item-service, .redcard , .greencard {
+.flex-item-service, .redcard , .greencard, .fit {
  text-align: center; 
  width: 95%;
  margin: 0 auto;
 
 }
+
+.fit-service {text-align: center; width: 98%; margin: 0 auto; padding: .1rem 0;}
+
 
 .service {width: fit-content; text-align: justify; text-justify: inter-word; word-wrap: break-word;}
 .service-hours {margin: 2px 0 0 20px !important; width: fit-content; text-align: left;}
@@ -57,5 +60,7 @@ img:hover {
 }
 
 @media screen and (min-width :901px) and (max-width: 1200px) {
+
+}
 
 }

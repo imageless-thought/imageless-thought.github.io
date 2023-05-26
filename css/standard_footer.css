@@ -23,9 +23,9 @@
 }
 
 .footer-pic {
-  width: 85%;
+  width: auto;
   height: auto;
-  margin: 1rem 0;
+  margin: 0;
 }
 
 .footer-item-img {
@@ -50,6 +50,8 @@
   padding: 0 0 5px 0;
   margin: 0;
   width: 100%;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .footer-text {
