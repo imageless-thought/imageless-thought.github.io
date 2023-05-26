@@ -16,7 +16,7 @@
   text-align: center;
   margin: 0 auto;
   gap: 2em 4em;
-  background-color: #181818; 
+  background-color: var(--contrast-green); 
   width: 100%;
   height: auto;
   padding: 1em 0 1em 0;
@@ -26,6 +26,7 @@
   width: auto;
   height: auto;
   margin: 0;
+  filter: invert(90%) sepia(70%) saturate(5490%) hue-rotate(5deg) brightness(94%) contrast(101%);
 }
 
 .footer-item-img {
@@ -91,15 +92,15 @@
 }
 
 .footer-bar-item a:link, .footer-bar-item a:visited {
-  background-color: #181818;
+  background-color: trasparent;
   color: white;
   border: 1px solid transparent;
 }
 
 .footer-link, .footer-bar-item a:hover {
   color: white;
-  background-color: #006a31;
-  border: 1px solid #006a31;
+  background-color: #181818;
+  border: 1px solid #181818;
 }
 
 .footer-bar-item a:active {
@@ -108,14 +109,14 @@
   border: 1px solid orange;
 }
 
-a.footer-link:link {color:white; background-color: #181818; border: 1px solid transparent; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
-a.footer-link:visited {color:white; background-color: #181818; border: 1px solid transparent; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
-a.footer-link:hover {color: white !important; background-color: #006a31; border: 1px solid #006a31; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
+a.footer-link:link {color:white; background-color: transparent; border: 1px solid transparent; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
+a.footer-link:visited {color:white; background-color: transparent; border: 1px solid transparent; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
+a.footer-link:hover {color: white !important; background-color: #181818; border: 1px solid #006a31; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
 a.footer-link:active {color: white; background-color: orange; border: 1px solid orange; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;} 
 
-a.footer-link2:link {color: #72B844; background-color: #181818; border: 1px solid transparent; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
-a.footer-link2:visited {color: #72B844; background-color: #181818; border: 1px solid transparent; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
-a.footer-link2:hover {color: white !important; background-color: #006a31; border: 1px solid #006a31; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
+a.footer-link2:link {color: #72B844; background-color: transparent; border: 1px solid transparent; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
+a.footer-link2:visited {color: #72B844; background-color: transparent; border: 1px solid transparent; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
+a.footer-link2:hover {color: white !important; background-color: #181818; border: 1px solid #006a31; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
 a.footer-link2:active {color: white; background-color: orange; border: 1px solid orange; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;} 
 
 .footer-icon {
@@ -251,7 +252,7 @@ a.footer-link2:active {color: white; background-color: orange; border: 1px solid
   }
 
 .footer-bar, .footer-bar2 {
-  width: 80%;
+  width: fit-content;
   height: auto;
   text-align: center;
   margin: 0 auto;

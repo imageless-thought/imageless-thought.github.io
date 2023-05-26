@@ -21,7 +21,8 @@ html {
   --contrast-opacity-green: rgba(68, 97, 31, 0.9);
   --contrast-blue: #1F5D84; /*whitefont*/
   --contrast-red: #AC1B1B; /*whitefont*/
-  --contrast-black: #181818; /*whitefont*/
+  --contrast-black: #2d2c2c; /*whitefont*/
+  --contrast-dark: #2d2c2c;
   --contrast-greenb: #C5E1A5; /* very light green */
   --excelgrey: rgb(215, 215, 215); /* tables: zebra striping*/
   --dgreen: #006A31; /* UNT darkgreen */
@@ -33,7 +34,7 @@ html {
   --hlink: #C8E6C9;
 
 /* font colors */
-  --fontdark: #181818; /* black */
+  --fontdark: #2d2c2c; /* black */
   --fontlight: #FFFFFF; /* white */
   --fontdgreen: #006A31; /* darkgreen */
   --flink: #C5E1A5; /* white */
