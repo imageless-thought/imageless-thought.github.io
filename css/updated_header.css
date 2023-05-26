@@ -414,14 +414,22 @@ outline: 1px solid #C6E3B2;
   height: 2rem;
   width: 1.5rem;
   align-self: center;
-  padding-bottom: 2px;
+  padding: 1.10rem!important;
   cursor: pointer;
-  margin-bottom: 0.675rem
+
+  border: 2px solid white;
+  border-radius: 5px;
+  position: absolute; /* absolute */
+  right: 125px;  /* 14vw 7vw 15.19rem */
+  top: 32px; /* 5rem */
 }
 
 .scrolled .quick-links-scrolled {
   display: block;
   margin: 0;
+  position: absolute; /* absolute */
+  right: 175px;  /* 14vw 7vw 15.19rem */
+  top: 14px; /* 5rem */
 }
 
 .quick-links-image {
@@ -431,11 +439,9 @@ outline: 1px solid #C6E3B2;
   font-weight: 500;
   padding: 5px!important;
   position: absolute; /* absolute */
-  right: 125px;  /* 14vw 7vw 15.19rem */
-  top: 35px; /* 5rem */
+  right: 1px;  /* 14vw 7vw 15.19rem */
+  top: 1px; /* 5rem */
   filter: invert(100%);
-  border: 2px solid black;
-  border-radius: 5px;
 }
 
 .scrolled .quick-links-image {
@@ -444,16 +450,10 @@ outline: 1px solid #C6E3B2;
   cursor: pointer!important;
   font-weight: 500;
   padding: 5px!important;
-  position: absolute; /* absolute */
-  right: 190Px;  /* 14vw 7vw 15.19rem */
-  top: 16px; /* 5rem */
-  filter: invert(100%);
-  border: 2px solid black;
-  border-radius: 4px;
 }
 
 .quick-links-image:hover {
-  filter: brightness(0.8) hue-rotate(90deg);
+  filter: invert(73%) sepia(21%) saturate(1146%) hue-rotate(52deg) brightness(95%) contrast(87%);
   transition: 0.2s;
   cursor: pointer!important;
 }
@@ -467,8 +467,8 @@ outline: 1px solid #C6E3B2;
   background-color: var(--contrast-black); 
   opacity: 0.9;
   flex-direction: column;
-  right: 125px;  /* 14vw 7vw 15.19rem */
-  top: 85px; /* 5rem */
+  right: 0px;  /* 14vw 7vw 15.19rem */
+  top: 55px; /* 5rem */
   padding-bottom: 8px;
   border: 1px solid var(--contrast-black);
   outline: 1px solid #C6E3B2;
@@ -477,7 +477,7 @@ outline: 1px solid #C6E3B2;
 }
 
 .scrolled .quick-links-content {
-  top: 63px; /* 5rem */
+  top: 53px; /* 5rem */
 }
 
 .quick-link {
@@ -520,7 +520,7 @@ a.quick-link:hover {
   cursor: pointer;
   margin-bottom: 1rem;
   position: absolute; /* absolute */
-  right: 190Px;  /* 14vw 7vw 15.19rem */
+  right: 210Px;  /* 14vw 7vw 15.19rem */
   top: 38px; /* 5rem */
 }
 .scrolled .search-button-scrolled {
