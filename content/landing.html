@@ -22,43 +22,49 @@
 
 <div class="row">
   <div class="column">
-    <img src="images/microsoft-azure-2-logo-svgrepo-com.svg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <img src="images/msazure.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
     <img src="images/macos.png" style="width: 100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="images/lpi.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <img src="images/lpi.png" style="width: 100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="images/linkedin-learning.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <img src="images/linkedin-learning.png" style="width: 100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
   </div>
 </div>
 
-<!---->
 <div id="myModal" class="modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
   <div class="modal-content">
-
+    
     <div class="mySlides">
       <div class="numbertext">1 / 4</div>
-      <img src="images/microsoft-azure-2-logo-svgrepo-com.svg" style="width:100%">
-      <figcaption>Information you may be interested in.</figcaption>
+      <div class="center">
+      <img src="images/msazure.png">
+      </div> 
     </div>
 
     <div class="mySlides">
       <div class="numbertext">2 / 4</div>
-      <img src="images/macos.png" style="width:100%">
+      <div class="center">
+      <img src="images/macos.png">
+      </div>
     </div>
 
     <div class="mySlides">
-      <div class="lpi.png">3 / 4</div>
-      <img src="images/img_mountains_wide.jpg" style="width:100%">
+      <div class="numbertext">3 / 4</div>
+      <div class="center">
+      <img src="images/lpi.png">
+      </div>
     </div>
     
     <div class="mySlides">
       <div class="numbertext">4 / 4</div>
-      <img src="images/linkedin-learning.png" style="width:100%">
+      <div class="center">
+      <img src="images/linkedin-learning.png">
+      </div>
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -68,48 +74,51 @@
       <p id="caption"></p>
     </div>
 
-
   </div>
 </div>
 
-<script>
-function openModal() {
-  document.getElementById("myModal").style.display = "block";
-}
-
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
-
 </div>
 </main>
+
+<script>
+  // Open the Modal
+  function openModal() {
+    document.getElementById("myModal").style.display = "block";
+  }
+  
+  // Close the Modal
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+  
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>

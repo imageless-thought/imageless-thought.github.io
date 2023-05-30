@@ -260,7 +260,7 @@ a.nostyle:active {
 }
 
 .dropdown-column hr {
-  margin: .2rem 0 .5rem 0; height: .1rem; background-color: var(--contrast-green); border: .15rem solid var(--bhover); border-radius: .5rem; width: 100%;  
+  margin: .2rem 0 .5rem 0; height: 1px; color: var(--contrast-green); border: 1px solid var(--bhover); border-radius: .5rem; width: 100%;  
 }
 
 .dropdown-column-desc {
@@ -306,7 +306,7 @@ outline: 1px solid #C6E3B2;
   border-left: 1px solid var(--contrast-greenb);
   border-right: 1px solid var(--contrast-greenb);
   border-radius: 1px;
-  padding: .75rem 1.25rem .75rem 1rem; /* 12px 16px */
+  padding: .2rem .75rem .2rem .5rem; /* 12px 16px */
 }
 
 .dropdown-list-content a:hover {

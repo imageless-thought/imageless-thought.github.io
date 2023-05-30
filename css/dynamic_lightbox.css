@@ -2,13 +2,17 @@
   box-sizing: border-box;
 }
 
+.row {
+  margin: 0 2rem;
+}
+
 .rowbox {
   border: 1px solid #181818;
   border-radius: 1px;
 }
 
 .row > .column {
-  padding: 1rem 2rem 0 2rem;
+  padding: 0 8x;
 }
 
 .row:after {
@@ -48,11 +52,11 @@
 
 /* The Close Button */
 .close {
-  color: white;
+  color: red;
   position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
+  top: 85px;
+  right: 245px;
+  font-size: 5rem;
   font-weight: bold;
 }
 
@@ -69,6 +73,14 @@
 
 .mySlides figcaption {
   color: white;
+}
+
+.mySlides img {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 80%; height: auto;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .cursor {
@@ -108,7 +120,7 @@
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
+  font-size: 1.3rem;
   padding: 8px 12px;
   position: absolute;
   top: 0;
