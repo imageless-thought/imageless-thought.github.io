@@ -56,9 +56,10 @@
 .footer-title {
   color: white;
   padding: 0 0 5px 0;
-  margin: 0;
+  margin: 1rem .5rem 0 .5rem;
   width: 100%;
   font-weight: 600;
+  font-size: 2rem;
 }
 
 .footer-text {
@@ -152,10 +153,10 @@
 
 
 
-a.footer-link:link {color:white; background-color: transparent; border: 1px solid transparent; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
-a.footer-link:visited {color:white; background-color: transparent; border: 1px solid transparent; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
-a.footer-link:hover {color: white !important; background-color: #181818; border: 1px solid #006a31; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
-a.footer-link:active {color: white; background-color: orange; border: 1px solid orange; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;} 
+a.footer-link:link {color: var(--contrast-green); background-color: yellow; border: 1px solid var(--flink); text-decoration: none; padding: 0 .25rem; margin: 0 .5rem; border-radius: 3px;}
+a.footer-link:visited {color: var(--contrast-green); background-color: yellow; border: 1px solid var(--flink); text-decoration: none; padding: 0 .25rem; margin: 0 .5rem; border-radius: 3px;}
+a.footer-link:hover {color: white !important; background-color: #181818; border: 1px solid white; text-decoration: none; padding: 0 .25rem; margin: 0 .5rem; border-radius: 3px;}
+a.footer-link:active {color: white; background-color: orange; border: 1px solid orange; text-decoration: none; padding: 0 .25rem; margin: 0 .5rem; border-radius: 3px;} 
 
 a.footer-link2:link {color: #72B844; background-color: transparent; border: 1px solid transparent; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
 a.footer-link2:visited {color: #72B844; background-color: transparent; border: 1px solid transparent; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
@@ -304,6 +305,7 @@ a.footer-link2:active {color: white; background-color: orange; border: 1px solid
 
  .footer-title {
   text-align: center;
+  font-size: 2rem;
  }
 
 .footer-bar-item {
