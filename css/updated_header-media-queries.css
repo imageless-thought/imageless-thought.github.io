@@ -9,6 +9,9 @@
     .scrolled .dropdown-column {
       display: flex;
     }
+    .mobile-show {
+        display: none;
+    }    
 }
 
 @media screen and (min-width: 1460px) {
