@@ -52,7 +52,7 @@ p:last-child {margin: .35rem 0 1rem 0; width: fit-content; text-align: justify; 
 
 hr {margin: 2rem auto; height: .02rem; background-color: var(--bhover); border: .15rem solid var(--contrast-green); border-radius: .5rem; width: 100%;} 
 .light-line {margin: 2rem auto; height: .04rem; background-color: var(--contrast-green); border: .15rem solid var(--bhover); border-radius: .5rem; width: 100%;} 
-
+.hrspace {margin-bottom: 1rem; color: transparent; background-color:transparent; border: 0 solid transparent;}
 .datefont {font-size: .75rem!important; margin: .5rem 0 0 0!important; font-weight: 500;}
 
 a {cursor: pointer!important;}
