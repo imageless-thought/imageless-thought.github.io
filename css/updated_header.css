@@ -416,38 +416,42 @@ outline: 1px solid #C6E3B2;
   height: 2rem;
   width: 1.5rem;
   align-self: center;
-  padding: 1.10rem!important;
+  padding: 1.60rem!important;
   cursor: pointer;
 
   border: 2px solid white;
   border-radius: 5px;
   position: absolute; /* absolute */
-  right: 125px;  /* 14vw 7vw 15.19rem */
-  top: 32px; /* 5rem */
+  right: 115px;  /* 14vw 7vw 15.19rem */
+  top: 22px; /* 5rem */
+}
+
+.quick-links-scrolled:active {
+  border: 2px solid transparent;
 }
 
 .scrolled .quick-links-scrolled {
   display: block;
   margin: 0;
   position: absolute; /* absolute */
-  right: 175px;  /* 14vw 7vw 15.19rem */
-  top: 14px; /* 5rem */
+  right: 180px;  /* 14vw 7vw 15.19rem */
+  top: 5px; /* 5rem */
 }
 
 .quick-links-image {
-  width: 2rem; /* 1 */
+  width: 3rem; /* 1 */
   height: auto; /* 1.5 */
   cursor: pointer!important;
   font-weight: 500;
   padding: 5px!important;
   position: absolute; /* absolute */
   right: 1px;  /* 14vw 7vw 15.19rem */
-  top: 1px; /* 5rem */
+  top: -1px; /* 5rem */
   filter: invert(100%);
 }
 
 .scrolled .quick-links-image {
-  width: 2rem; /* 1 */
+  width: 3rem; /* 1 */
   height: auto; /* 1.5 */
   cursor: pointer!important;
   font-weight: 500;
