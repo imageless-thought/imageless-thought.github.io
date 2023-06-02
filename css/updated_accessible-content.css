@@ -209,8 +209,7 @@ p a:hover::selection, .flex-item-service a:hover::selection {
 .encapsulate {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-radius: .5rem;
-    padding: .5rem;
-    margin: 10px 0;
+    padding: 1rem;
     flex: 0 0 17.3vw;
     height: auto;
     display: block;

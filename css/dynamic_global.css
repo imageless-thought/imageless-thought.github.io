@@ -1,6 +1,5 @@
 .link-button1 {display: grid; grid-template-columns: 2rem auto; gap: .5rem 2rem; padding: 1rem 0 1rem 0; height: auto;}
 .link-button1-pic {padding: 0px; width: 2.5rem; height: auto; vertical-align: middle; background-color: transparent;}
-
 .link-button2 {display: grid; grid-template-columns: 2rem auto; gap: .5rem 3rem; padding: 1rem 0 1rem 0; height: auto;}
 
 /* our default button style: light green with black text */ 
@@ -62,10 +61,7 @@ a.section-button::after, a.section-button::before {
 display: none;
 }
 
-
-
-
-
+.head-grid {display: grid; grid-template-columns: 25% auto; gap: .01rem; padding: .5rem 0 1rem 0; height: auto; align-items: center;}
 
 /*
 @media screen and (max-width: 900px) {

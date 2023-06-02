@@ -411,15 +411,16 @@ outline: 1px solid #C6E3B2;
 }
 .quick-links-body-container {
 background-color: var(--contrast-green);
-margin: 1rem 1rem;
+margin: 1rem auto;
 width: fit-content;
 height: auto;
 border: 2px solid white;
 border-radius: 5px;
+text-align: center;
 }
 
 .quick-links-body {
-  width: 4rem; /* 1 */
+  width: 3rem; /* 1 */
   height: auto; /* 1.5 */
   cursor: pointer!important;
   font-weight: 500;
