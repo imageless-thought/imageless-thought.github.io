@@ -401,7 +401,6 @@ outline: 1px solid #C6E3B2;
   width: 2rem;
   align-self: center;
   position: absolute; /* absolute */
-
   right: 125px;  /* 14vw 7vw 15.19rem */
   top: 20px; /* 5rem */
   cursor: pointer;
@@ -409,6 +408,43 @@ outline: 1px solid #C6E3B2;
 
 .scrolled .menu-button-scrolled {
   display: block;
+}
+.quick-links-body-container {
+background-color: var(--contrast-green);
+margin: 1rem 1rem;
+width: fit-content;
+height: auto;
+border: 2px solid white;
+border-radius: 5px;
+}
+
+.quick-links-body {
+  width: 4rem; /* 1 */
+  height: auto; /* 1.5 */
+  cursor: pointer!important;
+  font-weight: 500;
+  padding: 5px!important;
+  background-color: transparent;
+  filter: invert(100%);
+
+
+}
+.quick-links-body:hover {
+  /*
+    filter: invert(73%) sepia(21%) saturate(1146%) hue-rotate(52deg) brightness(95%) contrast(87%);
+    transition: 0.2s;
+    cursor: pointer!important; */
+}
+
+.quick-links-body:active {
+  /* filter: invert(73%) sepia(21%) saturate(1146%) hue-rotate(52deg) brightness(95%) contrast(87%);
+  transition: 0.2s;
+  cursor: pointer!important; */
+  transform:scale(1);
+  -ms-transform:scale(1); /* IE 9 */
+  -moz-transform:scale(1); /* Firefox */
+  -webkit-transform:scale(1); /* Safari and Chrome */
+  -o-transform:scale(1); /* Opera */
 }
 
 .quick-links-scrolled {

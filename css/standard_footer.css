@@ -158,10 +158,10 @@ a.footer-link:visited {color: var(--contrast-green); background-color: yellow; b
 a.footer-link:hover {color: white !important; background-color: #181818; border: 1px solid white; text-decoration: none; padding: 0 .25rem; margin: 0 .5rem; border-radius: 3px;}
 a.footer-link:active {color: white; background-color: orange; border: 1px solid orange; text-decoration: none; padding: 0 .25rem; margin: 0 .5rem; border-radius: 3px;} 
 
-a.footer-link2:link {color: #72B844; background-color: transparent; border: 1px solid transparent; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
-a.footer-link2:visited {color: #72B844; background-color: transparent; border: 1px solid transparent; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
-a.footer-link2:hover {color: white !important; background-color: #181818; border: 1px solid #006a31; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;}
-a.footer-link2:active {color: white; background-color: orange; border: 1px solid orange; text-decoration: none; padding: 0 2px; margin: 4px 0; border-radius: 3px;} 
+a.footer-link2:link {color: #181818; font-weight: 500; font-size: 1rem; background-color: transparent; border: 1px solid var(--contrast-green); text-decoration: none; padding: 2px 5px; margin: 5px; border-radius: 3px;}
+a.footer-link2:visited {color: #181818; font-weight: 500; font-size: 1rem; background-color: transparent; border: 1px solid var(--contrast-green); text-decoration: none; padding: 2px 5px; margin: 5px; border-radius: 3px;}
+a.footer-link2:hover {color: white !important; font-weight: 500; font-size: 1rem; background-color: #181818; border: 1px solid #006a31; text-decoration: none; padding: 2px 5px; margin: 5px; border-radius: 3px;}
+a.footer-link2:active {color: white; font-weight: 500; font-size: 1rem; background-color: orange; border: 1px solid orange; text-decoration: none; padding: 2px 5px; margin: 5px; border-radius: 3px;} 
 
 .footer-icon {
   color: green;
