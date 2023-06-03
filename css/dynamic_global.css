@@ -61,7 +61,7 @@ a.section-button::after, a.section-button::before {
 display: none;
 }
 
-.head-grid {display: grid; grid-template-columns: 25% auto; gap: .01rem; padding: .5rem 0 1rem 0; height: auto; align-items: center;}
+.head-grid {display: grid; grid-template-columns: 23% auto; gap: .01rem; padding: .5rem 0 1rem 0; height: auto; align-items: center;}
 .head-mobile-grid  {display: grid; grid-template-columns: auto auto auto auto; gap: 1rem; padding: 1rem 0 0 0; width: 100%; height: auto; align-items: center;}
 /*
 @media screen and (max-width: 900px) {

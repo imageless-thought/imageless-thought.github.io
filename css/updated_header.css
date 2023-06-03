@@ -411,7 +411,7 @@ outline: 1px solid #C6E3B2;
 }
 .quick-links-body-container {
 background-color: var(--contrast-green);
-margin: 1rem auto;
+margin: .25rem auto 0 auto;
 width: fit-content;
 height: auto;
 border: 2px solid white;
