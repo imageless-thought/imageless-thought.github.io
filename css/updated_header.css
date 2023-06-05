@@ -511,7 +511,7 @@ text-align: center;
   opacity: 0.9;
   flex-direction: column;
   right: 0px;  /* 14vw 7vw 15.19rem */
-  top: 55px; /* 5rem */
+  top: 65px; /* 5rem */
   padding-bottom: 8px;
   border: 1px solid var(--contrast-black);
   outline: 1px solid #C6E3B2;
@@ -520,7 +520,7 @@ text-align: center;
 }
 
 .scrolled .quick-links-content {
-  top: 53px; /* 5rem */
+  top: 63px; /* 5rem */
 }
 
 .quick-link {

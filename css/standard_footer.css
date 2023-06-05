@@ -5,6 +5,7 @@
   width: 100%; 
   text-align: center; 
   justify-content: center;
+  background-color: var(--contrast-green); 
 }
 
 .footer-container {
@@ -14,12 +15,12 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0 auto 1rem auto;
-  gap: 2em 4em;
+  margin: 0 auto;
+  gap: 0em 4em;
   background-color: var(--contrast-green); 
   width: 100%;
   height: auto;
-  padding: 1em 0 1.5em 0;
+  padding: 1rem 0 ;
 }
 
 .footer-pic {
@@ -56,7 +57,7 @@
 .footer-title {
   color: white;
   padding: 0 0 5px 0;
-  margin: 1rem .5rem 0 .5rem;
+  margin: 0 .5rem 0 .5rem;
   width: 100%;
   font-weight: 600;
   font-size: 2rem;
@@ -251,6 +252,8 @@ a.footer-link2:active {color: white; font-weight: 500; font-size: 1rem; backgrou
   background-color: orange;
 }
 
+
+
 @media screen and (min-width: 1620px) {
   .footer-item-img {
     width: 15em;
@@ -270,12 +273,6 @@ a.footer-link2:active {color: white; font-weight: 500; font-size: 1rem; backgrou
 }
 
 @media screen and (max-width: 1460px) {
-  .footer-container {
-    justify-content: space-between;
-    gap: 2em 0.125em;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-  }
 
   .footer-item-img {
     width: 8em;
@@ -283,13 +280,6 @@ a.footer-link2:active {color: white; font-weight: 500; font-size: 1rem; backgrou
 }
 
 @media screen and (max-width: 1200px) {
-  .footer-container {
-    flex-direction: column;
-    text-align: center;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-  }
 
   .footer-item-img {
     width: 12em;
@@ -330,7 +320,7 @@ a.footer-link2:active {color: white; font-weight: 500; font-size: 1rem; backgrou
  }
 
 }
-/* MOBILE */
+
 @media screen and (max-width: 900px) {
   .footer-bar {
     width: 95%;
