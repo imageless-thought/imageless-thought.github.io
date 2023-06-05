@@ -88,6 +88,7 @@
   width: 80%; height: auto;
   margin: 0 auto;
   text-align: center;
+  
 }
 
 .mySlides h2 {
@@ -148,6 +149,7 @@
 
 img {
   margin-bottom: -4px;
+  cursor: pointer!important;
 }
 
 .caption-container {
