@@ -26,6 +26,10 @@
   width: 20%;
 }
 
+.column img {
+  width: 10rem; padding: 1rem;
+}
+
 /* The Modal (background) */
 .modal {
   display: none;
