@@ -25,8 +25,8 @@ img:hover {
 
 .flex-container-mingap {
   flex-direction: column;
-  align-items: center;
-}
+  justify-content: flex-end;
+    }
 
 .center-service {text-align: center; width: 90%; margin: 40px auto 0 auto;}
 

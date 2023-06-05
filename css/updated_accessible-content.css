@@ -50,10 +50,10 @@ h2, h3, h3, h4, h5, h6 {margin: .5rem 0 .5rem 0; width: fit-content; cursor: tex
 p {margin: .35rem 0; width: fit-content; text-align: justify; text-justify: inter-word; word-wrap: break-word; cursor: text;}
 p:last-child {margin: .35rem 0 1rem 0; width: fit-content; text-align: justify; text-justify: inter-word; word-wrap: break-word; cursor: text;}
 
-hr {margin: 1rem auto; height: .1rem; background-color: var(--contrast-green); border: .15rem solid var(--bhover); border-radius: .5rem; width: 100%;}
-.tophr {margin: 0 auto 0rem auto; height: .05rem; background-color: var(--contrast-green); border: .15rem solid var(--bhover); border-radius: .5rem; width: 100%;}
-.bothr {margin: 0 auto 1rem auto; height: .05rem; background-color: var(--contrast-green); border: .15rem solid var(--bhover); border-radius: .5rem; width: 100%;}
-.thicker {margin: 1rem auto; height: .02rem; background-color: var(--bhover); border: .15rem solid var(--contrast-green); border-radius: .5rem; width: 100%;} 
+hr {margin: 1rem auto; height: 1px; background-color: var(--contrast-green); border: .15rem solid var(--bhover); border-radius: .5rem; width: 100%;}
+.tophr {margin: 0 auto 0rem auto; height: 1px; background-color: var(--contrast-green); border: .15rem solid var(--bhover); border-radius: .5rem; width: 100%;}
+.bothr {margin: 0 auto 1rem auto; height: 1px; background-color: var(--contrast-green); border: .15rem solid var(--bhover); border-radius: .5rem; width: 100%;}
+.thicker {margin: 1rem auto; height: 2px; background-color: var(--bhover); border: .15rem solid var(--contrast-green); border-radius: .5rem; width: 100%;} 
 .datefont {font-size: .75rem!important; margin: .5rem 0 0 0!important; font-weight: 500;}
 
 a {cursor: pointer!important;}
@@ -347,9 +347,8 @@ p a:hover::selection, .flex-item-service a:hover::selection {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: .5rem;
+  align-items: center;
 }
-
 
 .flex-container-service {
   padding: 1rem 0 1rem 0;
