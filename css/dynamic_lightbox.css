@@ -182,4 +182,9 @@ img.hover-shadow {
   top: 25px;
   right: 25px;
 }
+
+.column {
+  float: none;
+  width: 100%;
+}
 }
