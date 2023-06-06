@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin: 2rem .25rem 1rem .25rem;
+}
+
+.rowbox {
+  border: 1px solid #181818;
+  border-radius: 1px;
+}
+
+.row > .column {
+  padding: 0 8x;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 20%;
+}
+
+.column img {
+  width: 10rem; padding: 1rem;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 7;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: transparent;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: red;
+  background-color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  border: 1px solid white;
+  border-radius: .5rem;
+  position: absolute;
+  top: 90px;
+  right: 245px;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides figcaption {
+  color: white;
+}
+
+.mySlides img {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 80%; height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mySlides h2 {
+  color: white;
+  margin-left: 5rem;
+}
+
+.mySlides p {
+  color: white;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #181818;
+  background-color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  border: 1px solid white;
+  border-radius: .5rem;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+
+.close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.column {
+  float: none;
+  width: 100%;
+}
+}

@@ -1,0 +1,73 @@
+.link-button1 {display: grid; grid-template-columns: 2rem auto; gap: .5rem 2rem; padding: 1rem 0 1rem 0; height: auto;}
+.link-button1-pic {padding: 0px; width: 2.5rem; height: auto; vertical-align: middle; background-color: transparent;}
+.link-button2 {display: grid; grid-template-columns: 2rem auto; gap: .5rem 3rem; padding: 1rem 0 1rem 0; height: auto;}
+
+/* our default button style: light green with black text */ 
+a.link-button1-url:link {color: #181818; background-color:transparent; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 500; border-radius:.5rem; height:auto; text-align: center; padding: .25rem .5rem .25rem .5rem; border: 1px solid transparent;}
+a.link-button1-url:visited {color: #181818; background-color:transparent; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 500; border-radius:.5rem; height:auto; text-align: center; padding: .25rem .5rem .25rem .5rem; border: 1px solid transparent;}
+a.link-button1-url:hover {color: #00853E; background-color: transparent; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 500; border-radius:.5rem; height:auto; text-align: center; padding: .25rem .5rem .25rem .5rem; border: 1px solid transparent;}
+a.link-button1-url:active {color: red; background-color: orange; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 500; border-radius:.5rem; height:auto; text-align: center; padding: .25rem .5rem .25rem .5rem; border: 1px solid transparent;}
+
+.text-indent {font-size: .8rem; font-weight: 500; margin: 0; padding: .5rem 0 0 .5rem;}
+
+.page-navigation-container {
+  margin: 0 auto .5rem auto; width: 100%; padding: .5rem 1rem;
+ }
+
+.page-navigation {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 1rem 2rem .5rem 2rem;
+  gap: .25rem .25rem;
+  text-align: center;
+}
+
+.page-navigation-link {font-weight: 400; margin: 0 auto; padding: 0px 0px 0px 0px; line-height: 2.0; display: flex; align-items: center;}
+
+/* pagenav-button is fixed width */
+a.pagenav-button {color: white; background-color: var(--contrast-green); text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 500; height:auto; text-align: center; padding: 2px; box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; border-radius: .5rem;  padding: .5rem; width: 135px;}
+a.pagenav-button:hover {color: white; background-color: #72B844;}
+a.pagenav-button:active {color: red; background-color: orange;}
+
+.section-ticket-container {padding: 10px 0 10px 0;}
+.section-ticket-link {font-weight: 400; margin: 0 auto; padding: 0px 0px 0px 0px; line-height: 2.0; display: flex;}
+.section-ticket-4col {display: flex; flex-direction: row; gap: 20px;}
+a.ticket-button {outline: 5px solid orange; margin: .5rem 0}
+a.ticket-button:link {color: white; background-color:#00853E; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; border-radius:5px; height:auto; text-align: left; padding: 5px 15px 5px 15px; border: 1px solid transparent;}
+a.ticket-button:visited {color: white; background-color: #00853E; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; border-radius:5px; height:auto; text-align: left; padding: 5px 15px 5px 15px; border: 1px solid transparent;}
+a.ticket-button:hover {color: black; background-color: #72B844; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; border-radius:5px; height:auto; text-align: left; padding: 5px 15px 5px 15px; border: 1px solid transparent;}
+a.ticket-button:active {color: red; background-color: orange; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 600; border-radius:5px; height:auto; text-align: left; padding: 5px 15px 5px 15px; border: 1px solid transparent;}
+
+a.section-button-thin {
+  text-decoration: underline; -webkit-text-decoration-color: transparent; text-decoration-color: transparent; font-weight: 400; border: 1px solid transparent; border-radius:5px; height:auto; text-align: center; padding: 0 0 0 6px;
+  }
+a.section-button-thin:link {color: black; background-color: #F1F8E9; }
+a.section-button-thin:visited {color: black; background-color: #F1F8E9; }
+a.section-button-thin:hover {color: white; background-color: #9CCC65; }
+a.section-button-thin:active {color: red; background-color: orange; }
+
+a.section-button {
+  text-decoration: underline; -webkit-text-decoration-color: transparent; text-decoration-color: transparent; font-weight: 400; border: 1px solid transparent; border-radius:5px; height:auto; text-align: center; padding: 0 0 0 6px;
+  }
+a.section-button:link {color: white; background-color: #00853E; }
+a.section-button:visited {color: white; background-color: #00853E; }
+a.section-button:hover {color: black; background-color: #9CCC65; }
+a.section-button:active {color: red; background-color: orange; }
+
+a.section-button::after, a.section-button::before {
+display: none;
+}
+
+.head-grid {display: grid; grid-template-columns: 23% auto; gap: .01rem; padding: .5rem 0 1rem 0; height: auto; align-items: center;}
+.head-mobile-grid  {display: grid; grid-template-columns: auto auto auto auto; gap: 1rem; padding: 1rem 0 0 0; width: 100%; height: auto; align-items: center;}
+/*
+@media screen and (max-width: 900px) {
+.page-navigation {
+  display: flex;
+  flex-direction: column;
+}
+}
+*/
