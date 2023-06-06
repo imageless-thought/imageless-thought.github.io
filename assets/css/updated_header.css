@@ -460,7 +460,7 @@ text-align: center;
   border-radius: 5px;
   position: absolute; /* absolute */
   right: 115px;  /* 14vw 7vw 15.19rem */
-  top: 22px; /* 5rem */
+  top: 21px; /* 5rem */
 }
 
 .quick-links-scrolled:active {
