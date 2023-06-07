@@ -2,5 +2,9 @@
   color: green;
 }
 
+p {margin-bottom: .5rem; font-family: 'Roboto Flex', sans-serif; line-height: 1.7;}
+.bloglink {margin-bottom: 0; margin-left: 1rem; font-family: 'Roboto Flex', sans-serif; line-height: 1.2;}
+.bloglink:last-child {margin-bottom: 2rem;}
 
+.pcaption {font-family: 'Roboto Flex', sans-serif; margin: .2rem 0 1rem .1rem; font-style: italic!important;}
 /*# sourceMappingURL=styles.css.map */

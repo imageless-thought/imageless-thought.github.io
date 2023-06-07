@@ -11,10 +11,13 @@
 <link rel="icon" type="image/x-icon" href="assets/images/bulb-innovate-green-whitebg.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto|Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap|Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto|Bebas+Neue" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap|Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/a085645410.js" crossorigin="anonymous"></script>
 <script data-search-pseudo-elements src="https://kit.fontawesome.com/a085645410.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
 <!-- <link rel="stylesheet" href="assets/css/css_reset.css"> -->
 <link rel="stylesheet" href="assets/css/normalize.css">
 <link rel="stylesheet" href="assets/css/updated_global.css">
@@ -127,15 +130,34 @@ $(document).ready(function(){
           <div class="dropdown-columns">
 
          <!-- Visible column contains text-->
-            <div class="dropdown-column">
-            <div class="dropdown-column-desc">
-             <p>I am the Director of Information Technology and Assistant Dean at the <b>College of Visual Arts and Design</b> at the University of North Texas. In this role I am responsible for the all technology operations of the college. </p>
-             <p>You can look at my LinkedIn Profile for more information on what exactly that entails.</p>
-             <p>This page is intended to provide quick references to resources I need. Generally when I am working on a project, this is where you will look for information on anything I reference.</p>
-            </div>
-            </div>
+              <div class="dropdown-column mobile-hide whitebg" style="margin-top: .5rem; color: #2d2c2c; border: 1px solid var(--contrast-greenb); border-radius: 10px;">
+                <div style="margin: .8rem auto .25rem auto; padding: .2rem .4rem; border: 1px solid var(--contrast-black); border-radius: 5px; font-size: 1.1rem; font-weight: 600; color: white; background-color: var(--contrast-green)">Michael Baggett</div>
+                <div class="head-mobile-grid2">
+                  <div style="margin:.25rem"><a role="link" href="mailto:baggett.michael@gmail.com" class="headgrid-link" style="font-size: .8rem" aria-label="Link" id="EmailLink" alt="Email">Email</a></div>
+                  <div style="margin:.25rem"><a role="link" href="https://www.linkedin.com/in/baggettmichael/" class="headgrid-link" style="font-size: .8rem" aria-label="Link" id="LinkedInLink" alt="LinkedIn">LinkedIn</a></div>
+                  <div style="margin:.25rem;"><a role="link" href="#news" class="headgrid-link" style="font-size: .8rem" aria-label="Link" id="NewsPageLink" alt="Newspage">News</a></div>
+                </div>
+                  <p style="color: #2d2c2c; font-size: .9rem;">I am the Director of Information Technology and Assistant Dean at the <b>College of Visual Arts and Design</b> at the University of North Texas. In this role I am responsible for the all technology operations of the college.</p>
+                  <p style="font-size: .65rem; justify-content: none; text-align: left; text-justify: none; line-height: 2; margin-bottom: 0;">
+                  <span class="headgrid-button">Strategic Planning</span>
+                  <span class="headgrid-button">Project Management</span>
+                  <span class="headgrid-button">Information Security</span>
+                  <span class="headgrid-button">Compliance</span>
+                  <span class="headgrid-button">Web</span>
+                  <span class="headgrid-button">Networking</span>
+                  <span class="headgrid-button">Datacenter</span>
+                  <span class="headgrid-button">Servers</span>
+                  <span class="headgrid-button">Endpoint and User Support</span>
+                  <span class="headgrid-button">Helpdesk</span>
+                  <span class="headgrid-button">Audio-Visual</span>
+                  <span class="headgrid-button">Remote Computing</span>
+                  <span class="headgrid-button">Classrooms</span>
+                  <span class="headgrid-button">Specialized Computing</span>
+                  <span class="headgrid-button">Research Computing</span>
+                  </p>
+                </div>
 
-           <!-- Mobile Hidden column contains image and image context -->
+              <!-- Mobile Hidden column contains image and image context -->
             <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
             <div><a href="https://www.linkedin.com/in/baggettmichael/" alt="LinkedIn Profile: M Baggett"><img style="width: 100%; height: auto;" class="whitebg dropdown-img" src="assets/images/linkedin.webp" alt="Linked In /"></a></div>
             <p class="dropdown-image-context">
@@ -413,30 +435,21 @@ $(document).ready(function(){
 </script>
 <!-- END: NAVBAR -->
 <!-- BEGIN: PAGE -->
-</div> <!- close frame-top-inner -->
-</div> <!- close frame-top-outer -->
+</div> <!-- close frame-top-inner -->
+</div> <!-- close frame-top-outer -->
 <div class="frame-page-outer">
 <div class="frame-page-inner">
 <main id="main-content">
 <div class="main">
-<hr class="tophr">
-<div class="head-grid mobile-hide">
-  <div class="encapsulate fit">
-  <h1 style="margin: 0 0 .5rem 0; padding: 0; font-size: 1.5rem; font-weight: 600;">Michael Baggett</h1>
-  <div class="footer-bar">
-    <div class="footer-bar-item"><a role="link" href="mailto:baggett.michael@gmail.com" class="footer-link2" style="margin-left: 0;" aria-label="Link" id="EmailLink" alt="Email">Email</a>&nbsp;<b style="color: #181818; font-weight: 300;">|</b>&nbsp;</div>
-    <div class="footer-bar-item"><a role="link" style="margin-right: 0;" href="https://www.linkedin.com/in/baggettmichael/" class="footer-link2" aria-label="Link" id="LinkedInLink" alt="LinkedIn">LinkedIn</a>&nbsp;<b style="color: #181818; font-weight: 300;">&nbsp;|</b>&nbsp;</div>
-    <div class="footer-bar-item"><a role="link" href="" aria-label="Link" id="NewsPageLink" class="footer-link2" alt="Newspage">News</a></div>
-  </div>
+  <!--  
+ <div class="mobile-hide" style="margin-bottom: 1rem">
+     <p style="margin: 1rem 0 0 0; padding: 0; font-size: 1rem;">If you are here looking for information on a project we are working on: use the <b>Project Bulbs</b> link in the top right corner of the page to see the current projects and select the bulb for the project you are interested in. Each bulb links to a page with information on the project and links to resources and references.</p>
+ <div class="quick-links-body-container"><img class="quick-links-body" src="../assets/images/creative-idea-solution-icon.svg" alt="Project Bulbs" title="Project Bulbs"></div>  
 </div>
-
-  <div>  
-  <p style="margin: 1rem 0 0 0; padding: 0; font-size: 1rem;">If you are here looking for information on a project we are working on: use the <b>Project Bulbs</b> link in the top right corner of the page to see the current projects and select the bulb for the project you are interested in. Each bulb links to a page with information on the project and links to resources and references.</p>
-  <div class="quick-links-body-container"><img class="quick-links-body" src="../assets/images/creative-idea-solution-icon.svg" alt="Project Bulbs" title="Project Bulbs"></div>
-  </div>
-</div>
-
-<div class="mobile-show" style="margin-top: 1rem; margin-bottom: 2rem">
+-->
+ 
+ <div class="mobile-show" style="margin-top: 1rem; margin-bottom: 2rem">
+<!--
   <div class="encapsulate fit">
   <h1 style="margin: 0 auto .5rem auto; width: 100%; text-align: center; font-weight: 600;">Michael Baggett</h1>
   <div class="footer-bar">
@@ -445,7 +458,7 @@ $(document).ready(function(){
     <div class="footer-bar-item"><a role="link" href="" aria-label="Link" id="NewsPageLink" class="footer-link2" alt="Newspage">News</a></div>
   </div>
 </div>
-
+-->
   <div>  
   <p style="margin: 1rem 0 0 0; padding: 0;">If you are looking for information on a project we are working on: use the <b>Project Bulbs</b> links below and select the bulb for the project you are interested in. Each bulb links to a page with information on the project and links to resources and references.</p>
   <div class="head-mobile-grid">
@@ -463,11 +476,10 @@ $(document).ready(function(){
   </div>
 </div>
 
-<hr class="bothr">
-<h4>Latest News and Updates</h4>
+<h1 class="headgrid-button" id="news">Latest News and Updates</h1>
 <div id="blog"></div>
-<hr class="bothr">
-<h2 id="training">Training Review</h2>
+<hr style="margin-bottom: 1.5rem;">
+<h3 class="headgrid-button" id="training" style="margin-bottom:1rem;">Training and Certification</h3>
 <p>Over the years I have completed numerous training courses to maintain my skills and knowledge.  Unless an official certification test is included as part of the training, I rarely take the <em>official</em> certification test.  I find that when training is focused on passing a certification test, it is generally less useful to <em>learners</em>.  Bootcamps, in general, are particularly bad about this: I have taken many bootcamps where the instructors only focused on material that they knew would be asked on the certification test.  That is not very useful to me, as the whole purpose of the course becomes focused on gaming the testing process.  Training should have a point other than to get an "officially branded" certificate. </p>
 <p>Having said that: it is important to document your training.  I recommend using a training resource that provides a certificate upon completion. Your employer may require an official certification, hopefully they reimburse you for the cost of the certification test.  Otherwise, your time is better spent focusing on the material while you are in training.</p>
 <p>I am working on creating <b>Training Paths</b> for my staff and will post those below as they are completed. The training paths will choose the best possible course available.  For example, there are a lof of different training options for <em>Linux</em> and things like <em>Git</em>, <em>Node.js</em>, <em>Powershell</em> - the course I include on a subject will be the one that covers the material best. Below are the training courses I have completed over the past few years, broken down by OS. I also included <b>LinkedIn Learning</b> courses as for our purposes, they can be quite useful.</p> 
