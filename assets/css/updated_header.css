@@ -310,6 +310,20 @@ outline: 1px solid #C6E3B2;
   padding: .2rem .75rem .2rem .5rem; /* 12px 16px */
 }
 
+.dropdown-list-content-end {
+color: white;
+height: .4rem;
+display: block;
+background-color: var(--contrast-green)!important;
+font-weight: 600;
+text-align: left;
+border-bottom: 1px solid var(--contrast-dark);
+border-left: 1px solid var(--contrast-dark);
+border-right: 1px solid var(--contrast-dark);
+border-radius: 1px;
+}
+
+
 .dropdown-list-content a:hover {
   background-color: var(--bactivate);
   color: var(--fontdark);
