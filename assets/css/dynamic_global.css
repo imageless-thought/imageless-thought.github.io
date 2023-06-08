@@ -63,23 +63,19 @@ display: none;
 
 .head-grid {display: grid; grid-template-columns: 23% auto; gap: .01rem; padding: .5rem 0 1rem 0; height: auto; align-items: center;}
 .head-mobile-grid  {display: grid; grid-template-columns: auto auto auto auto; gap: 1rem; padding: 1rem 0 0 0; width: 100%; height: auto; align-items: center;}
-.head-mobile-grid2  {display: grid; grid-template-columns: auto auto auto; gap: .2rem; padding: .5rem 0 0 0; width: 100%; height: auto; align-items: center;}
+.head-mobile-grid2  {display: grid; grid-template-columns: auto auto auto; gap: .2rem; padding: .5rem 0 0 0; width: 100%; height: auto; align-items: center; margin: 0 auto;}
 
 a.headgrid-link:link {color: #181818; font-weight: 500; font-size: 1rem; background-color: transparent; border: 2px solid var(--contrast-green); text-decoration: none; padding: 2px 5px; margin: 5px; border-radius: 3px;}
 a.headgrid-link:visited {color: #181818; font-weight: 500; font-size: 1rem; background-color: transparent; border: 2px solid var(--contrast-green); text-decoration: none; padding: 2px 5px; margin: 5px; border-radius: 3px;}
 a.headgrid-link:hover {color: white !important; font-weight: 500; font-size: 1rem; background-color: #181818; border: 2px solid #006a31; text-decoration: none; padding: 2px 5px; margin: 5px; border-radius: 3px;}
 a.headgrid-link:active {color: white; font-weight: 500; font-size: 1rem; background-color: orange; border: 2px solid orange; text-decoration: none; padding: 2px 5px; margin: 5px; border-radius: 3px;} 
 
-.headgrid-button {padding: .1rem .2rem; margin: 1rem 0 2rem 0; border: 1px solid var(--contrast-black); border-radius: 5px; color: white; background-color:var(--contrast-green); font-size: 1.5rem;}
-.headgrid-button-small {padding: .1rem .2rem; margin: 0; border: 1px solid var(--contrast-black); border-radius: 5px; color: white; background-color:var(--contrast-green); font-size: .65rem;}
+.headgrid-button {padding: .1rem .2rem; margin: 1rem 0 2rem 0; border: 1px solid var(--contrast-black); border-radius: 5px; color: white; background-color:var(--contrast-green); font-size: 1.5rem; margin: 1rem 0;}
+.headgrid-button-small {padding: .1rem .2rem; margin: 0; border: 1px solid var(--contrast-black); border-radius: 5px; color: white; background-color:var(--contrast-green); font-size: .8rem;}
 
 .blogh {margin: .7rem 0 .5rem 0; padding: 0 2px; border-bottom: 0px solid var(--d2green); color: var(--contrast-green); background-color: transparent; width: fit-content; font-weight: bold;}
 
-/*
 @media screen and (max-width: 900px) {
-.page-navigation {
-  display: flex;
-  flex-direction: column;
+  .headgrid-button {margin: 0 auto;}
+  .headgrid-button-small {font-size: 1rem;}
 }
-}
-*/
