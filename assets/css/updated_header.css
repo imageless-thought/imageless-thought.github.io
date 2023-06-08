@@ -442,14 +442,16 @@ text-align: center;
   background-color: transparent;
   filter: invert(100%);
 
-
 }
+
+/*
 .quick-links-body:hover {
-  /*
+
     filter: invert(73%) sepia(21%) saturate(1146%) hue-rotate(52deg) brightness(95%) contrast(87%);
     transition: 0.2s;
-    cursor: pointer!important; */
+    cursor: pointer!important; 
 }
+*/
 
 .quick-links-body:active {
   /* filter: invert(73%) sepia(21%) saturate(1146%) hue-rotate(52deg) brightness(95%) contrast(87%);
