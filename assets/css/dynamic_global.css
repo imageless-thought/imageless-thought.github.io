@@ -76,6 +76,6 @@ a.headgrid-link:active {color: white; font-weight: 500; font-size: 1rem; backgro
 .blogh {margin: .7rem 0 .5rem 0; padding: 0 2px; border-bottom: 0px solid var(--d2green); color: var(--contrast-green); background-color: transparent; width: fit-content; font-weight: bold;}
 
 @media screen and (max-width: 900px) {
-  .headgrid-button {margin: 0 auto;}
+  .headgrid-button {margin: 0 auto 1rem auto;}
   .headgrid-button-small {font-size: 1rem;}
 }
