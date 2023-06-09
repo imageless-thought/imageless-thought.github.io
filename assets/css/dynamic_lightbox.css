@@ -57,14 +57,13 @@
 /* The Close Button */
 .close {
   color: red;
-  background-color: white;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 700;
-  border: 1px solid white;
-  border-radius: .5rem;
+  padding: 0;
+  margin: 0;
   position: absolute;
-  top: 90px;
-  right: 245px;
+  top: 67px;
+  right: 330px;
 }
 
 .close:hover,
