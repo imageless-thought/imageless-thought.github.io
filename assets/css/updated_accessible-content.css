@@ -9,7 +9,8 @@
 * {box-sizing: border-box;}
 
 html {
-  background-color: white;
+  background-color: #2d2c2c;
+  color: white;
 /*  font-family: 'Montserrat', sans-serif; */
 /*  font-family: 'Open Sans', sans-serif; */ 
 /*  font-family: 'Kanit', sans-serif; */
@@ -45,7 +46,7 @@ html {
   --factivate: red; 
 }
 
-body {max-width: 100vw; margin: 0; padding: 0; background-color: white; color: #181818; line-height: 1.5;}
+body {max-width: 100vw; margin: 0; padding: 0; line-height: 1.5;}
 
 h1 {margin: 1.5rem 0 .8rem 0; width: fit-content; cursor: text;}
 h2, h3, h3, h4, h5, h6 {margin: .5rem 0 .5rem 0; width: fit-content; cursor: text; color: --contrast-black;}
@@ -53,7 +54,7 @@ p {margin: .35rem 0; width: fit-content; text-align: justify; text-justify: inte
 /* p:last-child {margin: .35rem 0 1rem 0; width: fit-content; text-align: justify; text-justify: inter-word; word-wrap: break-word; cursor: text;} */
 
 
-hr {margin: 1rem auto; height: 1px; background-color: var(--contrast-green); border: .15rem solid var(--bhover); border-radius: .5rem; width: 100%;}
+hr {margin: 1rem auto; height: 1px; background-color: white; border: .15rem solid #2d2c2c; outline: 0 solid var(--bhover); border-radius: .5rem; width: 100%;}
 .hr-blog {margin: 1rem auto; height: 1px; background-color: var(--bhover); border: .15rem solid var(--contrast-black); border-radius: .5rem; width: 80%; text-align: center;}
 .tophr {margin: 0 auto 0rem auto; height: 1px; background-color: var(--contrast-green); border: .15rem solid var(--bhover); border-radius: .5rem; width: 100%;}
 .bothr {margin: 0 auto 1rem auto; height: 1px; background-color: var(--contrast-green); border: .15rem solid var(--bhover); border-radius: .5rem; width: 100%;}

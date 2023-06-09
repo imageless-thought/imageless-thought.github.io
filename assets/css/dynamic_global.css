@@ -70,10 +70,17 @@ a.headgrid-link:visited {color: #181818; font-weight: 500; font-size: 1rem; back
 a.headgrid-link:hover {color: white !important; font-weight: 500; font-size: 1rem; background-color: #181818; border: 2px solid #006a31; text-decoration: none; padding: 2px 5px; margin: 5px; border-radius: 3px;}
 a.headgrid-link:active {color: white; font-weight: 500; font-size: 1rem; background-color: orange; border: 2px solid orange; text-decoration: none; padding: 2px 5px; margin: 5px; border-radius: 3px;} 
 
-.headgrid-button {padding: .1rem .2rem; margin: 1rem 0 2rem 0; border: 1px solid var(--contrast-black); border-radius: 5px; color: white; background-color:var(--contrast-green); font-size: 1.5rem; margin: 1rem 0;}
+.headgrid-button {padding: .1rem .4rem; margin: 1rem 0 2rem 0; border: 1px solid var(--contrast-black); border-radius: 5px; color: white; background-color:var(--contrast-green); font-size: 1.5rem; margin: 1rem 0;}
 .headgrid-button-small {padding: .1rem .2rem; margin: 0; border: 1px solid var(--contrast-black); border-radius: 5px; color: white; background-color:var(--contrast-green); font-size: .8rem;}
 
-.blogh {margin: .7rem 0 .5rem 0; padding: 0 2px; border-bottom: 0px solid var(--d2green); color: var(--contrast-green); background-color: transparent; width: fit-content; font-weight: bold;}
+.blog-container {border: 1px solid var(--bhover); border-radius: 5px; padding: .5rem 1rem 1rem 1rem; background-color: #2d2c2c; color: white;}
+.blog-heading-container {border: 0px solid var(--bhover); border-radius: 5px; margin: 0 0 1rem 0;}
+.blog-heading {font-weight: 800; font-size: 2rem; margin: 0;}
+.blog-content {font-style: italic; margin: 0;}
+.blogh {margin: 2rem 0 1rem 0; padding: 0 1rem; color: black; background-color: var(--hlink); width: fit-content; font-weight: 600; font-size: 1.25rem; border: 1px solid #2d2c2c; outline: 1px solid white; border-radius: 5px;}
+.blog-post-info {border: 1px solid transparent; border-radius: 5px; padding: 1px 4px; font-size: .9rem; font-weight: 600; text-align: left; margin-top: 1rem;}
+.bloglink {margin-bottom: 0; margin-left: 1rem; font-family: 'Roboto Flex', sans-serif; line-height: 1.2;}
+.bloglink:last-child {margin-bottom: 2rem;}
 
 @media screen and (max-width: 900px) {
   .headgrid-button {margin: 0 auto 1rem auto;}
