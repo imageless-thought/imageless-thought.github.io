@@ -118,6 +118,7 @@ p a::after, li a::after,  h2 a::after, h3 a::after, .flex-item-service a::after 
 p a, li a, h2 a, h3 a, .flex-item-service a, .flex-item-service a {
 
 padding: 0 4px 0 2px;
+font-weight: 800;
 border: 1px solid var(--contrast-green);
 border-radius: 5px;
 }
