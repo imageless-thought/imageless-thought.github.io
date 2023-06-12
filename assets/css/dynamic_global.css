@@ -77,9 +77,9 @@ a.headgrid-link:active {color: white; font-weight: 500; font-size: 1rem; backgro
 .blog-heading-container {border: 0px solid var(--bhover); border-radius: 5px; margin: 0 0 1rem 0;}
 .blog-heading {font-weight: 800; font-size: 2rem; margin: 0;}
 .blog-content {font-style: italic; margin: 0;}
-.blogh {margin: 2rem 0 1rem 0; padding: 0 1rem; color: black; background-color: var(--hlink); width: fit-content; font-weight: 600; font-size: 1.25rem; border: 1px solid #2d2c2c; outline: 1px solid white; border-radius: 5px;}
+.blogh {margin: .5rem 0 .75rem 1rem; width: 3rem; height: 3rem; padding: .5rem; border: 2px solid white; border-radius: 10px;}
 .blog-post-info {border: 1px solid transparent; border-radius: 5px; padding: 1px 4px; font-size: .9rem; font-weight: 600; text-align: left; margin-top: 1rem;}
-.bloglink {margin-bottom: 0; margin-left: 1rem; font-family: 'Roboto Flex', sans-serif; line-height: 1.2;}
+.bloglink {margin-bottom: 0; margin-left: 1rem; margin-top: 0; font-family: 'Roboto Flex', sans-serif; line-height: 1.4;}
 .bloglink:last-child {margin-bottom: 2rem;}
 
 @media screen and (max-width: 900px) {
