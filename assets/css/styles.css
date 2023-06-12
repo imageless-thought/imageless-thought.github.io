@@ -37,6 +37,7 @@ html {
 }
 
 p {margin-bottom: .5rem; font-family: 'Roboto Flex', sans-serif; line-height: 1.7;}
+p:last-child {margin-bottom: 1rem;}
 
 .blog-section {width: 88%; margin: 1rem auto;}
 
@@ -45,7 +46,7 @@ p {margin-bottom: .5rem; font-family: 'Roboto Flex', sans-serif; line-height: 1.
 .head-mobile-grid2  {display: grid; grid-template-columns: auto auto auto; gap: .2rem; padding: .5rem 0 0 0; width: 100%; height: auto; align-items: center; margin: 0 auto;}
 
 a.blogurl {padding: 1px 4px 2px 4px; font-weight: 800; margin-left: 1rem; border: 1px solid var(--contrast-green); border-radius: 5px; text-decoration: none;}
-a.blogurl:link, a:visited {color: var(--contrast-black); background: var(--hlink);}
+a.blogurl:link, a.blogurl:visited {color: var(--contrast-black); background: var(--hlink);}
 a.blogurl:hover {color: white; background-color: var(--contrast-blue);}
 a.blogurl:active {color: orange; background-color: #A32314;}
 
@@ -63,8 +64,10 @@ a.headgrid-link:active {color: white; font-weight: 500; font-size: 1rem; backgro
 .blog-heading-container {border: 0px solid var(--bhover); border-radius: 5px; margin: 0 0 0 0;}
 .blog-heading {font-weight: 800; font-size: 2rem; margin: 0;}
 .blog-content {font-style: italic; margin: 0;}
-.blog-anchors {display: grid; grid-template-columns: 4rem 300px; gap: 0 1rem; padding: 0; height: auto; align-items: center;}
-.blogh {margin: .5rem 0 .75rem 1rem; width: 3rem; height: 3rem; padding: .5rem; border: 2px solid white; border-radius: 10px; cursor: pointer!important;}
+.blog-anchors {display: grid; grid-template-columns: 4rem 300px; gap: 0 1rem; padding: 1rem 0 0 0; height: auto; align-items: center;}
+
+.blogrl {margin: .5rem 0 .75rem 1rem; width: 3rem; height: auto; padding: .5rem; border: 2px solid white; border-radius: 10px; cursor: pointer!important;}
+.blogdl {margin: .5rem 0 .75rem 1rem; width: 3rem; height: auto; padding: .5rem; border: 2px solid white; border-radius: 10px; cursor: pointer!important;}
 .blogt {padding:0; margin: 0 0 1rem 0; color: white; font-weight: 600;}
 .blogdeactive:active {transform:none; -ms-transform:none; -moz-transform:none; -webkit-transform:none; -transform:none;}  
 .blog-post-info {border: 1px solid transparent; border-radius: 5px; padding: 1px 4px; font-size: .9rem; font-weight: 600; text-align: left; margin-top: 1rem;}

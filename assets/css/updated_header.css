@@ -414,7 +414,7 @@ border-radius: 1px;
   width: 2rem;
   align-self: center;
   position: absolute; /* absolute */
-  right: 125px;  /* 14vw 7vw 15.19rem */
+  right: 113px;  /* 14vw 7vw 15.19rem */
   top: 20px; /* 5rem */
   cursor: pointer;
 }
@@ -471,12 +471,11 @@ text-align: center;
   align-self: center;
   padding: 1.60rem!important;
   cursor: pointer;
-
   border: 2px solid white;
   border-radius: 5px;
   position: absolute; /* absolute */
-  right: 113px;  /* 14vw 7vw 15.19rem */
-  top: 21px; /* 5rem */
+  right: 110px;  /* 14vw 7vw 15.19rem */
+  top: 22px; /* 5rem */
 }
 
 .quick-links-scrolled:active {
@@ -487,8 +486,8 @@ text-align: center;
   display: block;
   margin: 0;
   position: absolute; /* absolute */
-  right: 180px;  /* 14vw 7vw 15.19rem */
-  top: 5px; /* 5rem */
+  right: 172px;  /* 14vw 7vw 15.19rem */
+  top: 4.5px; /* 5rem */
 }
 
 .quick-links-image {
