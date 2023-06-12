@@ -1,5 +1,5 @@
-https://imageless-thought.github.io/
-https://imageless-thought.github.io/tutorials.html
-https://imageless-thought.github.io/about.html
-https://imageless-thought.github.io/staff.html
-https://imageless-thought.github.io/blog.html
+<li>https://imageless-thought.github.io/</li>
+<li>https://imageless-thought.github.io/tutorials.html</li>
+<li>https://imageless-thought.github.io/about.html</li>
+<li>https://imageless-thought.github.io/staff.html</li>
+<li>https://imageless-thought.github.io/blog.html</li>
