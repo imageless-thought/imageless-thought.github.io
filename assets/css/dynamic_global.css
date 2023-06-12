@@ -60,29 +60,3 @@ a.section-button:active {color: red; background-color: orange; }
 a.section-button::after, a.section-button::before {
 display: none;
 }
-
-.head-grid {display: grid; grid-template-columns: 23% auto; gap: .01rem; padding: .5rem 0 1rem 0; height: auto; align-items: center;}
-.head-mobile-grid  {display: grid; grid-template-columns: auto auto auto auto; gap: 1rem; padding: 1rem 0 0 0; width: 100%; height: auto; align-items: center;}
-.head-mobile-grid2  {display: grid; grid-template-columns: auto auto auto; gap: .2rem; padding: .5rem 0 0 0; width: 100%; height: auto; align-items: center; margin: 0 auto;}
-
-a.headgrid-link:link {color: #181818; font-weight: 500; font-size: 1rem; background-color: transparent; border: 2px solid var(--contrast-green); text-decoration: none; padding: 2px 5px; margin: 5px; border-radius: 3px;}
-a.headgrid-link:visited {color: #181818; font-weight: 500; font-size: 1rem; background-color: transparent; border: 2px solid var(--contrast-green); text-decoration: none; padding: 2px 5px; margin: 5px; border-radius: 3px;}
-a.headgrid-link:hover {color: white !important; font-weight: 500; font-size: 1rem; background-color: #181818; border: 2px solid #006a31; text-decoration: none; padding: 2px 5px; margin: 5px; border-radius: 3px;}
-a.headgrid-link:active {color: white; font-weight: 500; font-size: 1rem; background-color: orange; border: 2px solid orange; text-decoration: none; padding: 2px 5px; margin: 5px; border-radius: 3px;} 
-
-.headgrid-button {padding: .1rem .4rem; margin: 1rem 0 2rem 0; border: 1px solid var(--contrast-black); border-radius: 5px; color: white; background-color:var(--contrast-green); font-size: 1.5rem; margin: 1rem 0;}
-.headgrid-button-small {padding: .1rem .2rem; margin: 0; border: 1px solid var(--contrast-black); border-radius: 5px; color: white; background-color:var(--contrast-green); font-size: .8rem;}
-
-.blog-container {border: 1px solid var(--bhover); border-radius: 5px; padding: .5rem 1rem 1rem 1rem; background-color: #2d2c2c; color: white;}
-.blog-heading-container {border: 0px solid var(--bhover); border-radius: 5px; margin: 0 0 1rem 0;}
-.blog-heading {font-weight: 800; font-size: 2rem; margin: 0;}
-.blog-content {font-style: italic; margin: 0;}
-.blogh {margin: .5rem 0 .75rem 1rem; width: 3rem; height: 3rem; padding: .5rem; border: 2px solid white; border-radius: 10px;}
-.blog-post-info {border: 1px solid transparent; border-radius: 5px; padding: 1px 4px; font-size: .9rem; font-weight: 600; text-align: left; margin-top: 1rem;}
-.bloglink {margin-bottom: 0; margin-left: 1rem; margin-top: 0; font-family: 'Roboto Flex', sans-serif; line-height: 1.4;}
-.bloglink:last-child {margin-bottom: 2rem;}
-
-@media screen and (max-width: 900px) {
-  .headgrid-button {margin: 0 auto 1rem auto;}
-  .headgrid-button-small {font-size: 1rem;}
-}
