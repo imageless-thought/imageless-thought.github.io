@@ -67,8 +67,8 @@
   padding: 0;
   margin: 0;
   position: absolute;
-  top: 30px;
-  right: 330px;
+  top: 60px;
+  right: 350px;
 }
 
 .close:hover,
@@ -101,6 +101,7 @@
 
 .mySlides p {
   color: white;
+  font-weight: 400;
 }
 
 .cursor {
@@ -148,6 +149,11 @@
   top: 0;
   border: 1px solid white;
   border-radius: .5rem;
+}
+
+.numbertext p {
+color: white;
+font-weight: 400;
 }
 
 img {

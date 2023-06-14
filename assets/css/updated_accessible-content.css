@@ -11,10 +11,13 @@
 html {
   background-color: #2d2c2c;
   color: white;
+
 /*  font-family: 'Montserrat', sans-serif; */
 /*  font-family: 'Open Sans', sans-serif; */ 
 /*  font-family: 'Kanit', sans-serif; */
-  font-family: 'Raleway', sans-serif; 
+/*  font-family: 'Roboto Mono', monospace; */
+
+font-family: 'Raleway', sans-serif; 
   text-align: left; 
   -webkit-font-smoothing: auto; 
   -moz-osx-font-smoothing: auto;
@@ -91,6 +94,48 @@ p::selection, p b::selection {
   background: var(--contrast-green);
   
 }
+
+.norm {
+  color: var(--contrast-dark);
+  background-color: var(--bhover);  
+  text-decoration: none;
+  padding: 1px 4px 1px 2px;
+  margin: 0; 
+  border: 1px solid var(--contrast-green);
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+a.norm {
+  color: var(--contrast-black);
+  background: var(--hlink);
+  text-decoration: none;
+  padding: 1px 4px 1px 2px;
+  margin: 0; 
+  border: 1px solid var(--contrast-green);
+  border-radius: 5px;
+}
+
+a.dated {
+  color: var(--contrast-white);
+  background-color: var(--contrast-green);  
+  text-decoration: none;
+  padding: 1px 4px 1px 2px;
+  margin: 0; 
+  border: 1px solid var(--contrast-green);
+  border-radius: 5px;
+}
+
+a.norm:hover, a.dated:hover {
+  color: var(--contrast-white);
+  background-color: var(--contrast-blue);  
+}
+
+a.norm:active a.dated:active {
+  color: orange;
+  background-color: red; 
+}
+
 
 p a, li a, h2 a, h3 a { 
   color: #181818; 
@@ -354,6 +399,18 @@ p a:hover::selection, .flex-item-service a:hover::selection {
   gap: 40px 100px;
 }
 
+.flex-container-2 {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 2rem auto 1rem auto;
+  width: 100%;
+  gap: .5rem 1rem;
+  text-align: center;
+}
+
 .flex-container-mingap {
   padding-top: 0px;
   display: flex;
@@ -386,6 +443,18 @@ p a:hover::selection, .flex-item-service a:hover::selection {
 .flex-item {
   width: calc(25% - 15px);
   height: auto;
+}
+
+.flex-item-50 {
+  width: 40%;
+  margin: 0;
+  height: auto;
+  text-align: left;
+}
+
+.flex-item-50 span {
+  margin-right: 1rem;
+  font-weight: 600;
 }
 
 .flex-item-service {
