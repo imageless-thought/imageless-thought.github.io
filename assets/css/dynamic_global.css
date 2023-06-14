@@ -60,3 +60,11 @@ a.section-button:active {color: red; background-color: orange; }
 a.section-button::after, a.section-button::before {
 display: none;
 }
+
+@media screen and (max-width: 900px) {
+.page-navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+}
