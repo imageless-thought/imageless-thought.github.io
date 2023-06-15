@@ -1,3 +1,5 @@
-document.getElementById("web_url").href = "https://imageless-thought.github.io/";
-document.getElementById("web_url").alt = "Back to Honmepage";
-document.getElementById("web_url").innerHTML = "imageless-thought.github.io";
+
+const links = document.querySelectorAll("a.web_url");
+links.forEach(link => link.href = "https://imageless-thought.github.io/");
+links.forEach(link => link.alt = "Back to Homepage");
+links.forEach(link => link.innerHTML = "imageless-thought.github.io");
