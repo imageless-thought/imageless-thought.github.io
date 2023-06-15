@@ -132,7 +132,8 @@ $(document).ready(function(){
 
          <!-- Visible column contains text-->
               <div class="dropdown-column" style="margin-top: .5rem;">
-                <div class="whitebg" style="color: #2d2c2c; border: 1px solid var(--contrast-greenb); border-radius: 10px; padding: .25rem .75rem .5rem .75rem;">
+                <div class="dropdown-img-container">
+                <div class="whitebg" style="color: #2d2c2c; border: 1px solid var(--contrast-greenb); border-radius: 10px; padding: .25rem .75rem .75rem .75rem;">
                 <div class="mobile-hide" style="margin: .8rem auto .25rem auto; padding: .2rem .4rem; border: 1px solid var(--contrast-black); border-radius: 5px; font-size: 1.1rem; font-weight: 600; color: white; background-color: var(--contrast-green); width: fit-content;">Michael Baggett</div>
                 <div class="mobile-show" style="margin: .8rem auto .25rem auto; padding: .2rem .4rem; border: 1px solid var(--contrast-black); border-radius: 5px; font-size: 2rem; font-weight: 600; color: white; background-color: var(--contrast-green); width: fit-content;">Michael Baggett</div>
                 <div class="head-mobile-grid2">
@@ -158,12 +159,13 @@ $(document).ready(function(){
                   <span class="headgrid-button-small">Specialized Computing</span>
                   <span class="headgrid-button-small">Research Computing</span>
                   </p>
+                </div>  
                 </div>
                 </div>
 
               <!-- Mobile Hidden column contains image and image context -->
             <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <div><a href="https://www.linkedin.com/in/baggettmichael/" alt="LinkedIn Profile: M Baggett"><img style="width: 100%; height: auto;" class="whitebg dropdown-img" src="assets/images/linkedin.webp" alt="Linked In /"></a></div>
+            <div class="dropdown-img-container"><a href="https://www.linkedin.com/in/baggettmichael/" alt="LinkedIn Profile: M Baggett"><img class="dropdown-img" src="assets/images/linkedin.webp" alt="Linked In /"></a></div>
             <p class="dropdown-image-context">
             This links to my LinkedIn profile. This is probably the best way to reach me. My profile lists some of the initiatives and projects I have worked on for the <b>College of Visual Arts and Design</b> at the University of North Texas. 
             </p>
@@ -171,7 +173,7 @@ $(document).ready(function(){
 
           <!-- Mobile Hidden column contains image and image context -->
           <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <div><a href="https://cvad.unt.edu" alt="CVAD"><img style="width: 100%; height: auto;" class="dropdown-img" src="assets/images/cvad.png" alt="CVAD /"></a></div>
+            <div class="dropdown-img-container"><a href="https://cvad.unt.edu" alt="CVAD"><img class="dropdown-img" src="assets/images/cvad.png" alt="CVAD /"></a></div>
             <p class="dropdown-image-context">
               As educators, designers, makers, researchers and scholars, from distinguished research professors to entering undergrads, we are a community of the creative and the curious. 
             </p>
@@ -179,7 +181,7 @@ $(document).ready(function(){
 
           <!-- Mobile Hidden column contains image and image context -->
            <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">   
-            <div><a href="https://www.jamf.com" alt="JAMF"><img style="width: 100%; height: auto;" class="whitebg dropdown-img" src="assets/images/jamf.jpg" alt="JAMF /"></a></div>
+            <div class="dropdown-img-container"><a href="https://www.jamf.com" alt="JAMF"><img class="dropdown-img" src="assets/images/jamf.jpg" alt="JAMF /"></a></div>
              <p class="dropdown-image-context">
              <b>Jamf</b> provides a complete enterprise management and security solution for Apple devices. Both on-premise and cloud solutions are available. Easy to manage and enterprise-secure.
              </p>
@@ -187,7 +189,7 @@ $(document).ready(function(){
 
           <!-- Mobile Hidden column contains image and image context -->
            <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <div><a href="https://guacamole.apache.org" alt="Apache Guacamole"><img style="width: 100%; height: auto;" class="whitebg dropdown-img" src="assets/images/guacamole.png" alt="Guacamole /"></a></div>
+            <div class="dropdown-img-container"><a href="https://guacamole.apache.org" alt="Apache Guacamole"><img class="dropdown-img" src="assets/images/guacamole.png" alt="Guacamole /"></a></div>
             <p class="dropdown-image-context">
               Apache Guacamole is a clientless remote desktop gateway. No client software is required: all that is needed to access remote computers is a modern, HTML5 web browser. We use Guacamole to provide access to our Online Mac Computer Lab.
             </p>
@@ -195,7 +197,7 @@ $(document).ready(function(){
 
           <!-- Mobile Hidden column contains image and image context -->
           <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <div><a href="https://sites.google.com/view/imagelessthought" alt="Google Site"><img style="width: auto; height: auto; padding: 1.2rem 2.5rem;" class="whitebg dropdown-img" src="assets/images/google-sites.svg" alt="Google Sites /"></a></div>
+            <div class="dropdown-img-container"><a href="https://sites.google.com/view/imagelessthought" alt="Google Site"><img class="dropdown-img" src="assets/images/google-sites.png" alt="Google Sites /"></a></div>
             <p class="dropdown-image-context">
              I am working on a set of technology tutorials aimed at students who are not computer science majors. It is tentatively planned that it will live on <b>Google Sites</b>.
             </p>
@@ -211,7 +213,7 @@ $(document).ready(function(){
 
     <!-- Mobile Hidden column contains image and image context -->
     <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-      <div><a href="https://portal.azure.com/" alt="Microsoft Azure"><img style="width: 100%; height: auto;" class="whitebg dropdown-img" src="assets/images/azure.svg" alt="Azure /"></a></div>
+      <div class="dropdown-img-container"><a href="https://portal.azure.com/" alt="Microsoft Azure"><img class="dropdown-img" src="assets/images/azure.svg" alt="Azure /"></a></div>
       <p class="dropdown-image-context">
       <b>Microsoft Azure</b> is a cloud computing platform which offers access, management, and development of applications and services through global data centers. 
     </p>
@@ -219,7 +221,7 @@ $(document).ready(function(){
     
    <!-- Mobile Hidden column contains image and image context -->
     <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-    <a href="https://github.com/imageless-thought" alt="Github: M Baggett"><img class="dropdown-img" style="background-color: white; width: 100%;" src="assets/images/github-logo.png" alt="GitHub Logo /"></a>
+      <div class="dropdown-img-container"><a href="https://github.com/imageless-thought" alt="Github: M Baggett"><img class="dropdown-img" src="assets/images/github-logo.png" alt="GitHub Logo /"></a></div>
     <p class="dropdown-image-context">
     <b>Github</b> is my current preferred choice for git repositories. It is simple to use, has straightforward tutorials, and has high availability. This is also where I host my website (this page).
     </p>
@@ -227,7 +229,7 @@ $(document).ready(function(){
 
    <!-- Mobile Hidden column contains image and image context -->
     <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-    <a href="https://login.ubuntu.com" alt="Ubuntu One Login"><img style="width: 100%; height: auto;" class="whitebg dropdown-img" src="assets/images/ubuntu.svg" alt="Ubuntu/"></a>
+      <div class="dropdown-img-container"><a href="https://login.ubuntu.com" alt="Ubuntu One Login"><img class="dropdown-img" src="assets/images/ubuntu.png" alt="Ubuntu/"></a></div>
     <p class="dropdown-image-context">
     <b>Ubuntu</b> is my preferred Linux distribution for a desktop OS.  It is well maintained and the documentation and tutorials are plentiful.  Pro subscriptions are available for free for personal use.  
     </p>
@@ -235,7 +237,7 @@ $(document).ready(function(){
 
    <!-- Mobile Hidden column contains image and image context -->
     <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-    <a href="https://access.redhat.com" alt="RedHat Login"><img class="dropdown-img" style="background-color: white; width: 100%;" src="assets/images/redhat.png" alt="RedHat /"></a>
+      <div class="dropdown-img-container"><a href="https://access.redhat.com" alt="RedHat Login"><img class="dropdown-img" src="assets/images/redhat.png" alt="RedHat /"></a></div>
     <p class="dropdown-image-context">
     <b>Red Hat Enterprise Linux</b> is my preferred choice as a server OS. They are the maintainers of <b>Ansible</b>, an open-source solution that I have used for endpoint configuration of Linux devices and servers.
     </p>
@@ -243,7 +245,7 @@ $(document).ready(function(){
 
    <!-- Mobile Hidden column contains image and image context -->
    <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-    <a href="https://www.raspberrypi.com" alt="Raspberry Pi"><img class="dropdown-img" style="background-color: white; width: 12.6rem; padding: 1.65rem 2.5rem;" src="assets/images/raspberrypi.svg" alt="Raspberry Pi /"></a>
+    <div class="dropdown-img-container"><a href="https://www.raspberrypi.com" alt="Raspberry Pi"><img class="dropdown-img" src="assets/images/raspberrypi.png" alt="Raspberry Pi /"></a></div>
     <p class="dropdown-image-context">
     <b>Raspberry Pi</b> has the features you expect from a computer: wireless internet connectivity, HDMI ports for your monitors, and USB ports for your accessories, along with ample processing power and RAM. 
     </p>
@@ -251,7 +253,7 @@ $(document).ready(function(){
 
     <!-- Mobile Hidden column contains image and image context -->
     <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-      <div><a href="https://learn.microsoft.com/en-us/windows/wsl/about" alt="WSL"><img style="width: 100%; height: auto;" class="whitebg dropdown-img" src="assets/images/wsl2.png" alt="Linked In /"></a></div>
+      <div class="dropdown-img-container"><a href="https://learn.microsoft.com/en-us/windows/wsl/about" alt="WSL"><img class="dropdown-img" src="assets/images/wsl2.png" alt="Linked In /"></a></div>
       <p class="dropdown-image-context">
         The Windows Subsystem for Linux lets developers run a GNU/Linux environment -- including most command-line tools, utilities, and applications without the overhead of a traditional virtual machine.
       </p>
@@ -278,7 +280,7 @@ $(document).ready(function(){
 
            <!-- Mobile Hidden column contains image and image context -->
             <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <div style="background: #181818;"><a href="https://learn.microsoft.com/en-us/training" alt="Microsoft Training"><img class="dropdown-img" style="width: 100%;" src="assets/images/microsoft.svg" alt="Microsoft /"></a></div>
+              <div class="dropdown-img-container"><a href="https://learn.microsoft.com/en-us/training" alt="Microsoft Training"><img class="dropdown-img" style="width: 100%;" src="assets/images/microsoft.svg" alt="Microsoft /"></a></div>
             <p class="dropdown-image-context">
             <b>Microsoft</b> offers their self-paced technical training, including learning labs, for free online to everyone. Certification tests and instructor-led training are available but are not free.
             </p>
@@ -286,7 +288,7 @@ $(document).ready(function(){
  
            <!-- Mobile Hidden column contains image and image context -->
             <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <div><a href="https://training.apple.com/it"><img class="dropdown-img" src="assets/images/apple.svg" style="width: 100%;" alt="Apple IT Training /"></a></div>
+              <div class="dropdown-img-container"><a href="https://training.apple.com/it"><img class="dropdown-img" src="assets/images/apple.svg" style="width: 100%;" alt="Apple IT Training /"></a></div>
             <p class="dropdown-image-context">
             <b>Apple</b> offers their technical training for free online to everyone.  Certification tests are available but are not free.  There are considerably fewer training offerings, when compared to Microsoft. 
             </p>
@@ -294,7 +296,7 @@ $(document).ready(function(){
 
            <!-- Mobile Hidden column contains image and image context -->
            <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <div><a href="https://www.lpi.org"><img class="dropdown-img" src="assets/images/lpi-logo.png" style="width: 100%;" alt="Linux Training /"></a></div>
+            <div class="dropdown-img-container"><a href="https://www.lpi.org"><img class="dropdown-img" src="assets/images/lpi-logo.png" style="width: 100%;" alt="Linux Training /"></a></div>
             <p class="dropdown-image-context">
             <b>Linux Professional Institute</b> is the largest vendor-neutral Linux and open source certification body. Some classes are free to everyone and others require a fee. Certification tests are available for a fee.
             </p>
@@ -302,7 +304,7 @@ $(document).ready(function(){
 
            <!-- Mobile Hidden column contains image and image context -->
             <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-             <div style="background: #181818;"><a href="https://www.stormwindstudios.com" alt="Stormwind Studios"><img class="dropdown-img" style="width: 100%;" src="assets/images/stormwind.png" alt="Stormwind /"></a></div>
+              <div class="dropdown-img-container"><a href="https://www.stormwindstudios.com" alt="Stormwind Studios"><img class="dropdown-img" style="width: 100%;" src="assets/images/stormwind.png" alt="Stormwind /"></a></div>
              <p class="dropdown-image-context">
               <b>Stormwind Studios</b> is a training resource I use to maintain my skill set and knowledge base.  They provide live and on-demand <em>bootcamp</em> courses from wide-range of vendors.</p>  
             </p>
@@ -311,14 +313,14 @@ $(document).ready(function(){
    
            <!-- Mobile Hidden column contains image and image context -->
               <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-              <div><a href="https://www.itpro.tv/"><img class="dropdown-img" src="assets/images/acilearning.png" style="width: 100%;" alt="ACILearning /"></a></div>
+                <div class="dropdown-img-container"><a href="https://www.itpro.tv/"><img class="dropdown-img" src="assets/images/acilearning.png" style="width: 100%;" alt="ACILearning /"></a></div>
               <p class="dropdown-image-context">
                 <b>ACI Learning</b> is another training resource I use. ACI Learning courses are broken down into half-hour, self-contained chunks. Much more engaging than other training options.</p>
               </div>
 
            <!-- Mobile Hidden column contains image and image context -->
               <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-              <div class="blackbg"><div><a href="#training"><img class="dropdown-img" src="assets/images/professional-skills-icon.png" style="width: 100%;" alt="My Training /"></a></div></div>
+                <div class="dropdown-img-container"><a href="#training"><img class="dropdown-img" src="assets/images/professional-skills-icon.png" alt="My Training /"></a></div>
               <p class="dropdown-image-context">
                 For a list of the training that I have completed, and for information on <b>Training Paths</b> being developed for my full-time staff and our student employees, you can click on the image above.</p>
               </div>
