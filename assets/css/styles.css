@@ -73,15 +73,18 @@ a.rurl:hover {color: white; background-color: var(--contrast-blue);}
 a.rurl:active {color: orange; background-color: #A32314;}
 a.rurl:last-child {margin-bottom: 1rem;}
 
-.rdirl {padding: 1px 4px 2px 4px; font-weight: 800; margin: 0 0 0 .1rem; line-height: .3; border: 1px solid var(--contrast-green); border-radius: 5px; text-decoration: none; color: white; background-color: var(--contrast-green);}
-.bdate {padding: 1px 4px 2px 4px; font-weight: 800; margin: 0 0 0 .1rem; line-height: .3; border: 1px solid var(--contrast-green); border-radius: 5px; text-decoration: none; color: white; background-color: var(--contrast-green);}
-.pdate {padding: 1px 4px 2px 4px; font-weight: 800; margin: 0 0 0 0; line-height: .8; border: 1px solid var(--contrast-green); border-radius: 5px; text-decoration: none; color: white; background: var(--contrast-green);}
+.rdirl {padding: 3px 8px 4px 8px; font-weight: 600; margin: 0 0 0 .1rem; line-height: .3; border: 1px solid var(--contrast-greenb); border-radius: 5px; text-decoration: none; color: #FBFCFC; font-family: 'Open Sans', sans-serif; background-color: var(--contrast-green);}
+.bdate {padding: 1px 4px 2px 4px; font-weight: 600; margin: 0 0 0 .1rem; line-height: .3; border: 1px solid var(--contrast-green); border-radius: 5px; text-decoration: none; color: white; background-color: var(--contrast-green);}
+.pdate {padding: 1px 4px 2px 4px; font-weight: 600; margin: 0 0 0 0; line-height: .8; border: 1px solid var(--contrast-green); border-radius: 5px; text-decoration: none; color: black; background: var(--contrast-greenb);}
 a.rmail {padding: 1px 4px 2px 4px; font-weight: 800; margin: 0 0 0 .4rem; line-height: .3; border: 1px solid var(--contrast-green); border-radius: 5px; text-decoration: none;}
 a.rmail:link {color: var(--contrast-white); background: var(--contrast-green);}
 a.rmail:visited {color: var(--contrast-white); background: var(--contrast-green);}
-a.rmail:hover {color: white; background-color: var(--contrast-blue);}
-a.rmail:active {color: orange; background-color: #A32314;}
+a.rmail:hover, a.rdirl:hover {color: white; background-color: var(--contrast-blue);}
+a.rmail:active, a.rdirl:active {color: orange; background-color: #A32314;}
 a.rmail:last-child {margin-bottom: 2rem;}
+
+
+
 
 /* post.md */
 .post-section {margin-bottom: 1rem;}
