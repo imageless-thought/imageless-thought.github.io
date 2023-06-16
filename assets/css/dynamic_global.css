@@ -1,3 +1,6 @@
+.margup {margin-top: 1rem;}
+.margdn {margin-bottom: 1rem;}
+
 .link-button1 {display: grid; grid-template-columns: 2rem auto; gap: .5rem 2rem; padding: 1rem 0 1rem 0; height: auto;}
 .link-button1-pic {padding: 0px; width: 2.5rem; height: auto; vertical-align: middle; background-color: transparent;}
 .link-button2 {display: grid; grid-template-columns: 2rem auto; gap: .5rem 3rem; padding: 1rem 0 1rem 0; height: auto;}
@@ -9,10 +12,10 @@ a.link-button1-url:hover {color: #00853E; background-color: transparent; text-de
 a.link-button1-url:active {color: red; background-color: orange; text-decoration:underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; font-weight: 500; border-radius:.5rem; height:auto; text-align: center; padding: .25rem .5rem .25rem .5rem; border: 1px solid transparent;}
 
 .text-indent {font-size: .8rem; font-weight: 500; margin: 0; padding: .5rem 0 0 .5rem;}
+.date-tag {padding: 1px 4px 2px 4px; font-weight: 400; margin: 0 0 0 .1rem; line-height: .3; border: 1px solid var(--contrast-green); border-radius: 5px; text-decoration: none; color: white; background-color: var(--contrast-green); font-family: 'Roboto Mono', monospace!important;}
 
 .tagged {padding: 1px 4px 2px 4px; font-weight: 600; margin: 0 0 0 .1rem; line-height: .3; border: 1px solid var(--contrast-green); border-radius: 5px; text-decoration: none; color: black; background-color: var(--contrast-greenb);}
-.tag {padding: 1px 4px 2px 4px; font-weight: 400; margin: 0; line-height: .3; border: 1px solid var(--contrast-green); border-radius: 5px; text-decoration: none; color: white; background-color: transparent; font-family: 'Roboto Mono', monospace!important;}
-.date-tag {padding: 1px 4px 2px 4px; font-weight: 400; margin: 0 0 0 .1rem; line-height: .3; border: 1px solid var(--contrast-green); border-radius: 5px; text-decoration: none; color: white; background-color: var(--contrast-green); font-family: 'Roboto Mono', monospace!important;}
+.vtag {padding: 1px 4px 2px 4px; font-weight: 600; margin: 0; line-height: .3; border: 1px solid var(--bhover); border-radius: 5px; text-decoration: none; color: var(--contrast-dark); background-color: white; font-family: 'Roboto Mono', monospace!important;}
 
 .box {border: 1px solid var(--bhover); border-radius: 5px; padding: 1rem; margin: 1rem 0; background-color: #2d2c2c; color: white;}
 .box h3 {margin: 0 0 2rem 0;}
