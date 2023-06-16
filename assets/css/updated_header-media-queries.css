@@ -17,11 +17,11 @@
 @media screen and (min-width: 1460px) {
     .nav-container {
         width: 90%;
-        padding-left: 9rem;
+         padding-left: 9rem; 
     }
     .scrolled-show .nav-container {
         width: 90%;
-        padding-left: 4.4rem;
+    /*    padding-left: 4.4rem;  */
      /* justify-content: flex-start; */
     }
 }

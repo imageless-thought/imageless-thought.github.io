@@ -115,6 +115,7 @@ a.nostyle:active {
 .scrolled .heading-title {
   position: relative;
   bottom: 0;
+  margin-left: 4.4rem;
   animation: slide-up 0.5s cubic-bezier(0, 0.7, 0, 1) forwards;
 }
 
@@ -639,7 +640,7 @@ a.quick-link:hover {
 }
 
 .scrolled .college-title {
-  font-size: 1rem;
+  font-size: 1.75rem;
 
 }
 
