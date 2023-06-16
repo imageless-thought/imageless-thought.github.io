@@ -3,7 +3,7 @@ a.sticky-foot:link {color: var(--contrast-green); background-color: transparent;
 a.sticky-foot:visited {color: var(--contrast-green); background-color: transparent; text-decoration: none; cursor:pointer;}
 a.sticky-foot:active {color: var(--contrast-red); background-color: transparent; text-decoration: none; cursor:pointer;}
 
-.sticky-footer-position {position: fixed; right: 100px; bottom: 30px; background-color: transparent;}
+.sticky-footer-position {position: fixed; right: 70px; bottom: 30px; background-color: transparent;}
 .accessibility-layer {border: 0px solid black; border-radius: 15px; padding: 2px 0 1px 0; background-color: white; width: 75px; height: 75px;}
 .sticky-scroll-button {width: 72px; text-align: center; margin: 0 auto; padding: 0;}
 .sticky-foot-icon {font-size: 72px}

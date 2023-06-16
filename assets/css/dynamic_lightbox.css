@@ -231,10 +231,10 @@
 .numbertext {
   color: #181818;
   background-color: white;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 700;
   padding: 8px 12px;
-  margin: 0 2rem 0 1rem;
+  margin: 0 2rem 0 2rem;
   /*
   position: absolute;
   top: 0;
@@ -246,7 +246,8 @@
 }
 
 .subjname {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold!important;
 }
 
 .numbertext p {
