@@ -69,12 +69,10 @@ a.headgrid-link:active {color: white; font-weight: 500; font-size: 1rem; backgro
 }
 
 .blog-section p {margin: .5rem 1rem .7rem 1rem; font-family: 'Roboto Flex', sans-serif; line-height: 1.7;}
-.blog-section p:last-child {margin-bottom: 1rem;}
+.blog-section p:last-child {margin: .5rem 1rem .1rem 1rem; font-family: 'Roboto Flex', sans-serif; line-height: 1.7;}
 .blog-section .container {border: 1px solid var(--bhover); border-radius: 5px; padding: .5rem 1rem 1rem 1rem; background-color: #2d2c2c; color: white;}
 .blog-section .head-container {border: 0px solid var(--bhover); border-radius: 5px;  margin: .5rem 1rem;}
 .blog-section .head {font-weight: 800; font-size: 2rem; margin: 0 0 .75rem 0;}
-
-.bcaption {font-style: italic; font-size: 1rem; font-weight: 600!important; margin: 0 0rem 2rem 0rem!important; padding: 1rem!important; background-color: white!important; color: var(--contrast-dark); border: 1px solid var(--contrast-green); border-radius: 5px;}
 
 .blog-section .info {border: 1px solid transparent; border-radius: 5px; padding: 1px 4px; font-size: .9rem; font-weight: 600; text-align: left; margin: 0 0 0 0;}
 .blog-section .post {margin-bottom: 1.5rem;}
