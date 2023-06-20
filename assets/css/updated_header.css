@@ -160,7 +160,7 @@ a.nostyle:active {
   position: absolute;
   width: 80%;
   top: 130px;
-  left: 10vw;
+  left: 9.9vw;
   z-index: 4;
 }
 
@@ -259,6 +259,9 @@ a.nostyle:active {
   height: auto;
   background-color: black;
 }
+
+.drop-left
+{text-align: left!important;}
 
 .dropdown-column-wide {
   display: flex;
@@ -402,8 +405,9 @@ border-radius: 1px;
   outline: 2px solid #C6E3B2;
   border-radius: 5px;
   padding: 1rem;
-  max-width: 100%;
-  max-height: 100%;
+
+  width: 300px;
+  height: 300px;
   margin-top: 2px!important;
   cursor: pointer!important;
   display: block;
@@ -480,7 +484,7 @@ text-align: center;
 }
 
 .quick-links-scrolled {
-  margin-left: auto;
+  margin: 0 auto;
   height: 2rem;
   width: 1.5rem;
   align-self: center;
@@ -498,11 +502,17 @@ text-align: center;
 }
 
 .scrolled .quick-links-scrolled {
+  margin: 0 auto;
+  height: 2rem;
+  width: 1.5rem;
+  align-self: center;
+  padding: 1.2rem!important;
+  cursor: pointer;
+  border: 2px solid white;
   display: block;
-  margin: 0;
   position: absolute; /* absolute */
   right: 172px;  /* 14vw 7vw 15.19rem */
-  top: 4.5px; /* 5rem */
+  top: 12px; /* 5rem */
 }
 
 .quick-links-image {
@@ -518,11 +528,11 @@ text-align: center;
 }
 
 .scrolled .quick-links-image {
-  width: 3rem; /* 1 */
+  width: 2.5rem; /* 1 */
   height: auto; /* 1.5 */
-  cursor: pointer!important;
-  font-weight: 500;
-  padding: 5px!important;
+  position: absolute; /* absolute */
+  right: 0px;  /* 14vw 7vw 15.19rem */
+  top: -3px; /* 5rem */
 }
 
 .quick-links-image:hover {

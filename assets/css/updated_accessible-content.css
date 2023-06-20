@@ -212,8 +212,8 @@ p a:hover::selection, .flex-item-service a:hover::selection {
 /* Main */
 
 .main {
-    width: 88%; 
-    margin: 1rem auto 2rem auto!important;
+    width: 80%; 
+    margin: 2rem auto!important;
 }
 
 /* Section */
@@ -257,6 +257,8 @@ p a:hover::selection, .flex-item-service a:hover::selection {
 .redbg {background-color: #D32F2F;}
 .blackbg {background-color: #181818;}
 .whitebg {background-color: white;}
+.darkbg {background-color:#2d2c2c;}
+
 
 .sub {text-indent: 1rem;}
 .subt {text-decoration: underline; font-weight: 700;}

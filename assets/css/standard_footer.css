@@ -1,33 +1,50 @@
 /* 2023-04-15; untclassic_footer.css college of visual arts and design */
 
-.footer-center {
-  margin: 0 auto; 
-  width: 100%; 
+.footer-position{
+  margin: 0!important; 
+  width: 20%; 
   text-align: center; 
-  justify-content: center;
   background-color: var(--contrast-green); 
 }
 
 .footer-container {
+/*  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: left;
+  gap:0!important; 
+*/
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--contrast-green); 
+  padding: 1rem 0 1rem 0!important;
+}
+.footer-container-mingap {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: flex-start;
+  padding: 0;
   margin: 0 auto;
-  gap: 0em 4em;
-  background-color: var(--contrast-green); 
-  width: 100%;
+  gap: 0;
+  text-align: center;
+}
+
+.footer-flex-item {
+  width: 25%;
   height: auto;
-  padding: 1rem 0 ;
+  text-align: left;
+  margin: 0 12rem;
 }
 
 .footer-pic {
-  width: auto;
+  width: 5rem!important;
   height: auto;
   margin: 0;
   filter: invert(90%) sepia(70%) saturate(5490%) hue-rotate(5deg) brightness(94%) contrast(101%);
+  align-items: center;
 }
 
 .footer-pic-noclass {
@@ -65,12 +82,14 @@
 
 .footer-text {
   color: white;
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: normal;
   width: 100%;
   height: auto;
-  margin: 0 auto;
-  padding: 10px 0px 0px 0;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 .footer-bar, .footer-bar2 {
@@ -93,6 +112,8 @@
   font-size: 1rem;
   font-weight: 500;
   color: #FFEB3B;
+  padding: 0!important;
+  margin: 0!important;
 }
 
 .footer-bar-item a {
@@ -181,13 +202,13 @@ a.footer-link2:active {color: white; font-weight: 500; font-size: 1rem; backgrou
   padding: 2px;
 }
 
-
+/*
 .footer-bar-item {
   width: fit-content;
-
   vertical-align: middle;
   height: auto;
 }
+*/
 
 .unit-title {
   width: 100%;
@@ -261,12 +282,15 @@ a.footer-link2:active {color: white; font-weight: 500; font-size: 1rem; backgrou
 }
 
 @media screen and (min-width: 1460px) {
+  /*
   .footer-container {
     padding-left: 10%;
     justify-content: space-between;
     gap: 2em 0em;
     padding-right: 10%;
   }
+  */
+
   .footer-item-img {
     width: 10em;
   }
@@ -298,6 +322,7 @@ a.footer-link2:active {color: white; font-weight: 500; font-size: 1rem; backgrou
   font-size: 2rem;
  }
 
+ /*
 .footer-bar-item {
   width: auto;
   height: auto;
@@ -305,7 +330,7 @@ a.footer-link2:active {color: white; font-weight: 500; font-size: 1rem; backgrou
   justify-content: center;
   margin: 0 auto;
  }
-
+*/
 
 .footer-item2 {
   width: auto;
