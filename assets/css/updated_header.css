@@ -155,10 +155,9 @@ a.nostyle:active {
   opacity: 0;
   overflow: hidden;
   height: 0;
-  width: 0;
   transition: opacity 0.3s ease-out;
   position: absolute;
-  width: 80%;
+  width: 80.1%;
   top: 130px;
   left: 9.9vw;
   z-index: 4;
