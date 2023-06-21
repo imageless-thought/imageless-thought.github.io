@@ -101,7 +101,7 @@ a.rmail:last-child {margin-bottom: 2rem;}
 .blog-section .box2 {border: 1px solid white; border-radius: 10px; width: fit-content; padding: 1.3rem 1rem 1rem 1rem; margin: 1rem 0 2rem 0!important; background-color: var(--contrast-green);} 
 .blog-section .direct-link {width: fit-content; padding: .5rem 1rem 0 1rem; margin: 1rem 0 0 0!important;} 
 .blog-section .deactive:active {transform:none; -ms-transform:none; -moz-transform:none; -webkit-transform:none; -transform:none;}  
-.blog-section .relevant {margin: 0 0 0 1rem; width: 3rem; height: auto; padding: .25rem .1rem .35rem .25rem; border: 2px solid white; outline: 2px solid var(--bhover); border-radius: 10px; cursor: pointer!important; background-color: transparent; align-items: center;}
+.blog-section .relevant {margin: 0 0 0 1rem; width: 3rem; height: auto; padding: .1rem; border: 2px solid white; outline: 2px solid var(--bhover); border-radius: 10px; cursor: pointer!important; background-color: transparent; align-items: center;}
 .blog-section .direct {margin: 0 0 0 1rem; width: 2.9rem; height: auto; padding: .5rem; border: 2px solid white; border-radius: 10px; cursor: pointer!important; align-items: center;}
 .blog-section .rtext {padding:0; margin: 0; color: white; font-weight: 400; align-items: center; line-height: 1.7!important;}
 .blog-section .blog-post-info {border: 1px solid transparent; border-radius: 5px; padding: 1px 4px; font-size: .9rem; font-weight: 600; text-align: left; margin-top: 1rem;}
