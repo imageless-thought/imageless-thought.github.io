@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256px" height="256px" viewBox="0 0 24 24" fill="none" stroke="#44611f">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#44611f" stroke-width="0.144"> <path d="M11 3H7C4.79086 3 3 4.79086 3 7V17C3 19.2091 4.79086 21 7 21H17C19.2091 21 21 19.2091 21 17V13" stroke="#44611f" stroke-width="2" stroke-linecap="round" fill="#ffffff"/> <path d="M12 12L21 3" stroke="#44611f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#ffffff"/> <path d="M21 9V3H15" stroke="#44611f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#ffffff"/> </g>
+
+<g id="SVGRepo_iconCarrier"> <path d="M11 3H7C4.79086 3 3 4.79086 3 7V17C3 19.2091 4.79086 21 7 21H17C19.2091 21 21 19.2091 21 17V13" stroke="#44611f" stroke-width="2.4" stroke-linecap="round" fill="#ffffff"/> <path d="M12 12L21 3" stroke="#44611f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="#ffffff"/> <path d="M21 9V3H15" stroke="#44611f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="#ffffff"/> </g>
+
+</svg>
