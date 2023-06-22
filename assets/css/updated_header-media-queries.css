@@ -87,9 +87,16 @@
         gap: 0 .25rem;
     }
 
-    .dropdown-column, .dropdown-column-left {
+    .dropdown-column {
+        width: 100%;
+        text-align: left;
+        align-items: left;
+    }
+
+    .dropdown-column-left {
         width: 100%;
     }
+
 
    .dropdown-btn {
         margin: 0;
