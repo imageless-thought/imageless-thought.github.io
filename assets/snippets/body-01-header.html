@@ -53,11 +53,11 @@
           </div>
         </div>
         <div class="search-button-scrolled mobile-hide">
-          <form action="https://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
+        <!--<form action="https://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
             <input name="q" type="hidden" />
             <input name="qfront" type="text" style="width: 200px; border-radius: .25rem; outline: 1px solid white; border: 2px solid #558B2F;" />
             <input type="image" id="image" alt="search" style="width: 1.05rem; padding-left: .2rem; padding-top: .2rem;" src="assets/images/magnifying-glass.webp">
-            </form>
+            </form>  -->
         </div>
       </div>
     </header>
@@ -74,17 +74,17 @@
         <div class="dropdown-content">
           <div class="dropdown-columns">
 
-         <!-- Visible column contains text-->
-            <div class="dropdown-column">
-            <div class="dropdown-column-desc">
-             <p>I am the Director of Information Technology and Assistant Dean at the <b>College of Visual Arts and Design</b> at the University of North Texas. In this role I am responsible for the all technology operations of the college. </p>
-             <p>You can look at my LinkedIn Profile for more information on what exactly that entails.</p>
-            </div>
+           <!-- Mobile Hidden column contains image and image context -->
+           <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
+            <div class="dropdown-img-container"><a href="https://www.linkedin.com/in/baggettmichael/" alt="LinkedIn Profile: M Baggett"><img class="dropdown-img" src="assets/images/linkedin.webp" alt="Linked In /"></a></div>
+            <p class="dropdown-image-context">
+            This links to my LinkedIn profile. This is probably the best way to reach me. My profile lists some of the initiatives and projects I have worked on for the <b>College of Visual Arts and Design</b> at the University of North Texas. 
+            </p>
             </div>
 
            <!-- Mobile Hidden column contains image and image context -->
             <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <div><a href="https://www.linkedin.com/in/baggettmichael/" alt="LinkedIn Profile: M Baggett"><img style="width: 100%; height: auto;" class="whitebg dropdown-img" src="assets/images/linkedin.webp" alt="Linked In /"></a></div>
+            <div class="dropdown-img-container"><a href="https://www.linkedin.com/in/baggettmichael/" alt="LinkedIn Profile: M Baggett"><img class="dropdown-img" src="assets/images/linkedin.webp" alt="Linked In /"></a></div>
             <p class="dropdown-image-context">
             This links to my LinkedIn profile. This is probably the best way to reach me. My profile lists some of the initiatives and projects I have worked on for the <b>College of Visual Arts and Design</b> at the University of North Texas. 
             </p>
@@ -92,7 +92,7 @@
 
           <!-- Mobile Hidden column contains image and image context -->
           <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <div><a href="https://cvad.unt.edu" alt="CVAD"><img style="width: 100%; height: auto;" class="dropdown-img darkbg" src="assets/images/cvad.png" alt="CVAD /"></a></div>
+            <div class="dropdown-img-container"><a href="https://cvad.unt.edu" alt="CVAD"><img class="dropdown-img" src="assets/images/cvad.png" alt="CVAD /"></a></div>
             <p class="dropdown-image-context">
               As educators, designers, makers, researchers and scholars, from distinguished research professors to entering undergrads, we are a community of the creative and the curious. 
             </p>
@@ -100,7 +100,7 @@
 
           <!-- Mobile Hidden column contains image and image context -->
            <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">   
-            <div><a href="https://www.jamf.com" alt="JAMF"><img style="width: 100%; height: auto;" class="whitebg dropdown-img" src="assets/images/jamf.jpg" alt="JAMF /"></a></div>
+            <div class="dropdown-img-container"><a href="https://www.jamf.com" alt="JAMF"><img class="dropdown-img" src="assets/images/jamf.jpg" alt="JAMF /"></a></div>
              <p class="dropdown-image-context">
              <b>Jamf</b> provides a complete enterprise management and security solution for Apple devices. Both on-premise and cloud solutions are available. Easy to manage and enterprise-secure.
              </p>
@@ -108,7 +108,7 @@
 
           <!-- Mobile Hidden column contains image and image context -->
            <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <div><a href="https://guacamole.apache.org" alt="Apache Guacamole"><img style="width: 100%; height: auto;" class="whitebg dropdown-img" src="assets/images/guacamole.png" alt="Guacamole /"></a></div>
+            <div class="dropdown-img-container"><a href="https://guacamole.apache.org" alt="Apache Guacamole"><img class="dropdown-img" src="assets/images/guacamole.png" alt="Guacamole /"></a></div>
             <p class="dropdown-image-context">
               Apache Guacamole is a clientless remote desktop gateway. No client software is required: all that is needed to access remote computers is a modern, HTML5 web browser. We use Guacamole to provide access to our Online Mac Computer Lab.
             </p>
@@ -116,7 +116,7 @@
 
           <!-- Mobile Hidden column contains image and image context -->
           <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <div><a href="https://badgecert.com/bc/html/groupbadges.html?k=R3NJUUdoakdvSVZEY2l0ZHZ6SU5kams0cTkybW0yb2Q" alt="Agile"><img style="width: 100%; height: auto;" class="dropdown-img darkbg" src="assets/images/seal-csm.png" alt="logo"></a></div>
+            <div class="dropdown-img-container"><a href="https://badgecert.com/bc/html/groupbadges.html?k=R3NJUUdoakdvSVZEY2l0ZHZ6SU5kams0cTkybW0yb2Q" alt="Agile"><img class="dropdown-img" src="assets/images/seal-csm.png" alt="logo"></a></div>
             <p class="dropdown-image-context">
              I am a <b>Certified ScrumMaster® (CSM®)</b>, the certification was acquired through the <b>Scrum Alliance.</b> You can click the link above to confirm the status of the certification.
             </p>
@@ -132,7 +132,7 @@
 
     <!-- Mobile Hidden column contains image and image context -->
     <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-      <div><a href="https://portal.azure.com/" alt="Microsoft Azure"><img style="width: 100%; height: auto;" class="dropdown-img darkbg" src="assets/images/azure.svg" alt="Azure /"></a></div>
+      <div class="dropdown-img-container"><a href="https://portal.azure.com/" alt="Microsoft Azure"><img class="dropdown-img" src="assets/images/azure.svg" alt="Azure /"></a></div>
       <p class="dropdown-image-context">
       <b>Microsoft Azure</b> is a cloud computing platform which offers access, management, and development of applications and services through global data centers. 
     </p>
@@ -140,7 +140,7 @@
     
    <!-- Mobile Hidden column contains image and image context -->
     <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-    <a href="https://github.com/imageless-thought" alt="Github: M Baggett"><img class="dropdown-img darkbg" style="width: 100%; height: auto;" src="assets/images/github-logo.png" alt="GitHub Logo /"></a>
+    <a href="https://github.com/imageless-thought" alt="Github: M Baggett"><img class="dropdown-img" src="assets/images/github-logo.png" alt="GitHub Logo /"></a>
     <p class="dropdown-image-context">
     <b>Github</b> is my current preferred choice for git repositories. It is simple to use, has straightforward tutorials, and has high availability. This is also where I host my website (this page).
     </p>
@@ -148,7 +148,7 @@
 
    <!-- Mobile Hidden column contains image and image context -->
     <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-    <a href="https://login.ubuntu.com" alt="Ubuntu One Login"><img style="width: 100%; height: auto;" class="dropdown-img darkbg" src="assets/images/ubuntu.svg" alt="Ubuntu/"></a>
+    <a href="https://login.ubuntu.com" alt="Ubuntu One Login"><img class="dropdown-img" src="assets/images/ubuntu.svg" alt="Ubuntu/"></a>
     <p class="dropdown-image-context">
     <b>Ubuntu</b> is my preferred Linux distribution for a desktop OS.  It is well maintained and the documentation and tutorials are plentiful.  Pro subscriptions are available for free for personal use.  
     </p>
@@ -156,7 +156,7 @@
 
    <!-- Mobile Hidden column contains image and image context -->
     <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-    <a href="https://access.redhat.com" alt="RedHat Login"><img class="dropdown-img darkbg" style="width: 100%; height: auto;" src="assets/images/redhat.png" alt="RedHat /"></a>
+    <a href="https://access.redhat.com" alt="RedHat Login"><img class="dropdown-img" src="assets/images/redhat.png" alt="RedHat /"></a>
     <p class="dropdown-image-context">
     <b>Red Hat Enterprise Linux</b> is my preferred choice as a server OS. They are the maintainers of <b>Ansible</b>, an open-source solution that I have used for endpoint configuration of Linux devices and servers.
     </p>
@@ -164,7 +164,7 @@
 
    <!-- Mobile Hidden column contains image and image context -->
    <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-    <a href="https://www.raspberrypi.com" alt="Raspberry Pi"><img class="dropdown-img darkbg" style="width: 100%; height: auto;" src="assets/images/raspberrypi.png" alt="Raspberry Pi /"></a>
+    <a href="https://www.raspberrypi.com" alt="Raspberry Pi"><img class="dropdown-img" src="assets/images/raspberrypi.png" alt="Raspberry Pi /"></a>
     <p class="dropdown-image-context">
     <b>Raspberry Pi</b> has the features you expect from a computer: wireless internet connectivity, HDMI ports for your monitors, and USB ports for your accessories, along with ample processing power and RAM. 
     </p>
@@ -172,14 +172,14 @@
 
     <!-- Mobile Hidden column contains image and image context -->
     <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-      <div><a href="https://learn.microsoft.com/en-us/windows/wsl/about" alt="WSL"><img style="width: 100%; height: auto;" class="darkbg dropdown-img" src="assets/images/wsl2.png" alt="Linked In /"></a></div>
+      <div class="dropdown-img-container"><a href="https://learn.microsoft.com/en-us/windows/wsl/about" alt="WSL"><img class="dropdown-img" src="assets/images/wsl2.png" alt="Linked In /"></a></div>
       <p class="dropdown-image-context">
         The Windows Subsystem for Linux lets developers run a GNU/Linux environment -- including most command-line tools, utilities, and applications without the overhead of a traditional virtual machine.
       </p>
       </div>
   
                <!-- Visible column contains links -->
-               <div class="dropdown-column mobile-show">
+               <div class="dropdown-column-left mobile-show">
                 <h5 class="unset dropdown-section-title">Resource Links</h5>
                 <a class="dropdown-link" href="https://portal.azure.com" alt="Microsoft Azure">Microsoft Azure</a>
                 <a class="dropdown-link" href="https://github.com/imageless-thought" alt="Github">Github</a>
@@ -198,7 +198,7 @@
 
            <!-- Mobile Hidden column contains image and image context -->
             <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <div><a href="https://learn.microsoft.com/en-us/training" alt="Microsoft Training"><img class="darkbg dropdown-img" style="width: 100%; height: auto;" src="assets/images/microsoft.svg" alt="Microsoft /"></a></div>
+            <div class="dropdown-img-container"><a href="https://learn.microsoft.com/en-us/training" alt="Microsoft Training"><img class="dropdown-img" src="assets/images/microsoft.svg" alt="Microsoft /"></a></div>
             <p class="dropdown-image-context">
             <b>Microsoft</b> offers their self-paced technical training, including learning labs, for free online to everyone. Certification tests and instructor-led training are available but are not free.
             </p>
@@ -206,7 +206,7 @@
  
            <!-- Mobile Hidden column contains image and image context -->
             <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <div><a href="https://training.apple.com/it"><img class="darkbg dropdown-img" src="assets/images/apple.svg" style="width: 100%; height: auto;" alt="Apple IT Training /"></a></div>
+            <div class="dropdown-img-container"><a href="https://training.apple.com/it"><img class="dropdown-img" src="assets/images/apple.svg" alt="Apple IT Training /"></a></div>
             <p class="dropdown-image-context">
             <b>Apple</b> offers their technical training for free online to everyone.  Certification tests are available but are not free.  There are considerably fewer training offerings, when compared to Microsoft. 
             </p>
@@ -214,7 +214,7 @@
 
            <!-- Mobile Hidden column contains image and image context -->
            <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-            <div><a href="https://www.lpi.org"><img class="darkbg dropdown-img" src="assets/images/lpi-logo.png" style="width: 100%;height: auto;" alt="Linux Training /"></a></div>
+            <div class="dropdown-img-container"><a href="https://www.lpi.org"><img class="dropdown-img" src="assets/images/lpi-logo.png" style="width: 100%;height: auto;" alt="Linux Training /"></a></div>
             <p class="dropdown-image-context">
             <b>Linux Professional Institute</b> is the largest vendor-neutral Linux and open source certification body. Some classes are free to everyone and others require a fee. Certification tests are available for a fee.
             </p>
@@ -222,7 +222,7 @@
 
            <!-- Mobile Hidden column contains image and image context -->
             <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-             <div><a href="https://www.stormwindstudios.com" alt="Stormwind Studios"><img class="darkbg dropdown-img" style="width: 100%;height: auto;" src="assets/images/stormwind.png" alt="Stormwind /"></a></div>
+             <div class="dropdown-img-container"><a href="https://www.stormwindstudios.com" alt="Stormwind Studios"><img class="dropdown-img" style="width: 100%;height: auto;" src="assets/images/stormwind.png" alt="Stormwind /"></a></div>
              <p class="dropdown-image-context">
               <b>Stormwind Studios</b> is a training resource I use to maintain my skill set and knowledge base.  They provide live and on-demand <em>bootcamp</em> courses from wide-range of vendors.</p>  
             </p>
@@ -231,13 +231,13 @@
    
            <!-- Mobile Hidden column contains image and image context -->
               <div class="dropdown-column mobile-hide" style="margin-top: .5rem;">
-              <div><a href="https://www.itpro.tv/"><img class="darkbg dropdown-img" src="assets/images/acilearning.png" style="width: 100%;height: auto;" alt="ACILearning /"></a></div>
+              <div class="dropdown-img-container"><a href="https://www.itpro.tv/"><img class="dropdown-img" src="assets/images/acilearning.png" style="width: 100%;height: auto;" alt="ACILearning /"></a></div>
               <p class="dropdown-image-context">
                 <b>ACI Learning</b> is another training resource I use. ACI Learning courses are broken down into half-hour, self-contained chunks. Much more engaging than other training options.</p>
               </div>
    
          <!-- Visible column contains links -->
-            <div class="dropdown-column">
+            <div class="dropdown-column-left">
               <h5 class="unset dropdown-section-title">Training Resources</h5>
               <a class="dropdown-link" href="https://learn.microsoft.com/en-us/training" alt="Microsoft Training">Microsoft Training</a>
               <a class="dropdown-link" href="https://training.apple.com/it" alt="Apple">Apple Training</a>
@@ -278,8 +278,6 @@
           <a href="https://www.debian.org" alt="Debian">Debian Linux</a>
           <a href="https://www.redhat.com" alt="RedHat">RedHat Linux</a>
           <a href="https://www.raspberrypi.org" alt="Raspberry Pi">Raspberry Pi Foundation</a>
-
-
           </div>
         </div>
       </div>
