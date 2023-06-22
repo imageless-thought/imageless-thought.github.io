@@ -74,6 +74,12 @@ a.section-button::after, a.section-button::before {
 display: none;
 }
 
+a.email { text-decoration: underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; border: 2px outset #C6E3B2; border-radius: 5px; padding: .5rem 1rem!important; font-size: 1rem; font-weight: 400;}
+a.email:link {color: white; background-color: #1B5E20;}
+a.email:visited {color: white; background-color: #1B5E20;}
+a.email:hover {color: #1B5E20; background-color: white;}
+a.email:active {color:red; background-color: orange;}
+
 @media screen and (max-width: 900px) {
 .page-navigation {
   display: flex;
