@@ -294,6 +294,14 @@ img.hover-shadow {
 
 .column {
   float: none;
-  width: 100%;
+  width: 20%;
+  margin: 0 .5rem!important;
 }
+
+
+.column img {
+  width: 7rem;
+  cursor: pointer!important;
+}
+
 }

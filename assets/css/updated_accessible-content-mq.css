@@ -23,10 +23,6 @@ img:hover {
   gap: 40px 50px;
 }
 
-.flex-container-mingap {
-  flex-direction: column;
-  justify-content: flex-end;
-    }
 
 .center-service {text-align: center; width: 90%; margin: 40px auto 0 auto;}
 
@@ -50,13 +46,10 @@ img:hover {
 }
 
 .fit-service {text-align: center; width: 98%; margin: 0 auto; padding: .1rem 0;}
-
-
 .service {width: fit-content; text-align: justify; text-justify: inter-word; word-wrap: break-word;}
 .service-hours {margin: 2px 0 0 20px !important; width: fit-content; text-align: left;}
 .service-hours-indent {margin: 0 0 0 25px !important; width: fit-content; text-align: left;}
 .service-link {margin: 2px 0 0 20px !important; width: fit-content; text-align: left;}
-
 
 .flex-item-service-400 {
  text-align: center; 

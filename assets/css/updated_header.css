@@ -408,8 +408,11 @@ border-radius: 1px;
   border-color: #C6E3B2;
 }
 
+/*
 .dropdown-img-container {
+
 }
+*/
 
 .dropdown-img {
   max-width: 10vw;
@@ -421,6 +424,7 @@ border-radius: 1px;
   border-radius: 5px;
   background-color: var(--contrast-green);
   padding: 1rem;
+  cursor: pointer!important;
 }
 /*
 outline: 2px solid #C6E3B2;
