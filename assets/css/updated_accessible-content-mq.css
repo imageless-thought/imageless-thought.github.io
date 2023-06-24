@@ -3,8 +3,10 @@
 @media screen and (max-width: 900px) {
 
 .main {
-    width: 90%; 
+    width: 100%; padding: 0; margin: 0;
 }
+
+.main-brd {border: 2px solid var(--bhover); border-radius: 5px; padding: 1rem .5rem; margin: 0 .5rem 2rem  .5rem!important; background-color: #2d2c2c; color: white; width: auto;} 
 
 h1 {font-size: 1.5em;}
 h2 {font-size: 1.3em;}

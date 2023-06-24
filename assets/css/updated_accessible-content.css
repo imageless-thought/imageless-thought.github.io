@@ -216,6 +216,8 @@ p a:hover::selection, .flex-item-service a:hover::selection {
     margin: 2rem auto!important;
 }
 
+.main-brd {width: 80%; border: 1px solid var(--bhover); border-radius: 5px; padding: 1rem .5rem; margin: 0 auto 2rem auto!important; background-color: #2d2c2c; color: white;} 
+
 /* Section */
 
 .section {
