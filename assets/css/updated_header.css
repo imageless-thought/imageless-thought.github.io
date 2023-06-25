@@ -163,6 +163,7 @@ a.nostyle:active {
   z-index: 4;
   margin: 0 auto!important;
   text-align: center!important;
+  font-family: 'Raleway', sans-serif; 
 }
 
 .dropdown-btn:hover+.dropdown-content,

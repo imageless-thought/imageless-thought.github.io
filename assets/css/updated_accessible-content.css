@@ -181,7 +181,7 @@ p a:hover, li a:hover, h2 a:hover, h3 a:hover, .flex-item-service a:hover  {
 p a:active, li a:active, h2 a:active, h3 a:active, .flex-item-service a:active {
   color: #FFFF66;
   background-color: #A32314;
-  border: 2px solid #FFFF66!important;
+  border: px solid #FFFF66!important;
   outline:1px solid #A32314!important;
 }
 
@@ -261,7 +261,7 @@ p a:hover::selection, .flex-item-service a:hover::selection {
 .blackbg {background-color: #181818;}
 .whitebg {background-color: white;}
 .darkbg {background-color:#2d2c2c;}
-
+.bluebg {background-color: #1F5D84}
 
 .sub {text-indent: 1rem;}
 .subt {text-decoration: underline; font-weight: 700;}

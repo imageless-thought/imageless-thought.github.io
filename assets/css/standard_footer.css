@@ -18,8 +18,9 @@
   text-align: center;
   align-items: center;
   width: 100%;
-  background-color: var(--contrast-green); 
-  padding: 1rem 0 1rem 0!important;
+  height: auto;
+  background-color: var(--contrast-green);
+  padding: 1.5rem 0 1.3rem 0;
 }
 
 .footer-container-mingap {
@@ -27,25 +28,83 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding: 0;
-  margin: .5rem auto 0 auto;
+  margin: 0rem auto 0 auto;
   gap: 0;
   text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: var(--contrast-green);
+}
+
+.footer-flex-item-logo{
+  width: auto;
+  text-align: left;
+  margin: 0 0 0 10%;
+  padding: 0;
+  padding: 0;
 }
 
 .footer-flex-item {
   width: 45%;
-  height: auto;
   text-align: left;
   margin: 0 0 0 10%;
+  height: auto;
+
+}
+
+.footer-logo-container {
+  width: fit-content;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 5px;
+
+}
+
+
+.footer-l {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  border: 2px solid transparent;
+  outline: 1px solid transparent;
+
+}
+
+a.footer-l:link, a.footer-l:visited {
+  background-color: white!important;
+  color: var(--contrast-green);
+}
+
+a.footer-l:hover {
+  color: var(--contrast-green);
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(227deg) brightness(103%) contrast(104%);
+  background-color: transparent;
+}
+
+a.footer-l:active {
+  color: #FFEB3B; 
+  background-color: #A32314!important;
+  border: 2px solid #FFEB3B;
+  outline: 1px solid #A32314;
 }
 
 .footer-pic {
   width: 2rem!important;
   height: auto;
-  margin: 0; padding: 0;
-  filter: invert(90%) sepia(70%) saturate(5490%) hue-rotate(5deg) brightness(94%) contrast(101%);
+  padding: 0rem;
+  filter: invert(30%) sepia(71%) saturate(382%) hue-rotate(44deg) brightness(94%) contrast(95%);
+  /* filter: invert(90%) sepia(70%) saturate(5490%) hue-rotate(5deg) brightness(94%) contrast(101%); */
   align-items: center;
+  vertical-align: middle;
+}
+
+.footer-pic:hover {
+filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(227deg) brightness(103%) contrast(104%);
 }
 
 .footer-pic-noclass {
@@ -110,18 +169,18 @@
 }
 
 .footer-bar-item {
-  font-size: 1rem;
-  font-weight: 500;
-  color: #FFEB3B;
-  padding: 0!important;
-  margin: 0!important;
+  width: 100%;
+  margin: 0 0 0 .5rem;
+  padding-right:4px;
+  text-align: center;
+
 }
 
 .footer-bar-item a {
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
-  border-radius: 3px;
+  border-radius: 5px;
   width: 100%;
   height: auto;
   padding: 0 2px;
@@ -130,19 +189,20 @@
 
 .footer-bar-item a:link, .footer-bar-item a:visited {
   background-color: transparent;
-  color: white;
+  color: var(--contrast-green);
 }
 
 .footer-link, .footer-bar-item a:hover {
   color: white;
-  background-color: #181818;
-  border: 1px solid #181818;
+  background-color:var(--contrast-blue);
+  border: 2px solid transparent;
 }
 
 .footer-bar-item a:active {
-  color: white;
-  background-color: orange;
-  border: 1px solid orange;
+  color: #FFEB3B; 
+  background-color: #A32314;
+  border: 2px solid #FFEB3B;
+  outline: 1px solid #A32314;
 }
 
 .footer-button a {
