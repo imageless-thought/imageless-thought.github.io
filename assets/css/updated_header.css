@@ -157,9 +157,9 @@ a.nostyle:active {
   height: 0;
   transition: opacity 0.3s ease-out;
   position: absolute;
-  width: 79.3vw;
+  width: 79.5vw;
   top: 130px;
-  left: 9.9vw;
+  left: 9.925vw;
   z-index: 4;
   margin: 0 auto!important;
   text-align: center!important;
@@ -266,14 +266,14 @@ a.nostyle:active {
   display: flex;
   flex-direction: column;
   gap: 0!;
-  padding: 0 1vw 0 2vw;
+  padding: 0 1vw 0 1vw;
   margin: 0;
   text-align: left!important;
   align-items: left!important;
   max-width: 20vw; 
   width: 20vw;
   height: auto;
-  background-color: black;
+  background-color:transparent;
 }
 
 .dropdown-column-wide {
@@ -327,7 +327,7 @@ outline: 1px solid #C6E3B2;
   font-size: 1rem;
   text-decoration: none;
   background-color: var(--contrast-green);
-  font-weight: 600;
+  font-weight: 400;
   text-align: left;
   border-top: 1px solid var(--contrast-greenb);
   border-left: 1px solid var(--contrast-greenb);
@@ -440,7 +440,7 @@ outline: 2px solid #C6E3B2;
 
 .dropdown-image-context {
   font-size: 0.85rem;
-  text-align: left;
+  text-align: center;
   max-width: 12vw;
   width: 12vw; text-align: justify; text-justify: inter-word; word-wrap: break-word;
   padding: 1rem .5rem;
@@ -720,7 +720,7 @@ background-color: var(--contrast-green);
   color: white; 
   background-color: transparent;
   font-size: 1.1rem!important;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0 0 0 0;
   margin: 0 0 1rem 0;
   text-align: left;
@@ -757,21 +757,20 @@ background-color: var(--contrast-green);
   height: 100%;
 }
 
-.dropdown-link {
-  cursor: pointer; text-decoration: none; font-size: .8rem; font-weight: 600; border: 1px solid transparent; border-radius: 4px; padding: 2px 4px; width: fit-content; margin: .15rem 0; text-align: left!important;
-}
 
 .majorbreak {
   margin: 1rem 0 .5rem 0!important; height: 1px; background-color: purple; border: 0px solid var(--contrast-dark); border-radius: 1rem; width: 81%;
 }
 
+.dropdown-link {
+  cursor: pointer; text-decoration: none; font-size: 1rem; font-weight: 400; border: 1px solid transparent; border-radius: 4px; padding: 2px 4px; width: fit-content; margin: .15rem 0; text-align: left!important;
+}
+
+.dropdown-link:link {color: #F2F4F4; background-color: var(--contrast-green); border: 0px solid var(--contrast-greenb);}
+.dropdown-link:visited {color: #F2F4F4; background-color: var(--contrast-green); border: 0px solid var(--contrast-greenb);}
+.dropdown-link:hover {color: var(--contrast-dark); background-color: var(--bactivate); border: 0px solid white;}
+.dropdown-link:active {color: var(--bactivate); background-color: var(--factivate); border: 0px solid var(--bactivate);}
 .dropdown-link:last-child {margin-bottom: 1rem;}
-
-.dropdown-link:link {font-weight: 600; color: #F2F4F4; background-color: var(--contrast-green); border: 0px solid var(--contrast-greenb);}
-.dropdown-link:visited {font-weight: 600; color: #F2F4F4; background-color: var(--contrast-green); border: 0px solid var(--contrast-greenb);}
-.dropdown-link:hover {font-weight: 600; color: var(--contrast-dark); background-color: var(--bactivate); border: 0px solid white;}
-.dropdown-link:active {font-weight: 600; color: var(--bactivate); background-color: var(--factivate); border: 0px solid var(--bactivate);}
-
 
 .dropdown-flink {
   cursor: pointer; text-decoration: none; font-size: 1rem; font-weight: 600; border: 1px solid transparent; border-radius: 4px; padding: 2px 4px; width: fit-content; margin: 1rem 0 .5rem 0;
