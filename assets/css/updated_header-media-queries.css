@@ -204,4 +204,12 @@
         align-items: flex-start;
     }
 
+
+    @media screen and (min-width :901px) and (max-width: 1600px) {
+        .dropdown-link-margin {
+          text-align: left; margin-left: 0rem!important;
+          }
+          
+      }
+
 }
