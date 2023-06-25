@@ -145,7 +145,7 @@ a.rurl-alt:active {text-decoration: none; color: #FFFF66; background-color: #A32
 @media screen and (max-width: 900px) {
   .blog-section {margin: .5rem auto; width: 100%; text-align: center;}
   .blog-section .head-container {border: 0px solid var(--bhover); border-radius: 5px;  margin: .5rem .1rem;}
-  .headgrid-button {margin: 0 auto 1rem auto; font-size: 2.5rem!important;}
+  .headgrid-button {margin: 0 auto 1rem auto; font-size: 1.25rem!important;}
   .headgrid-button-small {font-size: 1rem;}
   .head-mobile-grid  {display: grid; grid-template-columns: auto auto auto auto; gap: 0 0rem; margin: 0 auto; padding: 0rem; width: 100%; height: auto; text-align: center; align-items: center;}
   .head-mobile-grid-border {padding: 1rem; background-color: var(--contrast-green); border: 2px solid var(--bhover); border-radius: 5px; outline: 0px solid var(--bhover); width: auto; margin: 0rem 4rem 2rem 4rem; text-align: center;}
