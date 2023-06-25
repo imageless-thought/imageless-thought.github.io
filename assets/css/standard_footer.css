@@ -360,7 +360,7 @@ a.footer-link2:active {color: white; font-weight: 500; font-size: 1rem; backgrou
 
   .footer-bar-item {
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
   }
 
   #section-links {
@@ -376,5 +376,14 @@ a.footer-link2:active {color: white; font-weight: 500; font-size: 1rem; backgrou
     filter: invert(90%) sepia(70%) saturate(5490%) hue-rotate(5deg) brightness(94%) contrast(101%);
     align-items: center;
   }
+
+  .footer-container {
+      margin: 0 0;
+      text-align: left;
+      align-items: center;
+      width: 100%;
+      background-color: var(--contrast-green); 
+      padding: 1rem 2rem 1rem 2rem!important;
+}
 
 }
