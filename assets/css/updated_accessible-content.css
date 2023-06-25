@@ -418,12 +418,15 @@ p a:hover::selection, .flex-item-service a:hover::selection {
 }
 
 .flex-container-mingap {
-  padding-top: 0px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: flex-start;
   align-items: center;
+  gap: 0;
 }
 
 .flex-container-service {

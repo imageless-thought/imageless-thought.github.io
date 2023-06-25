@@ -22,8 +22,10 @@
 }
 
 .column {
-  float: left;
+  float: none;
   width: 20%;
+  margin: 0 auto!important;
+  text-align: center;
 }
 
 .column img {
@@ -295,12 +297,14 @@ img.hover-shadow {
 .column {
   float: none;
   width: 20%;
-  margin: 0 .5rem!important;
+  margin: 0 auto!important;
+  text-align: center;
 }
 
 
 .column img {
-  width: 7rem;
+  width: 100%;
+  height: auto;
   cursor: pointer!important;
 }
 
