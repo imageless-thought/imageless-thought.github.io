@@ -51,6 +51,8 @@ font-family: 'Raleway', sans-serif;
 
 body {max-width: 100vw; margin: 0; padding: 0; line-height: 1.5;}
 
+.line-numbers {margin-top: 1rem!important; margin-bottom: 1.5rem!important;}
+
 h1 {margin: 1.5rem 0 .8rem 0; width: fit-content; cursor: text;}
 h2, h3, h3, h4, h5, h6 {margin: .5rem 0 .5rem 0; width: fit-content; cursor: text; color: --contrast-black;}
 p {margin: .5rem 0!important; text-align: justify; text-justify: inter-word; word-wrap: break-word; cursor: text; line-height: 1.7;}
@@ -141,7 +143,7 @@ a.norm:active a.dated:active {
 p a, li a, h2 a, h3 a, .flex-item-service a, .flex-item-service a {
 
   padding: 0 4px 0 2px;
-  border: 2px solid black!important;
+  border: 1px solid black!important;
   border-radius: 5px;
   outline:1px solid white!important;
   color: black; 
@@ -174,14 +176,12 @@ p a:link, p a:visited, li a:link, li a:visited, h2 a:link, h2 a:visited, h3 a:li
 p a:hover, li a:hover, h2 a:hover, h3 a:hover, .flex-item-service a:hover  {
   color: white;
   background-color: var(--contrast-blue);
-  border: 2px solid black!important;
-  outline:1px solid white!important;
 }
 
 p a:active, li a:active, h2 a:active, h3 a:active, .flex-item-service a:active {
   color: #FFFF66;
   background-color: #A32314;
-  border: px solid #FFFF66!important;
+  border: 1px solid #FFFF66!important;
   outline:1px solid #A32314!important;
 }
 
