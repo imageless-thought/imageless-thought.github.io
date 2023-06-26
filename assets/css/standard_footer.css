@@ -49,7 +49,6 @@
   text-align: left;
   margin: 0 0 0 10%;
   height: auto;
-
 }
 
 .footer-logo-container {
@@ -58,7 +57,7 @@
   text-align: center;
   margin: 0 auto;
   border-radius: 5px;
-
+  background-color: var(--contrast-greenb);
 }
 
 
@@ -72,11 +71,12 @@
   padding: 1rem;
   border: 2px solid transparent;
   outline: 1px solid transparent;
+  background-color: var(--contrast-greenb)!important;
 
 }
 
 a.footer-l:link, a.footer-l:visited {
-  background-color: white!important;
+  background-color: var(--contrast-greenb)!important;
   color: var(--contrast-green);
 }
 
