@@ -65,15 +65,22 @@ a.headgrid-link:active {color: white; font-weight: 500; font-size: 1rem; backgro
   font-weight: 600;
 }
 
-.blog-section p {margin: 0 0 0 0; line-height: 1.75;}
-.blog-section p:last-child {margin: 0 1.2rem 0 1rem;}
-.blog-section .container {border: 1px solid var(--bhover); border-radius: 5px; padding: .5rem 0 1.5rem 1.5rem; background-color: #2d2c2c; color: white;}
+.blog-section p {margin: 1rem 0 0 0!important; line-height: 1.75;}
+.blog-section h2 {margin-bottom: 1.25rem;}
+.blog-section h3 { max-width: 25rem; width: 25rem; margin-left: 3.75rem; padding-top: .6rem;}
+
+.blog-section br {margin-bottom: 0rem!important; clear: both;}
+.blog-section p:last-child {margin: 1rem 0 1rem 1rem;}
+.blog-section .container {border: 1px solid var(--bhover); border-radius: 5px; padding: .5rem 1.5rem 1.5rem 1.5rem; background-color: #2d2c2c; color: white;}
 .blog-section .head-container {border: 0px solid var(--bhover); border-radius: 5px;  margin: 0;}
 .blog-section .head {font-weight: 800!important; font-size: 2.25rem; margin: .5rem 0 .5rem .5rem;}
-
+.blog-section ul {margin: 0 0 1.5rem 0;}
+.blog-section ol {margin: 0 0 1.5rem 0;}
+.blog-section ul li {margin: 0; list-style-type: none;}
+.blog-section img {max-width: 25%; width: 25%; margin-right: 2rem; margin-bottom: 0rem; float:left;}
 .blog-section .info {border: 1px solid transparent; border-radius: 5px; padding: 1px 4px; font-size: .9rem; font-weight: 600; text-align: left; margin: 0 0 0 0;}
 .blog-section .post {margin:0 0 0 0; border: 0px solid white; border-radius: 10px; padding: .5rem; background-color: var(--contrast-dark);}
-.ranchors {display: grid; grid-template-columns: 4rem 15rem; gap: 0; margin: 0 0 0rem 0; padding: 0 0 0 0; height: fit-content; align-items: center; text-align: left;}
+.ranchors {display: grid; grid-template-columns: 25rem 15rem; gap: 0; margin: 0 0 0rem 0; padding: 0 0 0 0; height: fit-content; align-items: center; text-align: left;}
 a.rurl {padding: 1px 4px 2px 4px; font-weight: 400!important; margin: 0; line-height: .3!important; outline:1px solid white!important; border: 1px solid black; border-radius: 5px; text-decoration: none; color: black;}
 a.rurl:link {background: var(--hlink);}
 a.rurl:visited {background: var(--hlink);}
@@ -104,7 +111,7 @@ a.rmail:last-child {margin-bottom: 2rem;}
 /* post.md */
 .post-section {margin-bottom: 1rem;}
 .blog-section .relevant-box {
-  margin: 1rem .5rem 1rem .5rem;
+  margin: 0rem .5rem 1rem .5rem;
 /*  border: 1px solid white; border-radius: 5px; padding: 1.3rem 1rem 0 1rem; margin: 2rem 0 1rem 0; background-color: var(--contrast-green); */
 } 
 
@@ -126,7 +133,7 @@ a.rmail:last-child {margin-bottom: 2rem;}
 .blog-section .box2 {border: 1px solid white; border-radius: 5px; width: fit-content; padding: 1.3rem 1rem 1rem 1rem; margin: 1rem 0 2rem 0!important; background-color: var(--contrast-green);} 
 .blog-section .direct-link {width: fit-content; padding: .5rem 1rem 0 1rem; margin: 1rem 0 0 0!important;} 
 .blog-section .deactive:active {transform:none; -ms-transform:none; -moz-transform:none; -webkit-transform:none; -transform:none;}  
-.blog-section .relevant {margin: 0 0 0 0; width: 3rem; height: auto; padding: .1rem; border: 0px solid white; outline: 0px solid var(--bhover); border-radius: 5px; cursor: pointer!important; background-color: transparent; align-items: center;}
+.blog-section .relevant {margin: 0 0 0 0; width: 3rem; max-width: 3rem; height: auto; padding: .1rem; border: 0px solid white; outline: 0px solid var(--bhover); border-radius: 5px; cursor: pointer!important; background-color: transparent; align-items: center;}
 .blog-section .direct {margin: 0 0 0 1rem; width: 2.9rem; height: auto; padding: .5rem; border: 2px solid white; border-radius: 5px; cursor: pointer!important; align-items: center;}
 .blog-section .rtext {padding:0; margin: 0 0 .5rem .5rem!important; color: white; align-items: center;}
 .blog-section .rtext:last-child {margin: 0 0 1.5rem .5rem!important;}
@@ -147,7 +154,7 @@ a.rurl-alt:active {text-decoration: none; color: #FFFF66; background-color: #A32
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin: 0rem 0rem 0rem 0rem;
+  margin: 3rem 0rem 0rem 0rem!important;
   gap: 0 1rem;
 }
 
@@ -166,7 +173,7 @@ a.rurl-alt:active {text-decoration: none; color: #FFFF66; background-color: #A32
 
   .rlink {margin: 0 auto; width: 100%; text-align: center; line-height: 1.4; color: white;}
 
-  .ranchors {display: grid; grid-template-columns: 3rem 15rem; gap: 0 1rem; width: 100%; margin: 0 auto 1rem 0; padding: 0 0 .1rem 0; height: fit-content; align-items: left; text-align: left;}
+  .ranchors {display: grid; grid-template-columns: 3rem 15rem; gap: 0 1rem; width: 100%; margin: 0 auto 1rem 0!important; padding: 0 0 .1rem 0; height: fit-content; align-items: left; text-align: left;}
   .blog-section .box {margin: 2rem 0;}
   .blog-section .relevant {margin: 0;}  
   .blog-section .relevant-box {

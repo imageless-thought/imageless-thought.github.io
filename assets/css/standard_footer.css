@@ -295,7 +295,7 @@ a.footer-link2:active {color: white; font-weight: 500; font-size: 1rem; backgrou
   gap: 5px 0;
   background-color: white;
   color: #181818; 
-  width: 65%;
+  width: 100%;
   height: auto;
   padding: 15px 10px 30px 10px;
 }
