@@ -176,6 +176,9 @@ a.rurl-alt:active {text-decoration: none; color: #FFFF66; background-color: #A32
   .ranchors {display: grid; grid-template-columns: 3rem 15rem; gap: 0 1rem; width: 100%; margin: 0 auto 1rem 0!important; padding: 0 0 .1rem 0; height: fit-content; align-items: left; text-align: left;}
   .blog-section .box {margin: 2rem 0;}
   .blog-section .relevant {margin: 0;}  
+
+  .blog-section .bcaption {margin-bottom: 1rem;}
+
   .blog-section .relevant-box {
     margin: 2.5rem 0 2rem 0!important;}
   .blog-flex-container {
