@@ -1,0 +1,1 @@
+document.getElementById("webname").innerHTML = "imageless-thought.github.io";
