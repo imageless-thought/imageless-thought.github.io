@@ -429,6 +429,7 @@ a.footer-link2:active {color: white; font-weight: 500; font-size: 1rem; backgrou
     align-items: center;
   }
 
+  /*
   .footer-pic {
     width: 6rem!important;
     height: auto;
@@ -436,6 +437,7 @@ a.footer-link2:active {color: white; font-weight: 500; font-size: 1rem; backgrou
     filter: invert(90%) sepia(70%) saturate(5490%) hue-rotate(5deg) brightness(94%) contrast(101%);
     align-items: center;
   }
+*/
 
   .footer-container {
       margin: 0 0;
