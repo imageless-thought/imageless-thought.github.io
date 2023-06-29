@@ -99,6 +99,10 @@ a.web_url {padding: 3px 8px 4px 8px; font-weight: 400!important; margin: 0 0 0 .
 a.web_url:hover {padding: 3px 8px 4px 8px; font-weight: 400!important; margin: 0 0 0 .1rem; line-height: .3; border-radius: 5px; text-decoration: none; color: #FBFCFC; background-color: var(--contrast-green);}
 a.web_url:active {padding: 3px 8px 4px 8px; font-weight: 400!important; margin: 0 0 0 .1rem; line-height: .3; outline:1px solid #A32314!important; border: 1px solid #FFFF66; border-radius: 5px; text-decoration: none; color: #FBFCFC; background-color: var(--contrast-green);}
 
+a.web_url2 {padding: 3px 8px 4px 8px; font-weight: 400!important; margin: 0 0 0 .1rem; line-height: .3; outline:1px solid white!important; border: 1px solid black; border-radius: 5px; text-decoration: none; color: #FBFCFC; background-color: var(--contrast-green);}
+a.web_url2:hover {padding: 3px 8px 4px 8px; font-weight: 400!important; margin: 0 0 0 .1rem; line-height: .3; border-radius: 5px; text-decoration: none; color: #FBFCFC; background-color: var(--contrast-green);}
+a.web_url2:active {padding: 3px 8px 4px 8px; font-weight: 400!important; margin: 0 0 0 .1rem; line-height: .3; outline:1px solid #A32314!important; border: 1px solid #FFFF66; border-radius: 5px; text-decoration: none; color: #FBFCFC; background-color: var(--contrast-green);}
+
 .bdate {padding: 1px 4px 2px 4px; font-weight: 400; margin: 0 0 0 .1rem; line-height: .3; outline:1px solid white!important; border: 1px solid black; border-radius: 5px; text-decoration: none; color: white; background-color: var(--contrast-green);}
 .pdate {padding: 1px 4px 2px 4px; font-weight: 400; margin: 0 0 0 0; line-height: .3; outline:1px solid var(--contrast-greenb)!important; border: 1px solid var(--contrast-greenb); border-radius: 5px; text-decoration: none; color: black; background: var(--contrast-greenb);}
 a.rmail {padding: 1px 4px 2px 4px; font-weight: 800; margin: 0 0 0 .4rem; line-height: .3; border: 1px solid var(--contrast-green); border-radius: 5px; text-decoration: none;}
