@@ -43,12 +43,6 @@
         
         <span><a href="/" >Home</a></span>
         
-        <span><a href="/articles.html" >Articles</a></span>
-        
-        <span><a href="/blog.html" class="current">Blog</a></span>
-        
-        <span><a href="/feed-cvad.html" >feed-cvad</a></span>
-        
         <span><a href="/about" >About</a></span>
         
         <span><a href="/staff" >Staff</a></span>
@@ -96,10 +90,6 @@
 <div class="blog-flex-container">
   <span><b class="pdate">2023-06-09</b></span>
   <span><a href="/web-apps/2023/06/09/Jekyll.html" class="rdirl">Article Direct-Link</a></span>
-  <!--
-  <span>tags: <a href="/paths/web-apps.html" class="rurl" alt="tags">web-apps</a></span>
-  <span>author: <a href="/authors/mbaggett.html" alt="Email Author" class="rurl">mbaggett</a></span> 
-  -->
   <span><a class="web_url"></a></span>
 </div>
 </div>
@@ -151,10 +141,6 @@ To get started, visit the <a href="https://learn.microsoft.com/en-us/windows/wsl
 <div class="blog-flex-container">
   <span><b class="pdate">2023-06-06</b></span>
   <span><a href="/linux/2023/06/06/WSL2.html" class="rdirl">Article Direct-Link</a></span>
-  <!--
-  <span>tags: <a href="/paths/linux.html" class="rurl" alt="tags">linux</a></span>
-  <span>author: <a href="/authors/mbaggett.html" alt="Email Author" class="rurl">mbaggett</a></span> 
-  -->
   <span><a class="web_url"></a></span>
 </div>
 </div>
@@ -196,10 +182,6 @@ To get started, visit the <a href="https://learn.microsoft.com/en-us/windows/wsl
 <div class="blog-flex-container">
   <span><b class="pdate">2023-06-01</b></span>
   <span><a href="/dev tools/2023/06/01/Git.html" class="rdirl">Article Direct-Link</a></span>
-  <!--
-  <span>tags: <a href="/paths/dev-tools.html" class="rurl" alt="tags">dev-tools</a></span>
-  <span>author: <a href="/authors/mbaggett.html" alt="Email Author" class="rurl">mbaggett</a></span> 
-  -->
   <span><a class="web_url"></a></span>
 </div>
 </div>
@@ -209,35 +191,6 @@ To get started, visit the <a href="https://learn.microsoft.com/en-us/windows/wsl
 <script type="text/javascript" src="/assets/scripts/var_url.js"></script>
 
 
-<script>
-//open external links in a new window
-function external_new_window() {
-    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
-        var b = c[a];
-        if(b.getAttribute("href") && b.hostname !== location.hostname) {
-            b.target = "_blank";
-            b.rel = "noopener";
-        }
-    }
-}
-//open PDF links in a new window
-function pdf_new_window ()
-{
-    if (!document.getElementsByTagName) return false;
-    var links = document.getElementsByTagName("a");
-    for (var eleLink=0; eleLink < links.length; eleLink ++) {
-    if ((links[eleLink].href.indexOf('.pdf') !== -1)||(links[eleLink].href.indexOf('.doc') !== -1)||(links[eleLink].href.indexOf('.docx') !== -1)) {
-        links[eleLink].onclick =
-        function() {
-            window.open(this.href);
-            return false;
-        }
-    }
-    }
-} 
-pdf_new_window();
-external_new_window();
-</script>
 
 <div class="sticky-footer-position">
   <div class="accessibility-layer">
