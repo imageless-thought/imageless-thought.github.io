@@ -158,9 +158,9 @@ a.nostyle:active {
   height: 0;
   transition: opacity 0.3s ease-out;
   position: absolute;
-  width: 79.4vw;
+  width: 79.57vw;
   top: 130px;
-  left: 9.85vw;
+  left: 9.9vw; 
   z-index: 4;
   margin: 0 auto!important;
   text-align: center!important;
