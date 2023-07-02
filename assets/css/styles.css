@@ -104,9 +104,10 @@ padding: 0 0 0 2rem!important; margin: 0!important; display: flex; line-height: 
 .blog-section .head {font-weight: 800!important; font-size: 2.25rem; margin: .5rem 0 .5rem .5rem;}
 .blog-section ul {margin: .5rem 0 0rem 0;}
 .blog-section ol {margin: .5rem 0 0rem .5rem;}
-
+.blog-section .iul {margin: .5rem 0 0rem 1.3rem;}
 .blog-section ol li {margin: .5rem 0; line-height: 1.7;}
 .blog-section ul li {margin: .5rem 0; list-style-type: none; line-height: 1.7;}
+
 
 .tutorial {margin-bottom: 0rem!important;}
 
