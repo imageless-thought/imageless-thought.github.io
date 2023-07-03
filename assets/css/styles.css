@@ -83,23 +83,32 @@ a.headgrid-link:active {color: white; font-weight: 500; font-size: 1rem; backgro
   display: inline-block; padding: .5rem 0!important;
 }
 
-.li-tut {
-display: flex; margin: 0!important; padding: 1rem 0 0 0!important; 
+.li-tut li {
+padding: 0 0 0 2rem!important; margin: 0!important; display: flex; line-height: 1!important;
 }
 
-.li-tut li {
-padding: 0 0 0 2rem!important; margin: 0!important; display: flex; line-height: 1.7!important;
-}
+.blog-section .li-tut {margin: 1rem 0 1rem 0!important; line-height: 1.9; font-weight: 500;}
+.blog-section .p-tut {margin: 0!important; line-height: 1.9!important; font-weight: 600!important; font-size: 1.25rem; padding: 1.5rem 0 0 1rem!important; text-align: justify!important; text-justify:inter-word!important; word-wrap: break-word!important; cursor: text!important;}
+.blog-section .p-tutchild {margin: 0rem 0 1rem 0!important; line-height: 1.9; font-weight: 500; padding: .5rem 0 0 0; text-align: justify!important; text-justify:inter-word!important; word-wrap: break-word!important; cursor: text!important;}
+
+.tutorial {margin:0rem 1.5rem 0 0!important; padding: 0!important;}
+.tutorial-mp {margin: 0!important; padding: 0!important;}
+
+.blog-section img {max-width: 25%; width: 25%; margin-right: 2rem; margin-bottom: 0rem; margin-top: 1rem!important; float:left;}
+
+.blog-section .img-tut {max-width: 25%; width: 25%; margin-left: .5rem; margin-right: 1.5rem; margin-bottom: 1rem; margin-top: 1rem!important; float:left; box-shadow: rgba(0, 0, 0, .7) 0px 2px 4px, rgba(0, 0, 0, .6) 0px 7px 18px -3px, rgba(0, 0, 0, .5) 0px -3px 0px inset; border-radius: 5px; border: 1px solid transparent!important; border-top: 1px solid #848884;}
 
 .blog-section p {margin: 1rem 0 0 0!important; line-height: 1.9;}
-.blog-section h2 {margin-bottom: 1.75rem; margin-top: 2rem; color:#C5E1A5;}
+.blog-section h2 {margin-bottom: 0rem!important; margin-top: 2rem; color:#C5E1A5;}
+.blog-section .h2-notop {margin-bottom: 1rem; margin-top: .5rem; color:#C5E1A5;}
+
 .blog-section h3 {max-width: 25rem; width: 25rem; margin-left: 3.75rem; padding-top: 1.4rem; text-align: left;}
 .blog-section h4 {font-size: 1.4rem; margin-top: 1rem; margin-bottom: 0rem!important; padding-bottom: 0rem!important; text-align: left; color:#C5E1A5;}
-.blog-section h5 {font-size: 1.1rem; margin-top: 1rem; margin-bottom: 0rem!important; padding-bottom: 0rem!important; text-align: left; color:white;}
+.blog-section h5 {font-size: 1.2rem; margin: 2rem 0 1rem 0; text-align: left; color:white; width: auto;}
 
 .blog-section br {margin-bottom: 0rem!important; clear: both;}
 .blog-section p:last-child {margin: 1rem 0 1rem 1rem;}
-.blog-section .container {border: 1px solid var(--bhover); border-radius: 5px; padding: .5rem 1.5rem 1.5rem 1.5rem; background-color: #2d2c2c; color: white;}
+.blog-section .container {border: 1px solid var(--bhover); border-radius: 5px; padding: .5rem 1.5rem 1.5rem 1.5rem!important; background-color: #2d2c2c; color: white;}
 .blog-section .head-container {border: 0px solid var(--bhover); border-radius: 5px;  margin: 0;}
 .blog-section .head {font-weight: 800!important; font-size: 2.25rem; margin: .5rem 0 .5rem .5rem;}
 .blog-section ul {margin: .5rem 0 0rem 0;}
@@ -107,9 +116,6 @@ padding: 0 0 0 2rem!important; margin: 0!important; display: flex; line-height: 
 .blog-section .iul {margin: .5rem 0 0rem 1.3rem;}
 .blog-section ol li {margin: .5rem 0; line-height: 1.7;}
 .blog-section ul li {margin: .5rem 0; list-style-type: none; line-height: 1.7;}
-
-
-.tutorial {margin-bottom: 0rem!important;}
 
 .blog-section .link-button1 {display: grid; grid-template-columns: 2rem auto; gap: .5rem 2rem; padding: 1rem 0 1rem 0; height: auto;}
 .blog-section .link-button1-pic {padding: 0px; width: 4rem; height: 4rem; background-color: transparent; display: inline-block; vertical-align: bottom; margin: 0 auto; text-align: center;}
@@ -157,12 +163,6 @@ padding: 0 0 0 2rem!important; margin: 0!important; display: flex; line-height: 
 .blog-section .endmarg {
   margin: 0 0 2rem 0!important;
 }
-
-.blog-section img {max-width: 25%; width: 25%; margin-right: 2rem; margin-bottom: 0rem; margin-top: 1rem!important; float:left;}
-
-.blog-section .img-tut {max-width: 25%; width: 25%; margin-left: 1rem; margin-right: 2rem; margin-bottom: 1rem; margin-top: 1rem!important; float:left; box-shadow: rgba(0, 0, 0, .7) 0px 2px 4px, rgba(0, 0, 0, .6) 0px 7px 18px -3px, rgba(0, 0, 0, .5) 0px -3px 0px inset; border-radius: 5px; border: 1px solid transparent!important; border-top: 1px solid #848884;}
-
-.blog-section .p-tut {margin: 3rem 0 1rem 0!important; line-height: 1.9; font-size: 1.1rem; font-weight: 600;}
 
 .blog-section .info {border: 1px solid transparent; border-radius: 5px; padding: 1px 4px; font-size: .9rem; font-weight: 600; text-align: left; margin: 0 0 0 0;}
 .blog-section .post {margin:0 0 0 0; border: 0px solid white; border-radius: 10px; padding: .5rem; background-color: var(--contrast-dark);}
@@ -323,6 +323,7 @@ nav span:active {
 
   .blog-section .relevant-box {
     margin: 2.5rem 0 2rem 0!important;}
+
   .blog-flex-container {
     flex-direction: column;
     gap: .3rem 1rem;
@@ -342,6 +343,10 @@ nav span:active {
   .blog-section .post {margin-bottom: 1.5rem; border: 0px solid white; border-radius: 10px; padding: 0; background-color: var(--contrast-dark);}
 
   .section-mobile {padding:0; margin: 0;}
+
+  .blog-section .p-tut {margin: 0!important; padding: .5rem 0 0 1rem!important; text-align: justify!important; text-justify:inter-word!important; word-wrap: break-word!important; cursor: text!important;}
+
+  .blog-section h5 {font-size: 1.1rem; margin-top: 1rem; margin: 0!important; padding:0!important; text-align: left!important; color:white; width: auto;}
 
 }
 
