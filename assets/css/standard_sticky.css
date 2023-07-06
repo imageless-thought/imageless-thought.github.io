@@ -1,7 +1,7 @@
 
-a.sticky-foot:link {color: var(--contrast-green); background-color: transparent; text-decoration: none; cursor:pointer;}
-a.sticky-foot:visited {color: var(--contrast-green); background-color: transparent; text-decoration: none; cursor:pointer;}
-a.sticky-foot:active {color: var(--contrast-red); background-color: transparent; text-decoration: none; cursor:pointer;}
+a.sticky-foot:link {color: var(--green); background-color: transparent; text-decoration: none; cursor:pointer;}
+a.sticky-foot:visited {color: var(--green); background-color: transparent; text-decoration: none; cursor:pointer;}
+a.sticky-foot:active {color: var(--red); background-color: transparent; text-decoration: none; cursor:pointer;}
 
 .sticky-footer-position {position: fixed; right: 4%; bottom: 1rem; background-color: transparent;}
 .accessibility-layer {background-color:transparent;}

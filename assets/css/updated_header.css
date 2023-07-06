@@ -158,9 +158,9 @@ a.nostyle:active {
   height: 0;
   transition: opacity 0.3s ease-out;
   position: absolute;
-  width: 79.57vw;
+  width: 79.4vw;
   top: 130px;
-  left: 9.9vw; 
+  left: 9.85vw;
   z-index: 4;
   margin: 0 auto!important;
   text-align: center!important;
@@ -564,7 +564,8 @@ text-align: center;
 }
 
 .quick-links-image:hover {
-  filter: invert(73%) sepia(21%) saturate(1146%) hue-rotate(52deg) brightness(95%) contrast(87%);
+  filter: invert(90%) sepia(12%) saturate(772%) hue-rotate(39deg) brightness(96%) contrast(90%);
+/*  filter: invert(73%) sepia(21%) saturate(1146%) hue-rotate(52deg) brightness(95%) contrast(87%); */
   transition: 0.2s;
   cursor: pointer!important;
 }

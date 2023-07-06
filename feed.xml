@@ -1,112 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-03T14:12:01-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Adobe: Everything You Need to Know</title><link href="http://localhost:4000/cvad/2023/06/30/Adobe.html" rel="alternate" type="text/html" title="Adobe: Everything You Need to Know" /><published>2023-06-30T00:00:00-05:00</published><updated>2023-06-30T00:00:00-05:00</updated><id>http://localhost:4000/cvad/2023/06/30/Adobe</id><content type="html" xml:base="http://localhost:4000/cvad/2023/06/30/Adobe.html"><![CDATA[<!-- Add your post content here -->
-<h4 id="changes-by-adobe-in-march-2023">Changes by Adobe in March 2023</h4>
-<p>If you have started experiencing difficulties logging into your Adobe account due to the unexpected addition of an extra step, please see the note below on changes made by Adobe to provide multiple profile support: <a href="https://itservices.cvad.unt.edu/tutorial-adobe.html#March2023Update">March 2023 Update</a>.</p>
-<h4 id="common-questions-and-issues">Common Questions and Issues</h4>
-<p>The links in the box below are the answers to the two most common questions we receive:</p>
-
-<ul class="minmarg">
-  <li>How do I login to my Adobe Creative Cloud account online so I can install the apps on my personal device, or check my subscription status?</li>
-</ul>
-<ul class="minmarg">
-  <li><a href="https://account.adobe.com" title="Adobe Account Login">Adobe Creative Cloud Online</a></li>
-</ul>
-<ul class="minmarg">
-  <li>Where can I purchase the Adobe Creative Cloud subscription through UNT at the discounted price of $55.55?</li>
-</ul>
-<ul class="endmarg">
-  <li><a href="https://www.unt.edu/adobe" title="UNT Software Webstore">UNT Software Webstore</a></li>
-</ul>
-
-<h4 id="educational-institution-subscriptions">Educational Institution Subscriptions</h4>
-<p>Below are some of the details regarding the availability of Adobe Creative Cloud subscriptions for University of North Texas employees and students. If you are a student who is considering purchasing or has purchased a subscription through our webstore offer, please review the full terms and conditions that are provided there as well: <a href="https://www.unt.edu/adobe" title="UNT Software Webstore">UNT Software Webstore</a>.</p>
-
-<ul>
-  <li>Full-time employees receive a full educational institution subscription as part of their employment. When an employee leaves UNT, they lose access to their account and will no longer be able to access the applications or files stored on the Adobe Cloud from any device. Before an employee’s final day employed by UNT, they should discuss migrating the data stored on the Adobe Cloud with their supervisor for business continuity purposes. Former employees will not be permitted access to their accounts, or the files stored on the Adobe Cloud associated with those accounts. The accounts are provided as part of their employment and the data is the property of the institution.</li>
-  <li>Part-time employees who require Adobe Creative Cloud to complete job-related duties should contact their department regarding a subscription.</li>
-  <li>Students have <strong class="greenfont">access to the Adobe Creative Cloud applications while they are working physically on campus in one of our computer labs or classrooms at no additional cost</strong>. This is granted through a shared device license and there are limitations on this license: only select applications are available, none of the online features are available (this includes Adobe Fonts and Adobe Stock Images). Additionally, home-use, remote access, and access using a personal device are not available when using a shared device license.</li>
-  <li>Students who wish to use the Adobe Creative Cloud applications on a UNT checkout laptop, the UNT Online Computer Lab, or on their personal devices will need to purchase a personal subscription. UNT offers heavily discounted educational institution subscriptions for students: $55.55 per academic year. For more information, full terms, and conditions, and to purchase a subscription, please visit our webstore. Students must remain actively enrolled at UNT in order to access their account as these are educational subscriptions.</li>
-  <li>Neither the UNT System nor UNT campus agreements provide personal subscriptions of any type. We provide educational enterprise subscriptions. This is important as there are key differences between these two types of subscriptions and it can be confusing when trying to determine how to resolve issues that can arise because those differences are not always made very clear.</li>
-  <li>If you are a student, with an existing personal subscription with Adobe and you used your UNT email address to sign up for that account: PLEASE change the email address associated with that account before you purchase a subscription through the UNT offer. You can do that by following these instructions: https://helpx.adobe.com/sign/using/change-email-address.html. You cannot change the email address on the accounts available through our offer. Adobe technical support does not appear capable of distinguishing between accounts with the same email address. It will greatly hinder you when you need help from our office or from Adobe if you have two accounts with the same email address.</li>
-</ul>
-
-<h4 id="logging-into-your-educational-institution-account">Logging into your Educational Institution Account</h4>
-<p>Regardless of whether you are a full-time employee who received a subscription as part of your employment, a student who is using the applications while working in an on-campus computer lab or classroom, or a student who has purchased a full subscription through our webstore: the steps below will walk you through how to access your account</p>
-
-<p>The images below show the steps to login to Adobe Creative Cloud:</p>
-
-<p><img src="/assets/images/adobe-1login.png" alt="Tutorial Image" class="img-tut" /></p>
-
-<p class="p-tut">Step 1: Initial Login Screen</p>
-
-<p>All UNT subscriptions are tied to a UNT email address, and the email address cannot be changed. You must login using your UNT email address.</p>
-
-<h5 class="greenfont" id="which-email-address-do-you-use-when-logging-in">Which email address do you use when logging in?</h5>
-
-<ul class="li-tut">
-  <li><strong>Employees</strong>: @unt.edu</li>
-</ul>
-
-<ul class="li-tut">
-  <li><strong>Students</strong>: @my.unt.edu</li>
-</ul>
-
-<p><br /></p>
-
-<p><img src="/assets/images/adobe-2company.png" alt="Tutorial Image" class="img-tut" /></p>
-
-<p class="p-tut">Step 2: Select Account Type</p>
-
-<p>When prompted during login, select <strong class="greenfont">Company or School Account</strong>.
-If you try to login with a non-UNT email address, or select Personal Account, the login will fail as these are educational institution subscriptions, not personal subscriptions.
-<br /></p>
-
-<p><img src="/assets/images/adobe-3sso.png" alt="Tutorial Image" class="img-tut" /></p>
-
-<p class="p-tut">Step 3: UNT Single Sign-On</p>
-
-<p>You will need to enter your <strong class="greenfont">EUID</strong> and <strong class="greenfont">password</strong>.
-If you need to reset your password or do not know your account credentials, please visit the <a href="https://ams.unt.edu" title="UNT Account Management">UNT Account Management</a> website.
-<br /></p>
-
-<p><img src="/assets/images/adobe_account_choose.png" alt="Tutorial Image" class="img-tut" /></p>
-
-<p class="p-tut">Step 4: Profile Selection</p>
-
-<p>The screen shown to your left is where you are prompted to choose a profile: students who purchased a subscription from us should choose the profile that reads <strong class="greenfont">UNIVERSITY OF NORTH TEXAS</strong>. All others (faculty, staff and students using the software in a classroom or computer lab on-campus) should choose the one that reads <strong>UNIV. OF NORTH TEXAS</strong>.  <em>This screen does not appear in all cases.</em>
-<br />
-<br /></p>
-
-<h4 id="addtional-information-on-adobe-creative-cloud-student-subscriptions">Addtional Information on Adobe Creative Cloud Student Subscriptions:</h4>
-<p>It may take up to two business days for your Adobe CC license to be activated. If after two days, you are not able to login: please contact us at <a href="mailto:adobe@unt.edu?subject=WEBFORM: Adobe Help">adobe@unt.edu</a> and please provide your order number and the date of purchase.</p>
-
-<p>To login to your Adobe account launch the Adobe Creative Cloud desktop application on any computer that has the Adobe Creative Cloud applications installed or go to the <a href="https://account.adobe.com/">Adobe Creative Cloud web portal</a>. You will have the option to install the software on a personal computer or device through the web portal.</p>
-
-<p>If you already have a subscription to the Adobe Creative Cloud but would like to take advantage of this offer: Adobe will allow you to opt-out of your existing agreement, without incurring an early termination fee once you have purchased a subscription through this offer. You must contact Adobe within 14 days of purchase to opt-out without penalty.</p>
-
-<p>Adobe Customer Care can be reached by phone at 1-800-833-6687, you may also visit the <a href="https://helpx.adobe.com/contact.html">Adobe Customer Support Website</a> and talk to someone via chat.</p>
-
-<p>This is an educational subscription. To maintain your access to the software and services provided by the subscription you must remain actively enrolled as a student at the institution. The subscription will expire on August 31st unless your status as a student at UNT changes before this date. If your status as an active student changes your subscription will be terminated at that time. If you purchase a subscription during the Fall semester and do not enroll in at least one course at UNT during the Spring semester your subscription will be terminated on or after the 12th class day of the semester. If you withdraw from UNT at any point prior to August 31st, your subscription will be terminated at that time. If you remain enrolled at UNT through the Spring semester, regardless of whether you enroll in summer courses, your subscription will remain active until August 31st.</p>
-
-<p>We are not able to offer prorated prices or refunds.</p>
-
-<p>When you graduate or leave UNT you may offboard your account to Adobe. After offboarding, your files will be transferred to a free Adobe-hosted personal account. Personal accounts are not eligible for any UNT-negotiated discounts so your subscription will end at that time. While the personal Adobe accounts are free, you must purchase a subscription to use the applications. If you are leaving UNT and are not ready to start a new subscription with Adobe right away, you can still offboard to preserve your files in the cloud. For more information, please see the Adobe website on Student Asset Migration.</p>
-
-<p>Please contact us at <a href="mailto:adobe@unt.edu?subject=WEBFORM: Adobe Help">adobe@unt.edu</a> with any questions.</p>
-
-<!-- End Post Content -->
-<!-- DO NOT EDIT: Unless you have no links to use in the post -->
-
-<p><img class="deactive relevant" src="/assets/images/external_bordered.svg" /></p>
-
-<h3 id="relevant-links-">Relevant Links <br /></h3>
-<!-- END DO NOT EDIT ({: .iul} ·) -->
-
-<ul>
-  <li><a href="https://www.unt.edu/adobe" title="UNT Software Webstore" class="iul">UNT Software Webstore</a></li>
-  <li><a href="https://account.adobe.com" title="Adobe Account Login" class="iul">Adobe Creative Cloud Online</a></li>
-  <li><a href="https://helpx.adobe.com/contact.html" title="Adobe Customer Support" class="iul">Adobe Customer Support Website</a></li>
-  <li><a href="https://ams.unt.edu" title="UNT Account Management" class="iul">UNT Account Management</a></li>
-</ul>]]></content><author><name>mbaggett</name></author><category term="CVAD" /><category term="cvad" /><summary type="html"><![CDATA[Changes by Adobe in March 2023 If you have started experiencing difficulties logging into your Adobe account due to the unexpected addition of an extra step, please see the note below on changes made by Adobe to provide multiple profile support: March 2023 Update. Common Questions and Issues The links in the box below are the answers to the two most common questions we receive:]]></summary></entry><entry><title type="html">An Example Posting as a Guide</title><link href="http://localhost:4000/cvad/2023/06/27/Example.html" rel="alternate" type="text/html" title="An Example Posting as a Guide" /><published>2023-06-27T00:00:00-05:00</published><updated>2023-06-27T00:00:00-05:00</updated><id>http://localhost:4000/cvad/2023/06/27/Example</id><content type="html" xml:base="http://localhost:4000/cvad/2023/06/27/Example.html"><![CDATA[<!-- Add your post content here -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-06T14:08:23-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">An Example Posting as a Guide</title><link href="http://localhost:4000/cvad/2023/06/27/Example.html" rel="alternate" type="text/html" title="An Example Posting as a Guide" /><published>2023-06-27T00:00:00-05:00</published><updated>2023-06-27T00:00:00-05:00</updated><id>http://localhost:4000/cvad/2023/06/27/Example</id><content type="html" xml:base="http://localhost:4000/cvad/2023/06/27/Example.html"><![CDATA[<!-- Add your post content here -->
 <p><a href="https://www.google.com" title="Google">Lore Ipsum</a> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute <a href="https://www.google.com" title="Google">irure dolor</a> in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. <a href="https://www.google.com" title="Google">Neque porro quisquam est</a>, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora <a href="https://www.google.com" title="Google">incidunt ut labore et dolore magnam aliquam quaerat voluptatem</a>.</p>
@@ -167,7 +59,7 @@ If you need to reset your password or do not know your account credentials, plea
 <!-- DO NOT EDIT: Unless you have no links to use in the post -->
 <p><img class="deactive relevant" src="/assets/images/external_bordered.svg" /></p>
 
-<h3 id="relevant-links-">Relevant Links <br /></h3>
+<h3 class="link-head" id="relevant-links-">Relevant Links <br /></h3>
 <!-- END DO NOT EDIT -->
 
 <ul>
@@ -190,9 +82,8 @@ If you need to reset your password or do not know your account credentials, plea
 <!-- DO NOT EDIT: Unless you have no links to use in the post -->
 <p><img class="deactive relevant" src="/assets/images/external_bordered.svg" /></p>
 
-<h3 id="relevant-links-">Relevant Links <br /></h3>
+<h3 class="link-head" id="relevant-links-">Relevant Links <br /></h3>
 <!-- END DO NOT EDIT -->
-
 <ul>
   <li><a href="https://www.google.com" title="Google" class="iul">Google Website</a> · Some text just to be verbose.</li>
   <li><a href="https://www.ruby-lang.org/en" title="Ruby Programming Language Website&quot;&gt;Ruby Programming Language" class="iul">Ruby</a></li>
@@ -208,7 +99,7 @@ If you need to reset your password or do not know your account credentials, plea
 <p>WSL 2 is only available for Windows 10, Version 1903, Build 18362 or later.  If you are running a compatible version of Windows 10, you will need to <a href="https://learn.microsoft.com/en-us/windows/wsl/install#upgrade-version-from-wsl-1-to-wsl-2" title="Upgrade to WSL2">update your version of WSL</a>. Windows 11 was released with WSL 2 installed.
 To get started, visit the <a href="https://learn.microsoft.com/en-us/windows/wsl/about" title="Microsoft WSL2 Website">Microsoft website for WSL2</a>.</p>
 
-<p>Some improvements in WSL2:</p>
+<h3 id="some-improvements-in-wsl2">Some improvements in WSL2:</h3>
 <ul>
   <li>Uses a full Linux kerel.</li>
   <li>Support for full system call compatibility.</li>
@@ -226,9 +117,8 @@ To get started, visit the <a href="https://learn.microsoft.com/en-us/windows/wsl
 <!-- DO NOT EDIT: Unless you have no links to use in the post -->
 <p><img class="deactive relevant" src="/assets/images/external_bordered.svg" /></p>
 
-<h3 id="relevant-links-">Relevant Links <br /></h3>
+<h3 class="link-head" id="relevant-links-">Relevant Links <br /></h3>
 <!-- END DO NOT EDIT -->
-
 <ul>
   <li><a href="https://learn.microsoft.com/en-us/windows/wsl/setup/environment" title="WSL2 dev environment" class="iul">WSL2 Development Environment</a> · A tutorial for setting up WSL2 as a development environment.</li>
   <li><a href="https://learn.microsoft.com/en-us/windows/wsl/basic-commands" title="Basic WSL commands" class="iul">Basic WSL Commands</a> · Powershell commands to setup and configure WSL2.</li>
@@ -249,11 +139,10 @@ To get started, visit the <a href="https://learn.microsoft.com/en-us/windows/wsl
 <!-- DO NOT EDIT: Unless you have no links to use in the post -->
 <p><img class="deactive relevant" src="/assets/images/external_bordered.svg" /></p>
 
-<h3 id="relevant-links-">Relevant Links <br /></h3>
+<h3 class="link-head" id="relevant-links">Relevant Links<br /></h3>
 <!-- END DO NOT EDIT -->
-
 <ul>
-  <li><a href="https://github.com" title="Github Website" class="iul">Github</a> · A pretty solid <a href="https://docs.github.com/en/get-started/quickstart/hello-world">tutorial</a> alt=”Github Tutorial”&gt; on using Git through their service.</li>
+  <li><a href="https://github.com" title="Github Website" class="iul">Github</a> · A pretty solid <a href="https://docs.github.com/en/get-started/quickstart/hello-world" title="Github Tutorial">tutorial</a> on using Git through their service.</li>
   <li><a href="https://www.coursera.org" title="Coursera Website" class="iul">Coursera</a> · A free course, <a href="https://www.coursera.org/learn/getting-started-with-git-and-github" title="Coursera Course on Github">Getting Started with Git and Github</a>. The course covers everything you would need to know but takes about 8 hours to complete.</li>
   <li><a href="https://itss.untsystem.edu/divisions/mrs/it-training/linkedin-learning.php" title="LinkedInLearning Login Portal" class="iul">LinkedInLearning</a> · Some shorter (under 2 hours) getting-started options: <a href="https://www.linkedin.com/learning/learning-github-18719601" title="LinkedInLearning Course">Learning Github</a> and <a href="https://www.linkedin.com/learning/learning-git-and-github-14213624" title="LinkedInLearning">Learning Git and Github</a>.</li>
 </ul>]]></content><author><name>mbaggett</name></author><category term="Dev Tools" /><category term="dev-tools" /><summary type="html"><![CDATA[Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git has been around since 2005 and is widely used for collaborative software development. But it has wider uses. As examples it is used by writers and artists to track changes as it keeps a complete history and changes can be rolled back to any point. You can grant access to your projects and allow others to submit changes: those changes can be reviewed by the owner and merged, rejected, or a separate branch created.]]></summary></entry></feed>

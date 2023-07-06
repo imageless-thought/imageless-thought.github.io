@@ -74,11 +74,17 @@ a.section-button::after, a.section-button::before {
 display: none;
 }
 
+/*
 a.email {text-decoration: underline; -webkit-text-decoration-color:transparent; text-decoration-color:transparent; border: 1px solid black; border-radius: 5px; text-decoration: none; outline:1px solid white; padding: .25rem .4rem!important; font-size: 1rem; font-weight: 800; color: var(--contrast-green)!important;}
 a.email:link {background: var(--hlink);}
 a.email:visited {background: var(--hlink);}
 a.email:hover {color: white; background-color: var(--contrast-blue);}
 a.email:active {color: yellow; background-color: #A32314;}
+*/
+
+a.email {padding: 3px 8px 4px 8px; font-weight: 400; margin: 0 0 0 .1rem; line-height: .3; outline:1px solid white; border: 1px solid var(--green4); border-radius: 5px; text-decoration: none; color: var(--std-font); background-color: var(--green);}
+a.email:hover {background-color: var(--blue);}
+a.email:active {background-color: orange; outline: 1px solid orange; border: 1px solid orange; color: red;}
 
 @media screen and (max-width: 900px) {
 .page-navigation {
