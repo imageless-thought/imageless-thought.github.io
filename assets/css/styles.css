@@ -456,15 +456,29 @@ a.rurl-alt:active {text-decoration: none; color: #FFFF66; background-color: #A32
   margin-bottom: .5rem;
 }
 
+.ql {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 5px;
+  filter: invert(100%);
+}
 
+.ql:hover {
+  filter: invert(90%) sepia(12%) saturate(772%) hue-rotate(39deg) brightness(96%) contrast(90%);
+/*  filter: invert(73%) sepia(21%) saturate(1146%) hue-rotate(52deg) brightness(95%) contrast(87%); */
+  transition: 0.2s;
+  cursor: pointer!important;
+}
 
 @media screen and (max-width: 900px) {
   .blog {
-    width: 100%;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .blog .borders {
-    padding: 1rem .5rem 1rem .5rem;
+    padding: 1rem;
   }
 
   .blog-section {margin: .5rem auto; width: 100%; text-align: center;}

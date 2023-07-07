@@ -97,7 +97,7 @@ a.footer-l:active {
   width: 2rem!important;
   height: auto;
   padding: 0rem;
-  filter: invert(30%) sepia(71%) saturate(382%) hue-rotate(44deg) brightness(94%) contrast(95%);
+  filter: invert(30%) sepia(71%) saturate(382%) hue-rotate(44deg) brightness(94%) contrast(95%)!important;
   /* filter: invert(90%) sepia(70%) saturate(5490%) hue-rotate(5deg) brightness(94%) contrast(101%); */
   align-items: center;
   vertical-align: middle;
@@ -112,6 +112,27 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(227deg) brightness(103%
   height: auto;
   margin: 0;
 }
+
+.footer-pic2 {
+  width: 2rem!important;
+  height: auto;
+  padding: 0rem;
+  /* filter: invert(90%) sepia(70%) saturate(5490%) hue-rotate(5deg) brightness(94%) contrast(101%); */
+  align-items: center;
+  vertical-align: middle;
+}
+
+.footer-pic2:hover {
+filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(227deg) brightness(103%) contrast(104%);
+}
+
+.footer-pic2-noclass {
+  width: 10rem;
+  height: auto;
+  margin: 0;
+}
+
+
 
 
 .footer-item-img {
