@@ -1,3 +1,36 @@
+html {
+  --green: #44611F;  /*whitefont*/
+  --blue: #1F5D84; /*whitefont*/
+  --red: #AC1B1B; /*whitefont*/
+  --dark: #2d2c2c;
+  --green2: #006A31; /* UNT darkgreen */
+  --green3: #00853E; /* UNT green */
+  --green4: #C5E1A5; /* very light green */
+  --green5: #F1F8E9;
+  --orange: orange;
+  --std-background: #2d2c2c;
+  --std-font: white; 
+  --std-background2: white;
+  --std-font2: #2d2c2d;  
+  --std-background3: #1F5D84;
+  --std-background4: orange;
+  --std-background5: #44611F;
+  --std-background6: #C5E1A5;
+  --std-border-radius: 5px;
+  --std-border-color: #C5E1A5;
+  --std-shadow: 0 0 2px 2px; 
+  --std-shadow2: 0 0 5px 5px; 
+  --std-shadow3: 0 0 10px 10px; 
+  --std-bshadow-1: rgba(197, 225, 165, 1);
+  --std-bshadow-2: rgba(68, 97, 31, 0.9);
+  --std-bshadow-3: rgba(218,102,123,1);
+  --std-bshadow-4: rgba(31, 93, 132.1);
+  --std-bshadow-5: rgba(172, 27, 27);
+  --std-bshadow-6: rgba(255, 255, 255);
+  --std-bshadow-7: rgba(255, 165, 0);
+  --excelgrey: rgb(215, 215, 215);
+}
+
 .margup {margin-top: 1rem;}
 .margdn {margin-bottom: 1rem;}
 

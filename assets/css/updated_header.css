@@ -559,7 +559,7 @@ text-align: center;
   width: 2.5rem; /* 1 */
   height: auto; /* 1.5 */
   position: absolute; /* absolute */
-  right: 0px;  /* 14vw 7vw 15.19rem */
+  right: -1px;  /* 14vw 7vw 15.19rem */
   top: -3px; /* 5rem */
 }
 
