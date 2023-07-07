@@ -36,5 +36,7 @@ $(document).ready(function() {
     $("head").append("<link rel='stylesheet' href='css/standard_itservices.css?v=1.1'>");
     $("head").append("<link rel='stylesheet' href='css/dynamic_autoscroll.css?v=1.1'>");
     $("head").append("<link rel='stylesheet' href='css/dynamic_lightbox.css?v=1.1'>");
+    $("head").append("<link rel='stylesheet' href='css/styles.css?v=1.1'>");
+    $("head").append("<link rel='stylesheet' href='css/prism.css?v=1.1'>");
     document.getElementsByTagName("head")[0].appendChild(meta);
 });

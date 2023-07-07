@@ -206,7 +206,7 @@ body {
 .blog h5 {font-size: 1.1rem;margin-bottom: 1.5rem; margin-top: 1.5rem;}
 .blog br {clear: both;}
 
-.blog a {font-weight: 600; color: black; background-color: var(--green5); text-decoration: none; box-shadow: var(--std-shadow) var(--std-bshadow-1);}
+.blog a {font-weight: 600; color: black; background-color: var(--green5); text-decoration: none; box-shadow: var(--std-shadow) var(--std-bshadow-1); margin-right: 2px;}
 .blog a:hover {background-color: var(--blue); color: white; box-shadow: var(--std-shadow) var(--std-bshadow-4);}
 .blog a:active {background-color: orange; color: red; box-shadow: var(--std-shadow) var(--std-bshadow-7)}
 
