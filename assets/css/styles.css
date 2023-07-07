@@ -477,6 +477,15 @@ a.rurl-alt:active {text-decoration: none; color: #FFFF66; background-color: #A32
     margin-right: auto;
   }
 
+  .blog #head {
+    font-weight: 800; 
+    font-size: 1.75rem; 
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    width: 100%;
+  }
+  
+
   .blog .borders {
     padding: 1rem;
   }
@@ -518,7 +527,7 @@ a.rurl-alt:active {text-decoration: none; color: #FFFF66; background-color: #A32
   }
 
   .head {
-    font-size: 1.8rem!important; font-weight: bold; width: 100%; margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 2rem!important;}
+    font-size: 1.3rem!important; font-weight: bold; width: 100%; margin-left: auto; margin-right: auto; text-align: center;}
 
   .blog-section {width: 100%; height: auto; margin: 1rem auto; background-color: #2d2c2c; color: white; text-align:center;}
 
