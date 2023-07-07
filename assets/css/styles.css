@@ -459,8 +459,12 @@ a.rurl-alt:active {text-decoration: none; color: #FFFF66; background-color: #A32
 .ql {
   cursor: pointer;
   font-weight: 500;
-  padding: 5px;
-  filter: invert(100%);
+  margin: 0 .5rem;
+  padding: .5rem;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid var(--green);
+  outline: 2px solid var(--green4);
 }
 
 .ql:hover {
