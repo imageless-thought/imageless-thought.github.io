@@ -13,8 +13,10 @@ a.sticky-foot:hover {color: var(--blue)!important; background-color: transparent
       position: fixed; right: 10px; bottom: 10px; background-color: transparent;
 }
 
+
+.sticky-footer-position {position: fixed; right: 10px; bottom: 10px; background-color: transparent;}
 .accessibility-layer {border: 0px solid black; border-radius: 15px; padding: 0 0 0 0; text-align: center; margin:0 auto; background-color: white; width: 54px; height: 54px;}
-.sticky-scroll-button {position: fixed; right: 1.4%; bottom: 24px; width: 50px; text-align: center; margin: 0 auto; padding: 2px 1px 1px 1px;}
+.sticky-scroll-button {position: fixed; right: 12px; bottom: 24px; width: 50px; text-align: center; margin: 0 auto; padding: 2px 1px 1px 1px;}
 .sticky-foot-icon {font-size: 50px}
 
 }

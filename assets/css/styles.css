@@ -228,7 +228,7 @@ body {
 
 .blog #author-pos {
   font-weight: 600; 
-  margin:  0;
+  margin: 0;
   padding: 0;
 }
 
@@ -463,6 +463,10 @@ a.rurl-alt:active {text-decoration: none; color: #FFFF66; background-color: #A32
     width: 100%;
   }
 
+  .blog .borders {
+    padding: 1rem .5rem 1rem .5rem;
+  }
+
   .blog-section {margin: .5rem auto; width: 100%; text-align: center;}
   .blog-section .head-container {border: 0px solid var(--bhover); border-radius: 5px;  margin: .5rem .1rem;}
   .headgrid-button {margin: 0 auto 1rem auto; font-size: 1.25rem!important;}
@@ -481,6 +485,18 @@ a.rurl-alt:active {text-decoration: none; color: #FFFF66; background-color: #A32
 
   .blog-section .relevant-box {
     margin: 2.5rem 0 2rem 0!important;}
+
+    #blog-post-flex {
+      padding-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 2rem auto 0rem auto;
+      gap: 1rem 1rem;
+    }
+
+
   .blog-flex-container {
     flex-direction: column;
     gap: .3rem 1rem;
